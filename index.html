@@ -1,0 +1,75 @@
+<html>
+	<head>
+	<title>ASP</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
+	
+
+
+	<style>
+	* { font-family: 'Rubik', Helvetica, sans-serif; }
+	</style>
+
+	</head>
+
+<body class="bg-light-gray">
+
+<div class="pa4">
+
+<div class="db">
+	<div class="dib mv3">
+		<div class="dib">
+			<h3 class="f5 fw-200 gray ma0">
+				Domino. Find freelance work through your friends
+			</h3>
+		</div>
+			<div class="dib fr w1 h1 bg-dark-gray ml2">
+		</div>
+	</div>
+</div>
+
+<div class="db">
+	<div class="dib mv3">
+		<div class="dib">
+		<h3 class="gray" id="basicUsage"></h3>
+			<h3 class="f5 fw-200 gray ma0">
+				Fast Track. A Domino side project intended to create the simplest, fastest possible time/activity tracker.
+			</h3>
+		</div>
+			<div class="dib fr w1 h1 bg-dark-gray ml2">
+		</div>
+	</div>
+</div>
+
+<div class="db">
+	<div class="dib mv3">
+		<div class="dib">
+			<h3 class="f5 fw-200 gray ma0">
+				Roadtrip. An interview magazine by Domino.
+			</h3>
+		</div>
+			<div class="dib fr w1 h1 bg-dark-gray ml2">
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+<script>
+var Timer = require('lib/easytimer/dist/easytimer.min.js')
+
+var timer = new Timer();
+timer.start();
+timer.addEventListener('secondsUpdated', function (e) {
+    $('#basicUsage').html(timer.getTimeValues().toString());
+});
+                
+
+</script>
+
+</body>
+
+</html>
+
