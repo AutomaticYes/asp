@@ -1,71 +1,463 @@
-<html>
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
 	<head>
+	<meta charset="utf-8">
 	<title>ASP</title>
 
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
-	
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:3003|Space+Mono" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<meta name="description" content="…">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<script type='text/javascript' src='jquery.tinytimer.min.js'></script>
 
 	<style>
-	* { font-family: 'Rubik', Helvetica, sans-serif; }
+	* { font-family: 'Rubik', Helvetica, sans-serif;}
+
+	a { text-decoration: none; transition: 0.15s ease-in-out; }
+
+	a :hover {
+		color: red;
+	}
+
+	h4 {
+		font-family: 'Space Mono', sans-serif;
+	}
 	</style>
+
 
 	</head>
 
-<body class="bg-light-gray">
+<body class="bg-white">
+<main>
+<div class="pa3 bg-washed-red">
 
-<div class="pa4">
 
-<div class="db">
-	<div class="dib mv3">
-		<div class="dib">
-			<h3 class="f5 fw-200 gray ma0">
-				Domino. Find freelance work through your friends
-			</h3>
+<div class="dib w-100">
+<div class="dib w-100 mw7">
+	<div class="db mb2 tl">
+		<div class="dib fl fn-ns w6">
+		<h4 id="timer--living" class="f3 fw3 ma0 w-auto dark-blue mr4-ns">
+		
+		</h4>
 		</div>
-			<div class="dib fr w1 h1 bg-dark-gray ml2">
-		</div>
-	</div>
-</div>
-
-<div class="db">
-	<div class="dib mv3">
-		<div class="dib">
-		<h3 class="gray" id="basicUsage"></h3>
-			<h3 class="f5 fw-200 gray ma0">
-				Fast Track. A Domino side project intended to create the simplest, fastest possible time/activity tracker.
-			</h3>
-		</div>
-			<div class="dib fr w1 h1 bg-dark-gray ml2">
+		<div class="dib-ns dn ml3">
+		<h3 class="f3 fw3 ma0 dark-blue">
+		Living 
+		</h3>
 		</div>
 	</div>
-</div>
-
-<div class="db">
-	<div class="dib mv3">
-		<div class="dib">
-			<h3 class="f5 fw-200 gray ma0">
-				Roadtrip. An interview magazine by Domino.
-			</h3>
+	<div class="db mb2">
+		<div class="dib fl fn-ns w6">
+		<h4 id="timer--living-in-nyc" class="f3 fw3 ma0 w-auto dark-blue mr4-ns">
+		
+		</h4>
 		</div>
-			<div class="dib fr w1 h1 bg-dark-gray ml2">
+		<div class="dib-ns dn ml3">
+		<h3 class="f3 fw3 ma0 dark-blue">
+		and working in New York
+		</h3>
 		</div>
 	</div>
+	<div class="db mb2 ml3">
+		<div class="dib fl fn-ns w6">
+		<h4 id="timer--working-on-domino" class="f3 fw3 ma0 w-auto dark-blue mr4-ns">
+		
+		</h4>
+		</div>
+		<div class="dib-ns dn ml3">
+		<h3 class="f3 fw3 ma0 dark-blue">
+		on Domino
+		</h3>
+		</div>
+	</div>
+	<div class="dn-ns dib mv4">
+		<h3 class="f3 fw3 ma0 dark-blue">
+		Living
+		</h3>
+		<h3 class="f3 fw3 ma0 dark-blue">
+		and working in New York
+		</h3>
+		<h3 class="f3 fw3 ma0 dark-blue">
+		on Domino
+		</h3>
+	</div>
+</div>
+	<div class="dib fr">
+		<div class="dib mw7 v-top">
+		<img class="w-100 mw5" src="images/AlexanderSingh[SelfPortraitAsDisfiguredSquare].jpg">
+		</div>
+		<h3 class="f5 fw3 mv2 lh-copy gray">
+		Me during my square period, 2011. </span>
+		</h3>
+	</div>
+</div>
+		<div class="popover fr absolute"></div>
+
+		<div class="f2 db mb2 ml3 mt5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		T : L : D : R
+		</h4>
+		</div>
+		<div class="dib">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		Building products & solving problems. Currently accepting new friendships.<br>  <span class="f4">
+		<a href="http://www.twitter.com/@automaticyes">Twitter</a>. <a href="http://www.are.na/alex-singh">Arena</a>. <a href="mailto:studio@alexsingh.com">Email.</a>
+		</h3>
+		</div>
+	</div>
+
+	<div class="f2 db mb2 ml3 mt5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		0 : 0 : 1
+		</h4>
+		</div>
+		<div class="dib">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		There's no one word I can use to explain what I do which is why you're reading this meandering biography. <span class="f4">Currently, most of my day centers on product design, systems design and company building (i.e. solving problems & trying to make shit work)
+		</h3>
+		</div>
+	</div>
+	<div class="f2 db mb2 ml3 mt5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		3 : 1 : 4
+		</h4>
+		</div>
+		<div class="dib">
+		<a href="http://www.wearedomino.com">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		I co-founded Domino. We're building a product that lets freelancers find work through their friends. <span class="f4">(Finding consistent well paying work is a freelancer's #1 challenge)</span>
+		</h3>
+		</a>
+		</div>
+	</div>
+	<div class="f2 db mb2 ml3 mt5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		3 : 2 : 2
+		</h4>
+		</div>
+		<div class="dib">
+		<a href="http://www.wearedomino.com/fasttrack">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		One of Domino's side products is Fast Track. An attempt to create the fastest, simplest, most focused time/activity tracker possible.<span class="f4 lh-copy">There's something really enjoyable about creating a lightweight product that does one single thing really well. I suppose it's the clarity.</span>
+		</h3>
+		</a>
+		</div>
+	</div>
+	<div class="f2 db mb2 ml3 mt5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		3 : 3 : 1
+		</h4>
+		</div>
+		<div class="dib">
+		<a href="http://www.wearedomino.com/roadtrip">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		Roadtrip is an interview magazine by Domino. The participants themselves choose the questions and decide who answers them. <span class="f4">It's a small luxury to create a project designed to spiral out of control in a world of nanoscale precision and quantitative everything.
+		</h3>
+		</a>
+		</div>
+	</div>
+	<div class="f2 dib mb2 ml3 mt5 ">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		2 : 1 : 1
+		</h4>
+		</div>
+		<div class="dib">
+		<a href="http://alexsingh.svbtle.com">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		One of my goals for 2017 was to develop a consistent writing habit. If you're interested in casual observations on product design, philosophy, epistemology and meaning then you may like it. 
+		<span class="f4">If you do check it out, send some criticism my way. I want to keep improving.</span>
+		</h3>
+		</a>
+		</div>
+	</div>
+	<div class="f2 dib mb2 ml3 mt5 relative">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		1 : 5 : 1
+		</h4>
+		</div>
+		<div class="dib">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title z-5">
+		Latitude Zero was a single issue travel magazine that emphasized the journey over the destination. It was distributed directly to travelers at various points of departure throughout New York City. 
+		<span class="f4">It was a lot of fun.</span>
+
+		</h3>
+		</div>
+	</div>
+	<div class="f2 dib mb2 ml3 mt5 mb5-ns">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		1 : 4 : 1
+		</h4>
+		</div>
+		<div class="dib w-50-l w-50-m w-100 mw7-ns">
+		<a href="https://www.dashwoodbooks.com/pages/books/12889/alexander-singh/trippple-nippples-2010-2012/?soldItem=true">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		"Trippple Nippples" is a photo book, made up of 5 loose saddle-stitched signatures. It features images shot while on tour with the Japanese art-rock band between 2010 and 2012.
+		<span class="f4 dib w-100">It's now sold out, though I still have some personal copies left. HMU if you want one.</span>
+		<span class="f5 dib w-100 mt3 silver">
+		11.5x8.5" &#8901; 80 pages &#8901; Photographs & text &#8901; Coated and uncoated stock &#8901; Saddle stitched signatures &#8901; Matte cover &#8901; Contained within a plastic sleeve &#8901; Designed with Sinisa Mackovic.</span>
+
+		</h3>
+		</a>
+		</div>
+		<div class="dib mw6-ns mw5-m w-50 fr-ns fl">
+		<img class="inline dib mw5 mw5-ns fr-ns" src="images/tripnipbook.jpg">
+		<img class="inline dib mw5 mw4-ns fl-ns" src="images/tripnip02.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/tripnip03.jpg">
+		<img class="inline dib mw5 mw3-ns fr-ns" src="images/tripnip04.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/tripnipbook02.jpg">
+		<img class="inline dib mw5 mw3-ns fl-ns" src="images/tripnip07.jpg">
+		<img class="inline dib mw5 mw3-ns fr-ns" src="images/tripnip05.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/tripnip08.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/alexsinghtripnip010.jpg">
+		</div>		
+
+	</div>
+	<div class="f2 dib mb2 ml3 mv5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		1 : 3 : 2
+		</h4>
+		</div>
+		<div class="dib w-50-l w-50-m w-100 mw7-ns">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		VOID was a black and white newsprint magazine featuring photos shot during & around New York Fashion Week, distributed to guests at the Ace Hotel. It was an antidote to the booooooooring photos you see plastered everywhere else and an excuse to do something different.
+		<span class="f4 dib w-100">Design: James Kape & Briton Smith. Art Direction: Joshua Gurrie & Rob Meyers</span>
+		</h3>
+		</div>
+		<div class="dib mw6-ns mw5-m w-50 fr-ns fl">
+		<img class="inline dib mw5 mw5-ns fr-ns" src="images/void.jpg">
+		<img class="inline dib mw5 mw4-ns fl-ns" src="images/void02.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/void03.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/void04.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/void05.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/void06.jpg">
+		</div>
+	</div>
+	<div class="f2 dib mb2 ml3 mv5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		1 : 2 : 1
+		</h4>
+		</div>
+		<div class="dib w-50-l w-50-m w-100 mw7-ns">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		"Fashion Week" was an intermittent 4 year project to build a surreal narrative disassociated from the event itself. Why yes, it was the inspiration for creating VOID! Look at you connecting the dots! <i class="em em-sunglasses f4"></i>
+		
+		</h3>
+		</div>
+		<div class="dib mw6-ns mw5-m w-50 fr-ns fl">
+		<img class="inline dib mw5 mw5-ns fr-ns" src="images/alexsinghfw06.jpg">
+		<img class="inline dib mw5 mw3-ns fr-ns" src="images/alexsinghfw01.jpg">
+		<img class="inline dib mw5 mw4-ns fr-ns" src="images/alexsinghfw09.jpg">
+		<img class="inline dib mw5 mw5-ns fr-ns" src="images/alexsinghfw05.jpg">
+		<img class="inline dib mw5 mw4-ns fl-ns" src="images/alexsinghfw011.jpg">
+		</div>
+		
+	</div>
+	<div class="f2 db mb2 ml3 mt5">
+		<div class="dib w6 w-100">
+		<h4 class="f3 fw3 ma0 w-auto silver mr4-ns">
+		1 : 1 : 1
+		</h4>
+		</div>
+		<div class="dib">
+		<h3 class="f2 fw3 ma0 dark-blue lh-title">
+		"On Tour" is a chronicle of the numerous music festivals I toured with around Australia at the beginning of my photography career.
+		
+		</h3>
+		</div>
+	</div>
+
+
+
+<div class="dib w-100 mv5">
+
+		<div class="dib w-auto pa2 mb5">
+		<div class="dib w-100 v-top mb3">
+		<h4 class="f3 fw3 ma0 dark-blue mr4-ns">
+		1 : 0 : 3
+		</h4>
+		</div>
+		<div class="dib mw7 v-top">
+		<h3 class="f5 fw3 mv2 lh-copy gray">
+		Portrait Study
+		</h3>		
+		<img class="mw5 inline" src="images/alexsinghportraitstudy.jpg">
+		</div>
+		</div>
+
+		<div class="dib w-auto pa2 mb5">
+		<div class="dib w-100 v-top mb3">
+		<h4 class="f3 fw3 ma0 dark-blue mr4-ns">
+		1 : 0 : 2
+		</h4>
+		</div>
+		<div class="dib mw7 v-top">
+		<h3 class="f5 fw3 mv2 lh-copy gray">
+		Japan
+		</h3>		
+		<img class="mw5 inline" src="images/alexsinghmisc01.jpg">
+		</div>
+		</div>
+			<div class="dib w-auto pa2 mb5">
+		<div class="dib w-100 v-top mb3">
+		<h4 class="f3 fw3 ma0 dark-blue mr4-ns">
+		1 : 0 : 1
+		</h4>
+		</div>
+		<div class="dib mw7 v-top">
+		<h3 class="f5 fw3 mv2 lh-copy gray">
+		Portrait Study After Schiele
+		</h3>		
+		<img class="inline mw5" src="images/alexsinghmisc02.jpg">
+		</div>
+		</div>
+
+		<div class="dib w-auto pa2 mb5">
+		<div class="dib w-100 v-top mb3">
+		<h4 class="f3 fw3 ma0 dark-blue mr4-ns">
+		0 : 0 : 0
+		</h4>
+		</div>
+		<div class="dib mw7 v-top">
+		<h3 class="f5 fw3 mv2 lh-copy gray">
+		Errata
+		</h3>
+		<h3 class="f4 fw6 mv2 lh-copy black">
+		Colophon
+		</h3>
+		<h3 class="f4 fw3 mv2 lh-copy black">
+		Handcrafted by moi,<br>
+		using <a href="http://www.tachyons.io">Tachyons</a> (highly recommended)<br>
+		Hosted by <a href="http://ww.github.com">GitHub Pages</a><br>
+		Typeset in <a href="https://fonts.google.com/specimen/Space+Mono">Space Mono<br>
+		& <a href="http://fonts.google.com/specimen/Rubik">Rubik</a>
+		</h3>
+		</div>
+	</div>
+	
+	<div class="dib w-auto pa2 mb5">
+		<div class="dib w-100 v-top mb3">
+		<h4 class="f3 fw3 ma0 dark-blue mr4-ns">
+		0 : 0 : 0
+		</h4>
+		</div>
+		<div class="dib mw6 v-top">
+		<h3 class="f5 fw3 mv2 lh-copy gray">
+		Errata
+		</h3>
+		<h3 class="f4 fw6 mv2 lh-copy black">
+		Published in
+		</h3>
+		<h3 class="f4 fw3 mv2 lh-copy black">
+		Design Genius (lol)<br>
+		Vice Photo Annual 2011<br>
+		Monster Children Photo Annual 2011<br>
+		Dazed & Confused<br>
+		Self-Titled<br>
+		Dossier<br>
+		Spook<br>
+		Intersection<br>
+		NY Mag<br>
+		Sydney Morning Herald<br>
+		Japan Times<br>
+		<span class="fw6">& a bunch of others I've forgotten</span>
+		</h3>
+		</div>
+	</div>
+	<div class="dib w-100 mw5 pa2 mb5 mh3-ns">
+		<div class="dib w-100 v-top mb3">
+		<h4 class="f3 fw3 ma0 dark-blue mr4-ns">
+		0 : 0 : 0
+		</h4>
+		</div>
+		<div class="dib mw7 v-top">
+		<h3 class="f5 fw3 mv2 lh-copy gray">
+		Errata
+		</h3>
+		<h3 class="f4 fw6 mv2 lh-copy black">
+		Exhibitions
+		</h3>
+		<h3 class="f4 fw3 mv2 lh-copy black">
+		Outlet Gallery NY<br>
+		Monster Children Gallery Sydney<br>
+		Alaska Projects Sydney<br>
+		Poppositions Brussels<br>
+		Some gallery somewhere in France<br>
+		</h3>
+		</div>
+	</div>
+
+
+</div>
+	
+</div>
 </div>
 
 
 </div>
+
+</main>
+
+    <script>
+        var mouse = {x:0,y:0},
+            offset = {x:10, y:10};
+
+        $('.inline').on('mouseenter', function() {
+            var src = $(this).attr('src');
+            $('.popover').html('<img src="'+src+'">').show();
+            offset.x = -$('.popover').width()/2;
+            clearTimeout(this.timer);
+        }).on('mouseleave', function() {
+            this.timer = setTimeout(function() {
+                $('.popover').hide();
+            }, 0);
+        });
+
+        document.addEventListener('mousemove', function(e){
+            mouse.x = e.pageX;
+            mouse.y = e.pageY;
+            $('.popover').css({
+                left: (mouse.x + offset.x) + 'px',
+                top: (mouse.y + offset.y) + 'px'
+            });
+        });
+    </script>
 
 <script>
-var Timer = require('lib/easytimer/dist/easytimer.min.js')
+$(document).ready(function () {
 
-var timer = new Timer();
-timer.start();
-timer.addEventListener('secondsUpdated', function (e) {
-    $('#basicUsage').html(timer.getTimeValues().toString());
+
+var d = new Date('November 2, 2083');
+d.setMinutes(d.getMinutes() + 30);
+$('#timer--living').tinyTimer({ to: d, format: '%d : %0m : %0s' });
+ 
+ var d = new Date('August 8, 2008');
+d.setMinutes(d.getMinutes() + 30);
+$('#timer--living-in-nyc').tinyTimer({ from: d, format: '0%d : %0m : %0s' });
+
+var d = new Date('January 1, 2015');
+d.setMinutes(d.getMinutes() + 30);
+$('#timer--working-on-domino').tinyTimer({ from: d, format: '0%d : %0m : %0s' });
+
+
+ 
+
 });
-                
+
 
 </script>
 
