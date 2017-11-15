@@ -1,0 +1,293 @@
+<html dir="ltr" lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>Case Studies</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+	<link rel="stylesheet" href="http://unpkg.com/tachyons-flexbox@2.1.0/css/tachyons-flexbox.min.css" />
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="…">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<style>
+
+	@font-face {
+	font-family: 'Circular-Book';
+	src: url('/tf/lineto-circular-book.woff') format('woff'), /* Pretty Modern Browsers */
+			 url('/tf/lineto-circular-book.ttf')  format('truetype'), /* Safari, Android, iOS */
+	}
+
+	@font-face {
+	font-family: 'Circular-Bold';
+	src: url('/tf/lineto-circular-bold.woff') format('woff'), /* Pretty Modern Browsers */
+			 url('/tf/lineto-circular-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	html, body {
+		height: 100%;
+		width: 100%;
+	}
+
+	.font-circular {
+		font-family: 'Circular', 'Helvetica Neue', sans-serif;
+		font-weight: 400;
+	}
+
+	.font-book {
+		font-family: 'Circular-Book', 'Helvetica Neue', sans-serif;
+		font-weight: 100;
+	}
+
+	.font-bold {
+		font-family: 'Circular-Bold', 'Helvetica Neue', sans-serif;
+		font-weight: 700;
+	}
+
+	.domino-blue {
+		color: #2659ff;
+	}
+
+	.bg-domino-blue {
+		background-color: #2659ff;
+	}
+
+	.cs-green {
+		color: rgba(173, 247, 176, 1);
+	}
+
+	.bg-cs-green {
+		background-color: rgba(173, 247, 176, 1);
+	}
+
+	.cs-blue {
+		color: rgba(178, 232, 255, 1);
+	}
+
+	.bg-cs-blue {
+		background-color: rgba(178, 232, 255, 1);
+	}
+
+	.cs-red {
+		color: rgba(255, 178, 178, 1);
+	}
+
+	.bg-cs-red {
+		background-color: rgba(255, 178, 178, 1);
+	}
+
+	.cs-purple {
+		color: rgba(215, 178, 255, 1);
+	}
+
+	.bg-cs-purple {
+		background-color: rgba(215, 178, 255, 1);
+	}
+
+	.cs-orange {
+		color: rgba(255, 222, 178, 1);
+	}
+
+	.bg-cs-orange {
+		background-color: rgba(255, 222, 178, 1);
+	}
+
+	.headline-blue {
+		color: rgb(0, 14, 204);
+	}
+
+	.copy-blue {
+		color: rgb(31, 40, 173);
+	}
+
+	.min-vh-50 {
+		min-height: 50vh;
+	}
+
+	.lh-copy {
+		line-height: 180%;
+	}
+
+	.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid #f00;
+	}
+
+	.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+		}
+		.marquee h4 {
+		    display: inline-block;
+		    padding-left: 100%;
+		    animation: marquee 60s linear infinite;
+		}
+		@keyframes marquee {
+		    0%   { transform: translate(0, 0); }
+		    100% { transform: translate(-100%, 0); }
+		}
+
+	</style>
+
+
+	</head>
+
+<body class="bg-white">
+<main>
+	<nav>
+		<ul class="fixed dib w-100 font-book">
+			<li class="dib tl-ns tc">
+				<li class="dib fl f6 bg-domino-blue ba b--near-white near-white br1 ph4 pv2 mh2 mv1 pointer">
+					View All
+				</li>
+			</li>
+			<li class="dib tr-ns tc">
+				<li class="dib fr f6 bg-cs-orange dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+					Strategies
+				</li>
+				<li class="dib fr f6 bg-cs-purple dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+					Concepts
+				</li>
+				<li class="dib fr f6 bg-cs-red dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+					Mistakes
+				</li>
+				<li class="dib fr f6 bg-cs-blue dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+					More Info
+				</li>
+				<li class="dib fr f6 bg-cs-green dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+					Hindsight
+				</li>
+
+
+			</li>
+		</ul>
+	</nav>
+
+	<div class="flex tc items-center justify-center w-100 min-vh-100 bg-domino-blue tc pa4">
+		<div class="flex mt3">
+			<h1 class="dib f1 font-book lh-copy near-white mv0">
+				Domino finds you freelance jobs through your friends
+			</h1>
+		</div>
+	</div>
+
+	<div class="dib tc w-100 min-vh-100 bg-white tc pa4">
+		<div class="dib w-100 mt3">
+			<h2 class="dib f2 font-book lh-copy headline-blue flex-shrink-0 mv0">
+				Starting with the problem
+			</h2>
+		</div>
+
+		<div class="dib w-100 mw6">
+			<h4 class="dib tl f4 font-book lh-copy copy-blue">
+				As former freelancers, we had first-hand experience with the common problems that freelancers face. We wanted to make the experience of freelancing easier and simpler.
+			</h4>
+		</div>
+		<div class="dib relative w-100 h4">
+			<div class="marquee dib w-100" style="left: 0px;">
+			<h4 class="f4 font-book lh-copy">
+
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Finding work</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Getting paid</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Time management</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Pricing</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Socializing</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Self-Promotion</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Sales & Negotiations</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Confidence</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Cashflow management</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Communication Skills</span>
+				<span class="red mh4"><span class="dib arrow-down mr2"></span>Confidence</span>
+			</h4>
+		</div>
+	</div>
+		<div class="dib w-100 mw6">
+			<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
+				We began to research the details within these problems so we could move beyond our personal anecdotes.
+			</h4>
+		</div>
+	</div>
+
+	<div class="dib tc w-100 min-vh-100 bg-white tc pa4">
+		<div class="dib w-100 mt3 tc">
+			<div class="dib f6 ph3 pv2 font-book ba orange br2 ttu">
+				Root Cause Analysis
+			</div>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue flex-shrink-0 mt4 mb0">
+				The Root Cause
+			</h2>
+		</div>
+		<div class="dib w-100 flex-shrink-0 mw6">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				While freelancers responded citing <a href="" class="no-underline "><span class="bg-light-blue ph1 br1 ">many different problems</span></a>, in mapping them out we noticed that the majority are <a href="" class="no-underline bg-cs-purple ph2 br1 ">second and third order effects</a> from a single source: <span class="dark-gray">little or limited knowledge on how to freelance.</span>
+			</h4>
+		</div>
+		<div class="dib w-100 h-100 mt5" style=
+		"background-image: url('images/cs/rootcause.svg');
+		 background-repeat: no-repeat;
+		 background-position: center; center;
+		 background-size: contain;
+		">
+	</div>
+
+	<div class="dib tc w-100 min-vh-100 bg-white tc pa4">
+		<div class="dib w-100 mt3 tc">
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue flex-shrink-0 mt5 mb0">
+				No Work = No Play
+			</h2>
+		</div>
+		<div class="dib w-100 flex-shrink-0 mw6">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				Lacking the knowledge on how to find and win freelance jobs leads to limited, low-paying, or no work which can create a <a href="" class="bg-cs-blue ph2 pb1">negative feedback loop</a>, further compounding a freelancer's misery.
+			</h4>
+		</div>
+		<div class="dib w-100 h-100 mt5" style=
+		"background-image: url('images/cs/negfeedbackcycle.png');
+		 background-repeat: no-repeat;
+		 background-position: center; center;
+		 background-size: contain;
+		">
+	</div>
+
+	<div class="dib tc w-100 min-vh-100 bg-white tc pa4">
+		<div class="dib w-100 mt3 tc">
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue flex-shrink-0 mt5 mb0">
+				Fish & Fishing
+			</h2>
+		</div>
+		<div class="dib w-100 mw6">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				While the root cause had been identified, the solution wasn’t to write a book. We <a href="" class="bg-cs-purple ph2 br1">learn most effectively through personal experiences</a>, and we’re suckers for <a href="" class="bg-cs-purple ph2 ">incentives</a>.
+			</h4>
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				Well designed systems can also protect us from our own worst behaviors. <a href="" class="bg-cs-orange ph2">Inverting</a> our perspective, we asked:
+			</h4>
+			<h3 class="dib f3 tl font-book lh-copy copy-blue">
+				"Rather than educating freelancer's to help improve their work prospects, why don't we design a system that improves their work prospects and educates them in the process?"
+			</h3>
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				The two primary ways freelancer's find work online is through job boards (formally, or informally like <a href="https://www.reddit.com/r/forhire" class="bg-cs-blue ph2 pb1">subreddits</a>, Facebook groups, and Twitter) or vi
+			</h4>
+		</div>
+		<!--<div class="dib w-100 h-100 mt5" style=
+		"background-image: url('images/cs/negfeedbackcycle.png');
+		 background-repeat: no-repeat;
+		 background-position: center; center;
+		 background-size: contain;
+		">
+	</div>-->
+</main>
+</body>
+</html>
