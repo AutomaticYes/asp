@@ -119,12 +119,32 @@
 		line-height: 180%;
 	}
 
+	.lh-list {
+		line-height: 220%;
+	}
+
 	.arrow-down {
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-top: 12px solid #f00;
+	}
+
+	.z--9 {
+		z-index: -9;
+	}
+
+	.z-9 {
+		z-index: 9;
+	}
+
+	.z-99 {
+		z-index: 99;
+	}
+
+	.z-999 {
+		z-index: 999;
 	}
 
 	.marquee {
@@ -154,23 +174,23 @@
 		<ul class="fixed dib w-100 font-book">
 			<li class="dib tl-ns tc">
 				<li class="dib fl f6 bg-domino-blue ba b--near-white near-white br1 ph4 pv2 mh2 mv1 pointer">
-					View All
+					Expand All
 				</li>
 			</li>
 			<li class="dib tr-ns tc">
-				<li class="dib fr f6 bg-cs-orange dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+				<li class="dib fr f6 bg-cs-orange headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
 					Strategies
 				</li>
-				<li class="dib fr f6 bg-cs-purple dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+				<li class="dib fr f6 bg-cs-purple headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
 					Concepts
 				</li>
-				<li class="dib fr f6 bg-cs-red dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+				<li class="dib fr f6 bg-cs-red headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
 					Mistakes
 				</li>
-				<li class="dib fr f6 bg-cs-blue dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+				<li class="dib fr f6 bg-cs-blue headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
 					More Info
 				</li>
-				<li class="dib fr f6 bg-cs-green dark-gray  br1 ph4 pv2 mh2 mv1 pointer">
+				<li class="dib fr f6 bg-cs-green headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
 					Hindsight
 				</li>
 
@@ -187,8 +207,28 @@
 		</div>
 	</div>
 
+<div class="dib w-100 pa6-ns pa2">
+	<div class="flex tc items-center justify-center w-100 min-vh-100 bg-domino-blue tc pa4 mt4">
+		<div class="flex relative mt3 z-9">
+			<h1 class="dib relative f1 font-book lh-copy near-white mv0 z-9">
+				Research
+				<h1 class="dib absolute font-book lh-copy headline-blue mv0 z--9"
+				style="
+				font-size: 30rem;
+				left: -5%; top: 50%;
+				-webkit-transform: translateX(-10%);
+				transform: translateX(-10%); -webkit-transform: translateY(-50%);
+				transform: translateY(-50%)">
+					1
+				</h1>
+			</h1>
+		</div>
+	</div>
+</div>
+
 	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
 		<div class="dib w-100 mt3">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.0</h5>
 			<h2 class="dib f2 font-book lh-copy headline-blue mv0">
 				Starting with the problem
 			</h2>
@@ -218,7 +258,7 @@
 		</div>
 	</div>
 		<div class="dib w-100 mw6 tl">
-			<h4 class="dib tl f4 font-book lh-copy copy-blue mv0 ml4">
+			<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
 				We began to research the details within these problems so we could move beyond our personal anecdotes.
 			</h4>
 		</div>
@@ -226,10 +266,8 @@
 
 	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
 		<div class="dib w-100 mt3 tc">
-			<div class="dib f6 ph3 pv2 font-book ba orange br2 ttu">
-				Root Cause Analysis
-			</div>
-			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mt4 mb0">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.1</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
 				The Root Cause
 			</h2>
 		</div>
@@ -243,12 +281,13 @@
 		 background-repeat: no-repeat;
 		 background-position: center; center;
 		 background-size: contain;
-		">
+		"></div>
 	</div>
 
-	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2 mt5">
 		<div class="dib w-100 mt3 tc">
-			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mt5 mb0">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.2</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
 				No Work = No Play
 			</h2>
 		</div>
@@ -265,10 +304,11 @@
 		">
 	</div>
 
-	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2 mt5">
 		<div class="dib w-100 mt3 tc">
-			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mt5 mb0">
-				Fish & Fishing
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.3</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Fish v Fishing
 			</h2>
 		</div>
 		<div class="dib w-100 center">
@@ -280,11 +320,13 @@
 				Well designed systems can also protect us from our own worst behaviors. <a href="" class="bg-cs-orange ph2">Inverting</a> our perspective, we asked:
 			</h4>
 			</div>
+			<div class="dib w-100">
 			<div class="dib w-100 mw7 mv4">
 			<h3 class="f3 tc font-book lh-copy copy-orange">
 				"Rather than educating freelancer's to help improve their work prospects, why don't we design a system that improves their work prospects and educates them in the process?"
 			</h3>
 			</div>
+		</div>
 			<div class="dib w-100 mw6 tl">
 			<h4 class="f4 tl font-book lh-copy copy-blue">
 				The two primary ways freelancer's find work online is through job boards (formally, or informally like <a href="https://www.reddit.com/r/forhire" class="bg-cs-blue ph2 pb1">subreddits</a>, Facebook groups, and Twitter) or via marketplaces like <a class="bg-cs-blue ph2 pb1" href="https://www.upwork.com">Upwork</a>, <a class="bg-cs-blue ph2 pb1" href="https://www.fiverr.com">Fiverr</a> & <a class="bg-cs-blue ph2 pb1" href="https://www.freelancer.com">Freelancer.com</a>.
@@ -296,101 +338,316 @@
 			</div>
 		</div>
 	</div>
-		<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+
+
+	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
 			<div class="dib w-100 mt3 tc">
-				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mt5 mb0">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.4</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue">
 					The map is not the territory
 				</h2>
 			</div>
-			<div class="dib w-100 mw7 mv4">
-			<h3 class="f3 tc font-book lh-copy copy-orange">
+			<div class="dib relative w-100 mw7 mv4">
+			<img class="dib absolute tc z-9" src="images/cs/hst.jpg" style="width: 80px; z-index: 9; top: 24px; left: 64px;">
+			<h3 class="f3 relative tc font-book lh-copy copy-orange z-999" style="z-index: 999;">
 				"..He used a typewriter to copy Fitzgerald's The Great Gatsby & Hemingway's A Farewell to Arms, to learn the writing styles of the two authors.."
-			</h3>
+			</h3><a href="https://en.wikipedia.org/wiki/Hunter_S._Thompson#Early_journalism_career" class="dib br2 ph3 pv2 f7 bg-cs-blue font-book copy-blue dim">Source</a>
 			</div>
-			<div class="dib w-100 mw6 tl">
+			<div class="dib w-100 tc">
+				<div class="dib w-100 mw6">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					To better understand these marketplaces, we began creating maps of their user flows for both buyers and sellers. How did their account sign-up process work? How quickly did it take to create a profile? And how easy was it to find and hire freelancer's we could trust?
+					To better understand these marketplaces, we began creating maps of their user flows for both buyers and sellers. How did their account sign-up process work? How quickly did it take to create a profile? Where were the points of friction? And how easy was it to find and hire freelancer's we could trust?
 				</h4>
 			</div>
-			<div class="dib w-100 mw6 tl">
+			<div class="dib w-100  tc">
+				<div class="dib w-100 mw6">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
 					Simultaneously, we began researching freelancer's and employers experiences on these platforms.
 				</h4>
+				</div>
+			</div>
 			</div>
 		</div>
+
+
 		<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa3">
 			<div class="dib w-100 mt3 tc">
-				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mt5 mb0">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.5</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
 					A great way to find bad jobs
 				</h2>
 			</div>
 			<div class="dib w-100 mw6 tl">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					While employers' experiences on these platforms were mixed, freelancers' were almost universally bad, with economics subverting the user experience.
+					While employers' experiences on these platforms were mixed, freelancers' were almost universally bad: economics subverts the user experience.
 				</h4>
 			</div>
 			<div class="dib w-100">
 				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
-					<h4 class="dib  f4 tl font-book lh-copy copy-blue mv0 ml4">
-						<span class="bb bw2 pb2">A global labor pool</span> skews supply.
+					<h3 class="dib f3 tc font-book lh-list copy-blue bb bw2 w2">1</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100-m">
+						<span class="bb bw2 pb2">A global labor pool skews supply.</span>
 					</h4>
 				</div>
 			</div>
 			<div class="dib w-100 mt3">
 				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
-					<h4 class="dib  f4 tl font-book lh-copy copy-blue mv0 ml4">
-						<span class="bb bw2 pb2">And depresses wages.
+					<h3 class="dib f3 tc font-book lh-list copy-blue bb bw2 w2">2</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100-m">
+						<span class="bb bw2 pb2">Favoring freelancers with lower costs of living.</span>
 					</h4>
 				</div>
 			</div>
 			<div class="dib w-100 mt3">
 				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
-					<h4 class="dib  f4 tl font-book lh-copy copy-blue mv0 ml4">
-						<span class="bb bw2 pb2">Without an <span class="bg-cs-purple ph2 br1 pb1">artificial price floor</span>.
+					<h3 class="dib f3 tc font-book lh-list copy-blue bb bw2 w2">3</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100-m">
+						<span class="bb bw2 pb2">And depresses wages.</span>
 					</h4>
 				</div>
 			</div>
 			<div class="dib w-100 mt3">
 				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">4</h3>
-					<h4 class="dib  f4 tl font-book lh-copy copy-blue mv0 ml4">
-						<span class="bb bw2 pb2">Favoring countries with lower costs of living.
+					<h3 class="dib f3 tc font-book lh-list copy-blue bb bw2 w2">4</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100-m">
+						<span class="bb bw2 pb2">Without an <a href="https://en.wikipedia.org/wiki/Price_floor" class="bg-cs-purple ph2 br1 pb1">artificial price floor</a>.
 					</h4>
 				</div>
 			</div>
 			<div class="dib w-100 mt3">
 				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">5</h3>
-					<h4 class="dib  f4 tl font-book lh-copy copy-blue mv0 ml4">
-						<span class="bb bw2 pb2">Forcing high competition for low paying projects.
+					<h3 class="dib f3 tc font-book lh-list copy-blue bb bw2 w2">5</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100-m">
+						<span class="bb bw2 pb2">Forcing high competition for low paying projects.</span>
 					</h4>
 				</div>
 			</div>
-			<div class="dib w-100 mw6 tl">
+			<div class="dib w-100 mw6 tl mt3">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					The skewed supply & demand also corrupts a platforms reputation system. With so many freelancers chasing so few jobs, the poor reputation of an individual employer may be considered an acceptable risk of doing business.
+					<span class="bb bw2 pb1 mr2">Reputation</span> The skewed supply & demand also corrupts a platforms reputation system. With so many freelancers chasing so few jobs, the poor reputation of an individual employer may be considered an acceptable risk of doing business.
 				</h4>
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					Conversly, an employer can hold excess power over any freelancer they hire. Freelancers below a minimum reputation threshold can be filtered out by employers, without limiting their ability to find someone for their project.
+					Conversly, an employer can hold excessive power over any freelancer they hire through threatening a poor rating. Freelancers below a minimum reputation threshold can be filtered out by employers, without limiting their ability to find someone for their project.
+				</h4>
+				<h4 class="dib relative f4 tl font-book lh-copy copy-blue z-99">
+					<img class="dib absolute tc z--9" src="images/cs/vp.jpg" style="width: 80px; top: 24px; left: -64px;">
+					<span class="bb bw2 pb1 mr2">Power Laws & The <a href="https://en.wikipedia.org/wiki/Pareto_principle" class="bg-cs-purple br1 ph2 pb1">Pareto Principle</a></span> Many marketplaces publicly promote the number of projects a freelancer has completed - an artificial (and IMO inaccurate) metric that attempts to convey experience, quality and reliability, but ultimately just tells you how much time a freelancer has put into the platform in question. With so much competition, a rational employer will rely on the few data points they have on hand when assessing the best person for a job.
 				</h4>
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					Finally, because the employers are the ones with the money, the platform is incentivized to favor them in any dispute. While anecdotal, numerous freelancers we spoke to (and <a href="" class="bg-cs-blue br1 ph2 pb1">others who have published their experiences</a> ) .
+					 This leads to a <a href="https://en.wikipedia.org/wiki/Power_law" class="bg-cs-purple br1 ph2 pb1">power law</a> that disproportionately favors freelancers with high reputations that have completed a lot of projects, leading to a <a href="https://en.wikipedia.org/wiki/Long_tail" class="bg-cs-purple br1 ph2 pb1">long tail</a> of disappointment for many, many others.
+				</h4>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					<span class="bb bw2 pb1 mr2">Incentivization</span> Finally, because the employers are the ones with the money, the platform is incentivized to favor them in any dispute. While anecdotal, numerous freelancers we spoke to felt they experienced this (alongside <a href="" class="bg-cs-blue br1 ph2 pb1">others who have published their experiences</a> ).
 				</h4>
 			</div>
 		</div>
+	</div>
+
+	<div class="dib w-100 pa6-ns pa2">
+		<div class="flex tc items-center justify-center w-100 min-vh-100 bg-domino-blue tc pa4">
+			<div class="flex relative mt3 z-9">
+				<h1 class="dib relative f1 font-book lh-copy near-white mv0 z-9">
+					Strategies
+					<h1 class="dib absolute f-headline font-book lh-copy headline-blue mv0 z--9" style="font-size: 30rem; left: -10%; top: 50%;
+-webkit-transform: translateX(-10%);
+transform: translateX(-10%); -webkit-transform: translateY(-50%);
+transform: translateY(-50%)">
+						2
+					</h1>
+				</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fl">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Incomplete Maps
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Theory of Weak Ties
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Theory of Weak Ties
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fl">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Combinatorial Creativity
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Activation Energy
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Via Negativa
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Red Queen Effect
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Gravity
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Atomic Actions
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+
+	<div class="dib tc w-50-ns w-100 bg-white tc pa4-ns pa2 fr">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+			 Reciprocity
+			</h2>
+		</div>
+		<div class="dib w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+			</h4>
+		</div>
+	</div>
+
+
+
+
+
+
 
 		<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
 			<div class="dib w-100 mt3 tc">
-				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mt5 mb0">
-					Strategies & Solutions
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Favoring Friction
 				</h2>
 			</div>
 			<div class="dib w-100 mw6 tl">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					Lacking the knowledge on how to find and win freelance jobs leads to limited, low-paying, or no work which can create a <a href="" class="bg-cs-blue ph2 pb1">negative feedback loop</a>, further compounding a freelancer's misery.
+					These marketplaces were <a href="https://en.wikipedia.org/wiki/Perfect_competition" class="bg-cs-purple br1 ph2 pb1">close to perfect</a>, which made them lousy places to find <a href="" class="bg-cs-blue br1 ph2 pb1">good work</a>. Ironically, adding <a href="https://www.wikihow.com/Increase-Friction" class="bg-cs-purple br1 ph2 pb1">friction</a> could improve things by intelligently restricting the distribution of jobs to:
+				</h4>
+				<div class="dib w-100 mt3">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100-m">
+							<span class="bb bw2 pb2">Reduce competition per job
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100 mt3">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100-m">
+							<span class="bb bw2 pb2">Improve matching between freelancers & jobs</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100 mt3">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100-m">
+							<span class="bb bw2 pb2">Give employers better metrics to guide hiring</span>
+						</h4>
+					</div>
+				</div>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					In the end, employers don't want to be inundated with choice. <a href="" class="bg-cs-orange br1 ph2 pb1">They just want to be given the right one.</a>
 				</h4>
 			</div>
 		</div>
