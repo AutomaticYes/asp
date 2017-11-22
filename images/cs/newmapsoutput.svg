@@ -1,0 +1,520 @@
+<svg width="587" height="586" viewBox="0 0 587 586" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>newmapsoutput</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5697 -3316)">
+<g id="newmapsoutput">
+<g id="newmaps 2">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(5701 3404)" fill="#1A1A1A"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(5975.09 3407.2)" fill="url(#paint1_linear)"/>
+</g>
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6091 3449)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6091 3449)" fill="url(#paint2_linear)"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(6050 3327)" fill="url(#paint3_linear)"/>
+</g>
+<g id="Arrow">
+<use xlink:href="#path5_stroke" transform="matrix(6.13558e-17 1 -1 6.11091e-17 6094 3316)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6180 3600)" fill="#FFFFFF"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6180 3600)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6180 3600)" fill="url(#paint6_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6271 3589)" fill="#FFFFFF"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6271 3589)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6271 3589)" fill="url(#paint8_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6181 3509)" fill="#FFFFFF"/>
+<mask id="mask3_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6181 3509)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6181 3509)" fill="url(#paint10_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6203 3703)" fill="#FFFFFF"/>
+<mask id="mask4_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6203 3703)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6203 3703)" fill="url(#paint12_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6266 3706)" fill="#FFFFFF"/>
+<mask id="mask5_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6266 3706)"/>
+</mask>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6266 3706)" fill="url(#paint14_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6223 3484)" fill="#FFFFFF"/>
+<mask id="mask6_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6223 3484)"/>
+</mask>
+<g mask="url(#mask6_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6223 3484)" fill="url(#paint16_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<mask id="mask7_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6114 3541)"/>
+</mask>
+<g mask="url(#mask7_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6114 3541)" fill="url(#paint17_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6063 3610)" fill="#FFFFFF"/>
+<mask id="mask8_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6063 3610)"/>
+</mask>
+<g mask="url(#mask8_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6063 3610)" fill="url(#paint19_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<mask id="mask9_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6031 3509)"/>
+</mask>
+<g mask="url(#mask9_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6031 3509)" fill="url(#paint20_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5967 3428)" fill="#FFFFFF"/>
+<mask id="mask10_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5967 3428)"/>
+</mask>
+<g mask="url(#mask10_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5967 3428)" fill="url(#paint22_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5973 3594)" fill="#FFFFFF"/>
+<mask id="mask11_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5973 3594)"/>
+</mask>
+<g mask="url(#mask11_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5973 3594)" fill="url(#paint24_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5922 3517)" fill="#FFFFFF"/>
+<mask id="mask12_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5922 3517)"/>
+</mask>
+<g mask="url(#mask12_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5922 3517)" fill="url(#paint26_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<mask id="mask13_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6081 3403)"/>
+</mask>
+<g mask="url(#mask13_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6081 3403)" fill="url(#paint27_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5903 3614)" fill="#FFFFFF"/>
+<mask id="mask14_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5903 3614)"/>
+</mask>
+<g mask="url(#mask14_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5903 3614)" fill="url(#paint29_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5850 3558)" fill="#FFFFFF"/>
+<mask id="mask15_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5850 3558)"/>
+</mask>
+<g mask="url(#mask15_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5850 3558)" fill="url(#paint31_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5857 3471)" fill="#FFFFFF"/>
+<mask id="mask16_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5857 3471)"/>
+</mask>
+<g mask="url(#mask16_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5857 3471)" fill="url(#paint33_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5894 3400)" fill="#FFFFFF"/>
+<mask id="mask17_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5894 3400)"/>
+</mask>
+<g mask="url(#mask17_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5894 3400)" fill="url(#paint35_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5806 3523)" fill="#FFFFFF"/>
+<mask id="mask18_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5806 3523)"/>
+</mask>
+<g mask="url(#mask18_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5806 3523)" fill="url(#paint37_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5839 3597)" fill="#FFFFFF"/>
+<mask id="mask19_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5839 3597)"/>
+</mask>
+<g mask="url(#mask19_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5839 3597)" fill="url(#paint39_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5760 3485)" fill="#FFFFFF"/>
+<mask id="mask20_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5760 3485)"/>
+</mask>
+<g mask="url(#mask20_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5760 3485)" fill="url(#paint41_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5846 3617)" fill="#FFFFFF"/>
+<mask id="mask21_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5846 3617)"/>
+</mask>
+<g mask="url(#mask21_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5846 3617)" fill="url(#paint43_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5874 3634)" fill="#FFFFFF"/>
+<mask id="mask22_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5874 3634)"/>
+</mask>
+<g mask="url(#mask22_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5874 3634)" fill="url(#paint45_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5832 3761)" fill="#FFFFFF"/>
+<mask id="mask23_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5832 3761)"/>
+</mask>
+<g mask="url(#mask23_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5832 3761)" fill="url(#paint47_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6042 3692)" fill="#FFFFFF"/>
+<mask id="mask24_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6042 3692)"/>
+</mask>
+<g mask="url(#mask24_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6042 3692)" fill="url(#paint49_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5930 3678)" fill="#FFFFFF"/>
+<mask id="mask25_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5930 3678)"/>
+</mask>
+<g mask="url(#mask25_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5930 3678)" fill="url(#paint51_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6128 3771)" fill="#FFFFFF"/>
+<mask id="mask26_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6128 3771)"/>
+</mask>
+<g mask="url(#mask26_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6128 3771)" fill="url(#paint53_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5734 3647)" fill="#FFFFFF"/>
+<mask id="mask27_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5734 3647)"/>
+</mask>
+<g mask="url(#mask27_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5734 3647)" fill="url(#paint55_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5981 3799)" fill="#FFFFFF"/>
+<mask id="mask28_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5981 3799)"/>
+</mask>
+<g mask="url(#mask28_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5981 3799)" fill="url(#paint57_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6081 3889)" fill="#FFFFFF"/>
+<mask id="mask29_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6081 3889)"/>
+</mask>
+<g mask="url(#mask29_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6081 3889)" fill="url(#paint59_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<mask id="mask30_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6154 3601)"/>
+</mask>
+<g mask="url(#mask30_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6154 3601)" fill="url(#paint60_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6160 3618)" fill="#FFFFFF"/>
+<mask id="mask31_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6160 3618)"/>
+</mask>
+<g mask="url(#mask31_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6160 3618)" fill="url(#paint62_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6129 3648)" fill="#63FFA4"/>
+<mask id="mask32_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6129 3648)"/>
+</mask>
+<g mask="url(#mask32_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6129 3648)" fill="url(#paint64_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(6211 3801)" fill="#FFFFFF"/>
+<mask id="mask33_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(6211 3801)"/>
+</mask>
+<g mask="url(#mask33_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(6211 3801)" fill="url(#paint66_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5893 3867)" fill="#FFFFFF"/>
+<mask id="mask34_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5893 3867)"/>
+</mask>
+<g mask="url(#mask34_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5893 3867)" fill="url(#paint68_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5740 3787)" fill="#FFFFFF"/>
+<mask id="mask35_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5740 3787)"/>
+</mask>
+<g mask="url(#mask35_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5740 3787)" fill="url(#paint70_linear)"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(5697 3637)" fill="#FFFFFF"/>
+<mask id="mask36_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5697 3637)"/>
+</mask>
+<g mask="url(#mask36_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5697 3637)" fill="url(#paint72_linear)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(176.782 0 0 176.782 -11.6175 37.9701)">
+<stop offset="0" stop-color="#4662AD"/>
+<stop offset="0.5213" stop-color="#F4F4FA"/>
+<stop offset="1" stop-color="#DF298C"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(22.1875 64.2143 -64.3438 22.1429 45.4844 -4.42857)">
+<stop offset="0" stop-color="#E0288C" stop-opacity="0.8"/>
+<stop offset="0.632812" stop-color="#2659FF" stop-opacity="0.4125"/>
+<stop offset="1" stop-color="#2659FF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint6_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint8_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint10_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint12_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint14_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint16_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint17_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint19_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint20_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint22_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint24_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint26_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint27_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint29_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint31_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint33_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint35_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint37_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint39_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint41_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint43_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint45_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint47_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint49_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint51_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint53_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint55_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint57_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint59_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint60_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint62_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint64_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint66_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint68_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint70_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<linearGradient id="paint72_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-16 13 -13 7.9602e-16 13 -7.9602e-16)">
+<stop offset="0" stop-color="#AB67E1"/>
+<stop offset="1" stop-color="#2659FF"/>
+</linearGradient>
+<path id="path0_fill" d="M 250.838 0.0454012C 267.872 0.0444012 284.908 -0.0626044 301.941 0.0693956C 329.035 0.279396 356.13 0.533403 383.218 1.0974C 386.539 1.1664 390.053 2.8294 393.071 4.4914C 401.91 9.3594 410.502 14.6734 419.269 19.6764C 429.132 25.3054 439.13 30.6974 448.98 36.3504C 462.396 44.0494 475.748 51.8594 489.087 59.6914C 500.505 66.3954 511.396 74.2394 523.394 79.6354C 533.557 84.2054 535.61 93.3824 539.626 101.464C 545.368 113.02 549.989 125.128 555.255 136.926C 562.873 153.995 570.813 170.923 578.201 188.09C 579.767 191.728 580.148 196.149 580.05 200.185C 579.557 220.496 578.784 240.801 577.99 261.103C 577.403 276.124 576.968 291.165 575.727 306.136C 575.376 310.368 572.781 314.582 570.604 318.462C 564.526 329.293 558.125 339.943 551.858 350.668C 543.575 364.842 535.311 379.028 527.01 393.192C 524.215 397.961 521.69 402.95 518.368 407.326C 516.063 410.362 512.807 412.818 509.616 415.006C 504.581 418.459 499.174 421.363 494.051 424.694C 486.937 429.319 479.99 434.202 472.876 438.827C 467.119 442.569 461.153 445.99 455.402 449.741C 447.72 454.752 440.179 459.98 432.534 465.05C 427.325 468.504 422.006 471.792 416.801 475.252C 407.456 481.464 398.171 487.765 388.827 493.978C 388.007 494.523 386.883 495.09 385.991 494.971C 379.952 494.167 373.95 493.091 367.911 492.287C 364.267 491.802 360.578 491.66 356.911 491.342C 341.039 489.962 325.156 488.692 309.302 487.121C 304.322 486.627 299.458 484.981 294.479 484.451C 283.241 483.253 271.953 482.522 260.705 481.41C 251.789 480.529 242.889 479.465 234.005 478.302C 221.829 476.707 209.427 475.924 197.596 472.922C 188.908 470.717 180.972 465.533 172.727 461.621C 171.033 460.817 169.488 459.703 167.818 458.842C 160.12 454.872 152.386 450.971 144.695 446.987C 134.437 441.672 124.199 436.319 113.968 430.953C 104.978 426.238 95.9614 421.572 87.0424 416.727C 73.5574 409.401 60.2584 401.722 46.6354 394.665C 42.5624 392.555 40.5914 390.086 39.4034 385.666C 34.7424 368.33 29.4474 351.165 24.5944 333.878C 21.4484 322.669 18.7554 311.333 15.6914 300.099C 10.8914 282.505 5.91343 264.959 1.08743 247.372C -0.321571 242.236 -0.61257 237.479 1.74143 232.038C 10.3004 212.252 18.0374 192.111 26.1694 172.139C 32.2064 157.312 38.3884 142.544 44.4844 127.74C 50.1334 114.022 55.7294 100.281 61.4284 86.5844C 61.9554 85.3174 62.8164 83.9104 63.9274 83.2114C 70.4034 79.1354 77.1064 75.4154 83.5324 71.2644C 92.7384 65.3174 101.692 58.9804 110.905 53.0454C 117.56 48.7584 124.486 44.8954 131.247 40.7724C 141.101 34.7634 151.004 28.8264 160.725 22.6084C 170.779 16.1764 180.495 9.2044 190.677 2.9884C 193.744 1.1154 197.858 0.239399 201.515 0.174399C 217.951 -0.118601 234.396 0.0464012 250.838 0.0454012ZM 433.044 251.272C 424.216 246.607 416.329 242.43 408.433 238.27C 403.398 235.617 398.306 233.069 393.316 230.333C 386.961 226.849 380.571 223.409 374.402 219.614C 366.477 214.74 357.359 214.422 348.684 212.655C 332.517 209.363 316.268 206.342 299.933 204.063C 289.811 202.651 279.531 198.538 269.198 203.596C 266.795 204.772 264.221 205.667 261.644 206.406C 251.493 209.318 241.162 211.683 231.182 215.084C 222.156 218.16 212.1 217.829 204.011 224.241C 198.325 228.749 191.711 232.09 185.491 235.918C 184.304 236.649 183.019 237.221 181.303 238.115C 185.573 240.925 188.223 242.536 190.73 244.345C 196.131 248.241 201.489 252.199 206.809 256.206C 212.895 260.789 218.674 265.833 225.05 269.963C 230.314 273.372 235.125 277.896 241.884 278.603C 253.904 279.86 265.921 281.159 277.913 282.651C 286.2 283.682 294.429 285.175 302.711 286.255C 308.399 286.997 314.143 287.306 319.845 287.957C 325.097 288.557 330.309 289.585 335.572 289.998C 340.362 290.374 345.548 291.323 349.935 289.98C 357.576 287.641 364.78 283.828 372.087 280.458C 381.108 276.297 389.978 271.805 399.041 267.741C 407.856 263.788 416.883 260.312 425.704 256.371C 428.165 255.271 430.225 253.269 433.044 251.272ZM 283.302 399.84C 282.487 396.803 282.176 394.98 281.515 393.295C 278.843 386.476 276.121 379.675 273.308 372.913C 269.87 364.649 266.353 356.418 262.816 348.197C 257.193 335.128 251.51 322.084 245.882 309.017C 243.086 302.526 240.393 295.991 237.581 289.507C 236.228 286.388 234.116 286.227 231.673 288.336C 228.141 291.385 224.7 294.542 221.109 297.518C 214.595 302.915 207.983 308.195 201.441 313.559C 196.914 317.27 192.351 320.945 187.953 324.805C 180.749 331.127 173.757 337.693 166.498 343.949C 161.854 347.951 156.851 351.531 152.083 355.393C 149.107 357.804 146.269 360.386 143.134 363.094C 146.2 364.288 148.784 365.563 151.513 366.31C 163.491 369.592 175.479 372.848 187.527 375.859C 194.945 377.713 202.539 378.866 209.945 380.763C 222.97 384.1 235.878 387.889 248.899 391.243C 255.583 392.965 262.436 394.024 269.153 395.634C 273.536 396.686 277.814 398.19 283.302 399.84ZM 385.443 488.872C 400.517 451.984 415.351 415.682 430.611 378.339C 427.685 378.518 426.385 378.444 425.152 378.699C 419.564 379.855 414.013 381.2 408.415 382.302C 394.926 384.957 381.419 387.517 367.918 390.112C 352.061 393.16 336.216 396.272 320.341 399.224C 312.093 400.758 303.786 401.975 295.521 403.429C 294.454 403.617 293.484 404.362 292.47 404.849C 293.092 405.917 293.501 407.216 294.368 408.018C 302.64 415.674 310.925 423.318 319.334 430.821C 328.492 438.992 337.806 446.988 347.015 455.102C 356.234 463.225 365.396 471.412 374.607 479.544C 377.889 482.441 381.24 485.258 385.443 488.872ZM 42.9724 251.333C 73.2094 287.527 103.209 322.875 134.105 357.452C 134.8 357.265 135.494 357.078 136.189 356.891C 140.455 312.748 144.722 268.605 149.061 223.709C 141.8 225.209 135.856 226.115 130.097 227.694C 117.971 231.018 105.997 234.897 93.8604 238.178C 77.4204 242.623 60.8864 246.721 42.9724 251.333ZM 376.802 488.856C 377.173 488.444 377.544 488.031 377.916 487.619C 376.178 486.161 374.409 484.737 372.706 483.239C 367.43 478.599 362.15 473.962 356.925 469.266C 349.845 462.903 342.904 456.384 335.737 450.12C 328.017 443.373 320.05 436.91 312.306 430.189C 309.016 427.334 306.112 424.036 302.868 421.123C 297.959 416.713 292.906 412.463 287.914 408.144C 285.898 406.4 284.232 406.682 282.125 408.402C 274.437 414.68 266.571 420.739 258.758 426.863C 250.063 433.679 241.402 440.54 232.631 447.258C 227.511 451.179 222.129 454.758 217.01 458.679C 213.223 461.58 209.669 464.785 205.412 468.358C 207.545 469.096 209.175 470.003 210.886 470.196C 222.756 471.535 234.664 472.559 246.518 474.018C 255.818 475.163 265.032 477.016 274.334 478.138C 283.822 479.282 293.392 479.729 302.889 480.817C 318 482.547 333.063 484.694 348.176 486.397C 357.69 487.469 367.258 488.053 376.802 488.856ZM 429.252 373.393C 428.355 372.117 427.684 370.723 426.632 369.734C 417.583 361.223 408.452 352.8 399.373 344.321C 391.702 337.158 384.085 329.937 376.413 322.775C 368.514 315.402 360.514 308.135 352.688 300.685C 349.744 297.882 348.711 298.062 346.658 301.853C 342.049 310.363 337.352 318.828 332.517 327.211C 326.873 336.995 320.971 346.63 315.313 356.406C 308.203 368.691 301.227 381.053 294.19 393.381C 293.212 395.095 292.217 396.8 290.599 399.601C 337.326 390.768 382.804 382.172 429.252 373.393ZM 144.03 369.257C 143.747 369.655 143.464 370.052 143.181 370.45C 143.987 372.141 144.679 373.899 145.621 375.511C 148.216 379.949 151.033 384.26 153.549 388.741C 158.494 397.551 163.203 406.494 168.178 415.287C 173.816 425.253 179.704 435.077 185.354 445.037C 188.76 451.041 191.838 457.229 195.22 463.247C 196.934 466.297 199.171 467.511 202.261 464.532C 204.459 462.412 206.88 460.501 209.329 458.668C 220.676 450.18 232.11 441.808 243.426 433.28C 249.734 428.526 255.87 423.544 262.09 418.673C 267.067 414.776 272.092 410.938 277.005 406.962C 278.01 406.149 278.613 404.839 279.531 403.579C 233.943 392.031 188.987 380.644 144.03 369.257ZM 233.203 281.263C 228.24 277.681 224.096 274.704 219.966 271.707C 206.636 262.033 193.273 252.404 180.002 242.65C 173.654 237.984 167.553 232.984 161.198 228.328C 159.036 226.744 156.441 225.752 153.757 224.339C 149.252 269.681 143.693 313.709 140.935 357.989C 141.361 358.218 141.787 358.448 142.212 358.678C 172.311 333.07 202.409 307.463 233.203 281.263ZM 131.48 364.14C 131.566 363.531 131.653 362.922 131.739 362.314C 101.603 327.264 71.4664 292.214 40.7504 256.489C 40.4694 258.137 40.2724 258.682 40.3014 259.214C 41.2194 275.822 42.3484 292.422 43.0514 309.039C 44.0814 333.372 44.8284 357.717 45.6484 382.059C 45.8144 386.977 46.7794 387.896 51.4904 386.762C 56.5054 385.555 61.5154 384.309 66.4744 382.897C 80.7834 378.822 95.0654 374.652 109.358 370.522C 116.732 368.393 124.106 366.268 131.48 364.14ZM 345.006 295.949C 326.342 293.694 309.165 291.694 292.01 289.526C 274.859 287.358 257.73 285.022 240.591 282.76C 240.246 283.205 239.9 283.65 239.555 284.096C 255.229 320.697 270.903 357.298 286.577 393.899C 287.246 394.053 287.915 394.207 288.584 394.362C 308.34 362.736 325.795 329.772 345.006 295.949ZM 42.8054 245.545C 43.1374 245.856 43.4684 246.166 43.8004 246.477C 45.5744 245.66 47.2734 244.556 49.1334 244.072C 63.4544 240.352 77.8014 236.731 92.1524 233.128C 96.4224 232.056 100.774 231.297 105.012 230.12C 118.382 226.407 131.7 222.506 145.076 218.817C 147.827 218.058 148.711 217.34 147.345 214.298C 142.598 203.723 138.293 192.952 133.659 182.325C 127.067 167.207 120.36 152.14 113.632 137.083C 112.661 134.909 111.3 132.909 109.637 129.979C 87.0004 169.124 64.9024 207.335 42.8054 245.545ZM 510.705 408.076C 508.46 406.45 506.798 404.79 504.795 403.884C 499.075 401.298 493.257 398.916 487.404 396.643C 476.476 392.4 465.484 388.324 454.547 384.102C 451.861 383.065 449.349 381.57 446.652 380.569C 436.608 376.838 435.869 374.098 431.655 385.872C 426.16 401.227 420.108 416.391 414.005 431.52C 407.133 448.557 399.932 465.462 392.906 482.437C 392.669 483.01 392.768 483.723 392.638 485.171C 401.281 479.962 409.462 475.408 417.241 470.247C 426.473 464.122 435.283 457.364 444.42 451.09C 451.938 445.927 459.625 441.006 467.309 436.092C 476.294 430.346 485.396 424.783 494.373 419.025C 499.89 415.487 505.267 411.733 510.705 408.076ZM 190.071 465.153C 190.39 464.857 190.71 464.562 191.029 464.266C 184.984 453.698 178.957 443.12 172.887 432.566C 167.911 423.915 162.768 415.357 157.907 406.642C 151.349 394.884 145.038 382.988 138.508 371.214C 137.068 368.617 135.047 367.752 131.82 369.107C 126.736 371.241 121.415 372.861 116.106 374.393C 104.458 377.755 92.7644 380.961 81.0704 384.163C 71.6994 386.729 62.3014 389.195 51.9684 391.959C 58.7274 395.428 64.4824 398.232 70.0944 401.297C 78.3724 405.819 86.4624 410.689 94.7904 415.112C 103.461 419.716 112.375 423.86 121.084 428.396C 132.838 434.517 144.51 440.795 156.189 447.059C 160.432 449.335 164.549 451.846 168.802 454.103C 175.857 457.85 182.977 461.477 190.071 465.153ZM 352.031 294.868C 379.342 320.289 405.437 344.578 432.318 369.599C 432.717 362.516 433.326 356.788 433.294 351.063C 433.247 342.651 432.589 334.244 432.461 325.831C 432.167 306.354 432.059 286.874 431.807 267.396C 431.776 264.97 431.328 262.549 430.988 259.325C 404.466 271.264 378.767 282.832 352.031 294.868ZM 509.538 300.259C 509.984 300.292 510.431 300.325 510.877 300.358C 531.296 265.251 551.715 230.144 572.134 195.038C 571.872 194.645 571.61 194.253 571.349 193.86C 562.924 195.317 554.546 197.181 546.065 198.148C 527.918 200.218 509.725 201.909 491.532 203.537C 488.553 203.804 487.485 204.693 488.089 207.564C 489.178 212.744 490.129 217.956 491.339 223.107C 495.439 240.559 499.643 257.986 503.775 275.431C 505.733 283.698 507.619 291.983 509.538 300.259ZM 232.247 116.15C 235.584 116.15 238.357 116.35 241.092 116.115C 253.255 115.071 265.413 113.962 277.562 112.764C 292.519 111.289 307.465 109.704 322.416 108.162C 325.252 107.87 328.087 107.558 331.904 107.151C 312.8 82.7474 294.304 59.1214 275.36 34.9224C 260.88 62.2044 246.752 88.8204 232.247 116.15ZM 436.421 368.783C 436.929 368.903 437.438 369.024 437.946 369.144C 443.462 364.194 448.963 359.228 454.497 354.299C 463.57 346.217 472.671 338.169 481.745 330.089C 488.966 323.659 496.157 317.196 503.376 310.764C 505.402 308.959 506.608 307.445 503.435 305.35C 496.811 300.976 490.424 296.243 483.84 291.805C 475.993 286.516 468.096 281.296 460.119 276.206C 452.216 271.163 444.186 266.319 436.42 261.516C 436.421 297.223 436.421 333.003 436.421 368.783ZM 332.459 113.885C 332.303 113.392 332.146 112.9 331.99 112.407C 298.839 115.632 265.688 118.858 231.784 122.156C 237.067 130.282 241.671 137.569 246.487 144.713C 251.074 151.517 256.013 158.085 260.558 164.916C 265.997 173.091 271.141 181.461 276.503 189.688C 277.998 191.981 279.842 191.912 281.422 189.659C 284.615 185.105 287.75 180.512 290.916 175.94C 293.334 172.449 295.857 169.028 298.169 165.47C 304.155 156.255 309.943 146.91 316.014 137.753C 321.354 129.701 326.968 121.834 332.459 113.885ZM 364.502 210.452C 355.116 178.747 346.109 148.324 337.103 117.902C 336.497 117.864 335.891 117.826 335.286 117.788C 317.791 143.484 300.295 169.18 281.895 196.204C 309.622 201.634 336.33 205.866 364.502 210.452ZM 570.607 190.157C 570.865 189.695 571.122 189.232 571.379 188.77C 544.026 164.4 516.673 140.03 488.499 114.928C 488.253 117.615 487.971 119.28 487.968 120.946C 487.934 136.05 488.068 151.156 487.906 166.258C 487.8 176.099 487.33 185.937 486.929 195.773C 486.785 199.306 488.346 200.584 492.224 199.974C 500.398 198.688 508.557 197.255 516.77 196.288C 529.921 194.74 543.115 193.569 556.28 192.141C 561.071 191.622 565.832 190.826 570.607 190.157ZM 390.324 51.0144C 387.961 50.4344 386.835 50.0674 385.68 49.8894C 373.858 48.0654 362.044 46.1894 350.203 44.4954C 340.596 43.1214 330.931 42.1364 321.337 40.6784C 313.981 39.5604 306.719 37.8364 299.373 36.6414C 293.539 35.6924 287.641 35.1354 280.793 34.2834C 290.955 47.5864 300.333 59.9014 309.754 72.1834C 317.597 82.4094 325.519 92.5754 333.348 102.811C 336.171 106.502 338.234 106.706 341.401 103.263C 345.459 98.8514 349.417 94.3454 353.518 89.9754C 360.743 82.2774 368.031 74.6374 375.321 67.0004C 378.967 63.1814 382.695 59.4404 386.344 55.6244C 387.589 54.3244 388.705 52.9004 390.324 51.0144ZM 66.5454 91.0444C 58.6484 138.772 50.8814 185.708 42.9154 233.855C 44.3964 232.146 45.1774 231.476 45.6724 230.638C 49.9944 223.312 54.1994 215.916 58.5664 208.617C 65.3354 197.303 72.3694 186.144 78.9924 174.746C 88.0534 159.151 96.8874 143.422 105.636 127.65C 106.347 126.369 106.363 123.508 105.496 122.737C 98.8534 116.829 91.9574 111.199 85.0464 105.598C 79.4004 101.021 73.6264 96.6034 66.5454 91.0444ZM 167.927 72.8164C 171.023 75.5114 173.276 77.7894 175.838 79.6394C 182.121 84.1774 188.619 88.4164 194.897 92.9604C 204.442 99.8694 213.881 106.924 223.35 113.937C 226.159 116.018 227.847 114.987 229.231 112.154C 231.225 108.074 233.361 104.061 235.509 100.058C 245.005 82.3584 254.531 64.6744 264.036 46.9794C 266.014 43.2974 267.948 39.5934 270.388 34.9804C 267.746 35.6954 266.046 35.9984 264.464 36.6084C 254.998 40.2564 245.588 44.0514 236.099 47.6364C 231.706 49.2964 227.107 50.4114 222.724 52.0944C 212.683 55.9504 202.761 60.1144 192.71 63.9434C 184.673 67.0054 176.517 69.7544 167.927 72.8164ZM 575.827 199.218C 575.428 199.15 575.029 199.083 574.629 199.015C 554.288 234.218 533.947 269.421 513.038 305.607C 520.746 305.607 527.14 305.519 533.532 305.626C 545.201 305.821 556.868 306.237 568.536 306.232C 569.737 306.231 571.906 304.063 571.985 302.798C 572.693 291.514 573.115 280.209 573.458 268.906C 573.888 254.75 574.077 240.587 574.543 226.433C 574.761 219.808 575.429 213.199 575.804 206.578C 575.944 204.133 575.827 201.672 575.827 199.218ZM 418.417 146.31C 392.169 135.272 367.151 124.752 342.134 114.231C 341.718 114.648 341.301 115.064 340.885 115.481C 349.894 145.791 358.904 176.102 367.913 206.412C 368.447 206.571 368.981 206.73 369.515 206.889C 385.58 186.989 401.645 167.088 418.417 146.31ZM 506.837 313.428C 484.39 333.857 462.239 352.982 440.366 373.455C 451.682 377.956 461.7 381.936 471.714 385.925C 484.572 391.047 497.436 396.156 510.277 401.322C 512.437 402.191 513.96 402.604 513.715 399.322C 512.116 377.881 510.615 356.433 508.981 334.994C 508.46 328.144 507.632 321.318 506.837 313.428ZM 422.506 143.416C 424.51 141.756 425.195 140.977 426.051 140.512C 436.396 134.889 446.743 129.269 457.137 123.738C 464.366 119.891 471.68 116.205 478.922 112.382C 479.863 111.885 481.397 110.758 481.271 110.338C 480.94 109.236 480.024 108.071 479.019 107.457C 476.279 105.782 473.235 104.588 470.561 102.825C 464.249 98.6624 458.141 94.1904 451.839 90.0114C 445.977 86.1254 439.868 82.6074 434.049 78.6594C 424.404 72.1144 414.927 65.3234 405.325 58.7164C 403.719 57.6114 401.834 56.9124 399.181 55.5724C 407.055 85.2264 414.662 113.875 422.506 143.416ZM 394.629 55.4004C 393.807 54.9044 392.985 54.4084 392.163 53.9124C 388.979 57.9204 386.019 62.1344 382.561 65.8894C 377.01 71.9174 371.057 77.5734 365.406 83.5114C 358.162 91.1234 351.08 98.8904 343.856 106.52C 341.832 108.658 342.07 109.997 344.786 111.073C 351.557 113.755 358.3 116.506 365.068 119.195C 374.886 123.096 384.73 126.933 394.533 130.872C 397.083 131.897 399.478 133.308 402.023 134.348C 406.67 136.247 411.376 138.002 417.245 140.278C 409.453 111.036 402.041 83.2184 394.629 55.4004ZM 483.933 207.207C 482.103 208.847 481.323 209.491 480.606 210.197C 472.569 218.107 464.541 226.027 456.511 233.945C 450.464 239.909 444.381 245.837 438.39 251.857C 436.142 254.117 435.541 256.193 439.229 257.969C 441.559 259.091 443.498 261.002 445.688 262.442C 460.369 272.093 475.069 281.718 489.769 291.341C 494.221 294.256 498.694 297.139 503.157 300.037C 503.646 299.709 504.135 299.381 504.623 299.052C 498.843 268.543 490.675 238.562 483.933 207.207ZM 267.403 30.9114C 265.862 29.6204 264.982 28.4154 263.813 27.9744C 248.908 22.3544 233.951 16.8744 219.031 11.2914C 213.316 9.1534 207.718 6.6854 201.941 4.7454C 200.711 4.3324 198.472 5.1194 197.508 6.1274C 195.932 7.7764 194.89 9.9954 193.851 12.0874C 189.026 21.7944 184.27 31.5354 179.506 41.2724C 175.395 49.6764 171.306 58.0914 166.568 67.8154C 176.537 64.2964 185.245 61.3844 193.832 58.1514C 206.537 53.3684 219.104 48.2164 231.828 43.4874C 243.351 39.2044 255.007 35.2774 267.403 30.9114ZM 229.11 126.926C 223.246 156.849 217.645 185.423 211.761 215.449C 216.019 214.043 219.058 212.93 222.161 212.037C 231.195 209.436 240.243 206.881 249.307 204.388C 255.989 202.55 262.704 200.836 269.406 199.071C 273.936 197.878 275.187 195.946 273.124 192.745C 266.385 182.283 259.512 171.907 252.684 161.502C 248.035 154.417 243.439 147.297 238.698 140.274C 235.871 136.087 232.811 132.059 229.11 126.926ZM 158.406 162.806C 162.273 166.391 165.704 169.296 168.818 172.51C 180.524 184.593 192.089 196.814 203.794 208.898C 206.778 211.978 208.399 211.46 209.325 207.204C 210.297 202.738 210.911 198.195 211.756 193.7C 215.585 173.336 219.456 152.979 223.266 132.612C 223.751 130.017 223.971 127.372 224.399 124.089C 202.232 137.095 180.911 149.603 158.406 162.806ZM 569.111 312.159C 564.22 311.901 560.331 311.605 556.438 311.51C 548.367 311.313 540.292 311.269 532.22 311.075C 526.359 310.934 520.502 310.652 514.642 310.437C 512.244 310.349 511.085 311.356 511.313 313.901C 511.812 319.477 512.206 325.063 512.642 330.644C 513.98 347.799 515.286 364.957 516.673 382.109C 517.065 386.952 517.694 391.775 518.213 396.607C 518.691 396.689 519.168 396.772 519.646 396.854C 535.923 368.985 552.199 341.116 569.111 312.159ZM 223.166 119.394C 203.527 105.16 184.683 91.5014 164.797 77.0874C 162.239 104.37 159.83 130.066 157.421 155.763C 157.828 156.084 158.235 156.406 158.643 156.727C 180.134 145.478 200.35 131.963 223.166 119.394ZM 190.029 10.4994C 189.702 10.2804 189.374 10.0624 189.047 9.8434C 184.95 12.3774 180.849 14.9034 176.758 17.4474C 167.096 23.4564 157.452 29.4944 147.775 35.4794C 142.694 38.6224 137.468 41.5384 132.469 44.8044C 122.964 51.0144 113.643 57.5074 104.116 63.6834C 95.2394 69.4384 86.1954 74.9354 76.1874 81.1934C 77.9174 81.1934 78.4244 81.2564 78.9114 81.1844C 91.1984 79.3754 103.472 77.4774 115.772 75.7644C 121.462 74.9724 127.213 74.6324 132.915 73.9154C 139.165 73.1294 145.365 71.7724 151.634 71.3404C 160.041 70.7614 162.07 69.3274 165.405 61.8984C 170.147 51.3344 175.381 40.9904 180.401 30.5514C 183.614 23.8694 186.82 17.1834 190.029 10.4994ZM 59.8524 104.567C 59.5544 104.47 59.2564 104.374 58.9584 104.277C 58.1554 106.514 57.4354 108.786 56.5354 110.984C 48.6754 130.185 40.7244 149.348 32.9234 168.572C 27.8934 180.967 23.1374 193.473 18.1324 205.878C 14.6114 214.605 11.0494 223.322 7.18143 231.898C 4.56243 237.704 4.81143 238.268 10.9154 239.909C 17.5104 241.682 23.9994 243.882 30.4624 246.105C 33.9234 247.296 36.0344 246.215 36.7354 242.401C 37.3714 238.944 38.0694 235.498 38.6584 232.033C 40.6084 220.574 42.5334 209.111 44.4444 197.646C 46.6654 184.32 48.8814 170.992 51.0594 157.659C 52.1274 151.119 53.0454 144.554 54.1354 138.018C 55.9974 126.859 57.9424 115.716 59.8524 104.567ZM 390.485 8.7344C 392.489 21.8934 394.295 34.0944 396.299 46.2624C 396.456 47.2154 397.85 48.3684 398.901 48.7064C 406.204 51.0494 413.541 53.2974 420.92 55.3894C 430.254 58.0364 439.619 60.5784 449.005 63.0354C 465.864 67.4504 482.759 71.7314 499.616 76.1524C 504.148 77.3404 508.601 78.8304 513.09 80.1814C 513.275 79.7664 513.461 79.3524 513.646 78.9374C 472.901 55.7134 432.156 32.4884 390.485 8.7344ZM 569.91 181.861C 570.282 181.681 570.653 181.502 571.025 181.322C 557.292 150.972 543.559 120.622 529.611 89.7974C 516.694 97.3304 504.406 104.495 491.339 112.115C 517.776 135.582 543.843 158.722 569.91 181.861ZM 459.455 200.258C 460.029 200.203 460.604 200.148 461.178 200.093C 468.167 172.473 475.157 144.854 482.23 116.901C 480.642 116.901 479.958 116.692 479.519 116.932C 473.653 120.139 467.84 123.445 461.976 126.655C 450.583 132.893 439.188 139.13 427.74 145.266C 425.051 146.707 425.113 148.597 426.44 150.706C 428.374 153.778 430.558 156.691 432.565 159.719C 437.579 167.283 442.536 174.885 447.548 182.45C 451.492 188.403 455.484 194.324 459.455 200.258ZM 418.826 153.894C 417.068 155.352 416.051 155.95 415.357 156.809C 407.726 166.258 400.176 175.773 392.543 185.22C 386.01 193.306 379.365 201.302 372.84 209.394C 371.121 211.526 370.758 213.516 373.898 215.005C 378.9 217.377 383.821 219.924 388.73 222.486C 393.895 225.181 398.943 228.107 404.163 230.689C 408.001 232.587 412.032 234.093 417.122 236.262C 417.701 208.241 418.251 181.669 418.826 153.894ZM 205.742 217.049C 189.264 200.248 173.43 184.104 156.951 167.303C 156.219 169.722 155.818 170.799 155.57 171.909C 154.089 178.53 152.809 185.203 151.112 191.768C 150.298 194.918 148.717 197.87 147.483 200.911C 147.151 202.485 147.76 204.643 148.824 206.545C 151.593 211.495 152.041 217.645 158.175 220.849C 163.245 223.497 167.493 227.735 172.058 231.329C 175.671 234.174 178.947 234.891 183.161 231.824C 190.103 226.775 197.517 222.377 205.742 217.049ZM 391.688 45.5254C 389.812 32.9144 388.184 21.8484 386.505 10.7904C 386.163 8.5344 384.849 8.0344 382.637 8.6024C 374.433 10.7084 366.198 12.6964 357.957 14.6544C 346.384 17.4034 334.828 20.2314 323.204 22.7494C 313.569 24.8364 303.84 26.4824 294.174 28.4314C 292.852 28.6974 291.656 29.5854 290.401 30.1854C 290.513 30.5214 290.626 30.8564 290.738 31.1924C 324.114 35.9314 357.49 40.6704 391.688 45.5254ZM 216.474 4.7124C 216.493 5.0074 216.513 5.3024 216.532 5.5974C 224.099 8.6214 231.618 11.7714 239.243 14.6384C 249.93 18.6564 260.613 22.7244 271.478 26.2094C 274.924 27.3144 279.095 27.3484 282.678 26.6184C 294.455 24.2164 306.103 21.1904 317.822 18.4964C 328.064 16.1414 338.346 13.9604 348.588 11.6074C 354.867 10.1644 361.105 8.5424 367.361 7.0004C 354.924 6.2704 342.637 6.3664 330.353 6.1984C 327.556 6.1604 324.785 4.9024 321.976 4.7714C 319.341 4.6484 316.673 5.2824 314.017 5.5644C 312.935 5.6794 311.813 5.9564 310.77 5.7874C 308.987 5.4984 307.252 4.5214 305.495 4.5164C 277.352 4.4334 249.209 4.4544 221.067 4.4704C 219.536 4.4704 218.005 4.6274 216.474 4.7124ZM 6.33243 243.202C 6.02543 243.604 5.71943 244.006 5.41243 244.408C 16.8084 285.563 28.2044 326.719 39.5994 367.874C 40.1904 360.042 40.4724 352.341 40.1354 344.667C 39.2634 324.794 38.0994 304.935 37.0914 285.068C 36.5694 274.773 36.2264 264.467 35.5294 254.185C 35.4454 252.946 33.8614 251.197 32.6014 250.763C 28.5964 249.385 24.3944 248.592 20.3094 247.431C 15.6274 246.101 10.9894 244.619 6.33243 243.202ZM 524.017 87.7114C 520.366 86.5054 517.236 85.3494 514.037 84.4394C 504.648 81.7674 495.245 79.1424 485.821 76.5934C 474.421 73.5104 463.01 70.4674 451.575 67.5174C 443.879 65.5324 436.098 63.8734 428.424 61.8124C 422.568 60.2394 416.819 58.2644 411.023 56.4674C 421.402 64.6114 432.056 71.8994 442.805 79.0424C 452.415 85.4294 462.144 91.6364 471.794 97.9644C 474.832 99.9574 477.867 101.973 480.753 104.175C 485.162 107.539 489.476 108.568 494.506 105.219C 498.886 102.303 503.644 99.9624 508.183 97.2794C 513.32 94.2454 518.399 91.1124 524.017 87.7114ZM 71.5264 87.2524C 72.2354 88.6374 72.3694 89.2634 72.7554 89.5994C 78.0374 94.1914 83.3314 98.7684 88.6684 103.296C 94.5534 108.29 100.472 113.244 106.402 118.185C 108.547 119.972 110.838 120.582 113.091 118.384C 117.777 113.81 122.419 109.192 127.072 104.584C 133.092 98.6244 139.128 92.6804 145.112 86.6834C 148.545 83.2424 151.887 79.7104 155.27 76.2194C 155.063 75.9644 154.856 75.7084 154.649 75.4534C 127.189 79.3504 99.7304 83.2484 71.5264 87.2524ZM 159.817 80.3954C 159.405 80.1974 158.992 79.9994 158.58 79.8014C 144.361 94.7724 130.142 109.742 115.451 125.21C 126.649 134.557 139.181 145.017 151.713 155.477C 152.164 155.265 152.615 155.053 153.066 154.84C 155.316 130.025 157.566 105.21 159.817 80.3954ZM 423.985 155.063C 423.626 155.249 423.267 155.434 422.908 155.62C 422.341 182.137 421.774 208.653 421.191 235.93C 423.32 234.635 424.785 233.959 425.997 232.973C 435.504 225.234 444.929 217.395 454.457 209.683C 456.872 207.729 457.201 205.581 455.715 203.096C 453.998 200.225 452.11 197.455 450.293 194.643C 443.698 184.439 437.14 174.21 430.482 164.046C 428.459 160.959 426.158 158.052 423.985 155.063ZM 466.507 217.366C 470.739 213.078 474.669 209.385 478.233 205.369C 480.127 203.234 482.521 200.633 482.736 198.078C 483.559 188.276 483.694 178.409 483.887 168.562C 484.04 160.733 483.903 152.899 483.897 145.067C 483.894 140.334 483.896 135.601 483.896 130.868C 482.498 132.76 482.305 134.763 481.795 136.682C 476.049 158.278 470.331 179.882 464.42 201.433C 462.958 206.765 464.045 211.537 466.507 217.366ZM 143.746 194.786C 144.244 194.74 144.741 194.694 145.239 194.649C 147.348 185.233 149.622 175.848 151.428 166.374C 151.792 164.466 151.041 161.513 149.682 160.253C 143.592 154.607 137.106 149.385 130.742 144.036C 126.705 140.642 122.63 137.293 118.572 133.924C 118.204 134.259 117.836 134.594 117.468 134.93C 126.227 154.881 134.987 174.834 143.746 194.786ZM 435.027 248.872C 435.498 248.516 436.264 248.054 436.888 247.446C 445.143 239.403 453.388 231.35 461.608 223.271C 463.273 221.635 462.024 213.668 459.874 212.763C 459.161 212.463 457.842 212.806 457.169 213.329C 447.348 220.967 437.566 228.655 427.842 236.416C 426.335 237.619 425.163 239.242 423.763 240.748C 427.565 243.49 431.053 246.006 435.027 248.872Z"/>
+<path id="path1_stroke" d="M 119.855 46.457L 119.069 51.3948L 125.932 52.4874L 124.787 45.6331L 119.855 46.457ZM -1.41602e-05 27.376L 0.78609 22.4382L -11.617 20.4636L -3.96475 30.4225L -1.41602e-05 27.376ZM 61.471 107.376L 57.5063 110.422L 58.3493 111.52L 59.6365 112.027L 61.471 107.376ZM 144.738 140.216L 149.738 140.193L 149.722 136.807L 146.572 135.565L 144.738 140.216ZM 145.195 237.65L 140.195 237.673L 140.207 240.29L 142.364 241.771L 145.195 237.65ZM 107.162 0.82387L 114.923 47.2809L 124.787 45.6331L 117.026 -0.823869L 107.162 0.82387ZM 120.641 41.5192L 0.78609 22.4382L -0.786118 32.3138L 119.069 51.3948L 120.641 41.5192ZM -3.96475 30.4225L 57.5063 110.422L 65.4357 104.33L 3.96472 24.3295L -3.96475 30.4225ZM 59.6365 112.027L 142.904 144.867L 146.572 135.565L 63.3054 102.725L 59.6365 112.027ZM 139.738 140.239L 140.195 237.673L 150.195 237.627L 149.738 140.193L 139.738 140.239ZM 142.364 241.771L 159.502 253.546L 165.164 245.304L 148.026 233.529L 142.364 241.771Z"/>
+<path id="path2_fill" d="M 13 6.5C 13 10.0899 10.0899 13 6.5 13C 2.91015 13 0 10.0899 0 6.5C 0 2.91015 2.91015 0 6.5 0C 10.0899 0 13 2.91015 13 6.5Z"/>
+<path id="path3_stroke_2x" d="M 9 6.5C 9 7.88071 7.88071 9 6.5 9L 6.5 17C 12.299 17 17 12.299 17 6.5L 9 6.5ZM 6.5 9C 5.11929 9 4 7.88071 4 6.5L -4 6.5C -4 12.299 0.70101 17 6.5 17L 6.5 9ZM 4 6.5C 4 5.11929 5.11929 4 6.5 4L 6.5 -4C 0.70101 -4 -4 0.70101 -4 6.5L 4 6.5ZM 6.5 4C 7.88071 4 9 5.11929 9 6.5L 17 6.5C 17 0.70101 12.299 -4 6.5 -4L 6.5 4Z"/>
+<path id="path4_fill" d="M 71 35.4286C 71 54.9952 55.1061 70.8571 35.5 70.8571C 15.8939 70.8571 0 54.9952 0 35.4286C 0 15.8619 15.8939 0 35.5 0C 55.1061 0 71 15.8619 71 35.4286Z"/>
+<path id="path5_stroke" d="M 50.2816 1.56731C 51.1472 0.70171 51.1472 -0.70171 50.2816 -1.56731L 36.1758 -15.6731C 35.3102 -16.5387 33.9068 -16.5387 33.0411 -15.6731C 32.1755 -14.8075 32.1755 -13.4041 33.0411 -12.5385L 45.5797 0L 33.0411 12.5385C 32.1755 13.4041 32.1755 14.8075 33.0411 15.6731C 33.9068 16.5387 35.3102 16.5387 36.1758 15.6731L 50.2816 1.56731ZM 0 2.21652L 48.7143 2.21652L 48.7143 -2.21652L 0 -2.21652L 0 2.21652Z"/>
+</defs>
+</svg>

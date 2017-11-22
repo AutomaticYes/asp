@@ -188,6 +188,19 @@
 		    100% { transform: translate(-100%, 0); }
 		}
 
+		.rotate {
+		-webkit-animation: rotation 10s infinite linear;
+		}
+
+		@-webkit-keyframes rotation {
+				from {
+						-webkit-transform: rotate(0deg);
+				}
+				to {
+						-webkit-transform: rotate(359deg);
+				}
+		}
+
 	</style>
 
 
@@ -196,7 +209,7 @@
 <body class="bg-white">
 <main>
 	<nav>
-		<ul class="fixed dn-ns dib dn w-100 font-book z-9999 pa0">
+		<ul class="fixed dn-ns dib dn w-100 font-book z-9999 pv0 ph2">
 			<li class="dib tl-ns tc">
 				<li class="dib fl f6 bg-domino-blue ba b--near-white near-white br1 ph4 pv2 mr2 mv1 pointer">
 					Menu
@@ -355,7 +368,7 @@
 		</div>
 		<div class="dib w-100 mw6 tl">
 			<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				While freelancers responded citing <a href="" class="no-underline "><span class="bg-cs-blue ph1 br1 ">many <span class="pr1">different</span> <span class="pl1">problems</span></span></a>, in mapping them out we noticed that the majority are <a href="" class="no-underline bg-cs-purple ph2 br1 ">second and third order effects</a> from a single source: <span class="bb bw2 b--light-red pb1">little or limited knowledge on how to freelance.</span> Unsurprisingly, 61% told us they learnt through "trial and error".
+				While freelancers responded citing <a href="" class="no-underline ">many different problems, in mapping them out we noticed that the majority are <a href="" class="no-underline bg-cs-purple ph2 br1 pb1 ">second and third order effects</a> from a single source: <span class="bb bw2 b--light-red pb1">little or limited knowledge on how to freelance.</span> Unsurprisingly, 61% told us they learnt through "trial and error".
 			</h4>
 		</div>
 		<div class="dib w-100 h-100 mt5-l mt0" style=
@@ -375,7 +388,7 @@
 		</div>
 		<div class="dib w-100 mw6 tl">
 			<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				Lacking the knowledge on how to find and win freelance jobs leads to limited, low-paying, or no work which can create a <a href="" class="bg-cs-blue ph2 pb1">negative feedback loop</a>, further compounding a freelancer's misery.
+				Freelancers who struggle to find good work, may feel compelled to take on low-paying projects leading to a <a href="" class="bg-cs-blue ph2 pb1">negative feedback loop</a>, further compounding their struggles. Inconsistent or low-paying worka is the single biggest reason for freelancer's to return to full-time employment.
 			</h4>
 		</div>
 		<div class="dib w-100 h-100 mt5-l mt0" style=
@@ -415,72 +428,7 @@
 			</h4>
 
 			<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				 Only the marketplace model can facilitate the entire flow - from job discovery, to acquisition, delivery & payment while incorporating important mechanisms to establish trust, reliability & dispute resolution.
-			</h4>
-			</div>
-		</div>
-	</div>
-
-	<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2 mt5">
-		<div class="dib w-100 mt3 tc">
-			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.4</h5>
-			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
-				Rational Employers, Irrational Freelancers
-			</h2>
-		</div>
-		<div class="dib w-100 center">
-			<div class="dib w-100 mw6 tl">
-			<h4 class="f4 tl font-book lh-copy copy-blue">
-				Employers, whether companies or individuals have a consistent set of questions
-			</h4>
-			</div>
-			<div class="dib w-100">
-				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
-					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
-						<span class="bb bw2 pb2">Can they do the work?</span>
-					</h4>
-				</div>
-			</div>
-			<div class="dib w-100">
-				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
-					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
-						<span class="bb bw2 pb2">Are they reliable?</span>
-					</h4>
-				</div>
-			</div>
-			<div class="dib w-100">
-				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
-					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
-						<span class="bb bw2 pb2">Are they consistent?</span>
-					</h4>
-				</div>
-			</div>
-			<div class="dib w-100">
-				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">4</h3>
-					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
-						<span class="bb bw2 pb2">Are they good communicators?</span>
-					</h4>
-				</div>
-			</div>
-			<div class="dib w-100">
-				<div class="dib w-100 mw6 tl">
-					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">5</h3>
-					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
-						<span class="bb bw2 pb2">Are they well organized?</span>
-					</h4>
-				</div>
-			</div>
-			<div class="dib w-100 mw6 tl">
-			<h4 class="f4 tl font-book lh-copy copy-blue">
-				These may seem like no brainers, but 42% of employers told us they had issues with freelancers disappearing mid-project, and every employer we spoke with could recall at least one bad experience. Freelancers all have their own idiosyncracies, and ways of working which can be challenging for an employer to understand and manage.
-			</h4>
-
-			<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				To an employer, finding and hiring a freelancer via a marketplace is a rational solution with comparatively less risk and uncertainty.
+				 Only the marketplace model can facilitate the entire flow - from job discovery, to acquisition, delivery & payment while incorporating important mechanisms sought by employers to establish trust, reliability & resolve disputes.
 			</h4>
 			</div>
 		</div>
@@ -513,6 +461,74 @@
 				</h4>
 				</div>
 			</div>
+			</div>
+		</div>
+
+		<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2 mt5">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.4</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Rational Employers, Irrational Freelancers
+				</h2>
+			</div>
+			<div class="dib w-100 center">
+				<div class="dib w-100 mw6 tl">
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+					42% of employers told us they had issues with freelancers disappearing mid-project. Reliability was one of <a href="" class="bg-cs-blue ph2 pb1 br1">several issues</a> cited by employers who like the cost-effectiveness and flexibility of hiring freelancers, but are wary of the "unknown element" inherent in a freelancer's idiosyncratic workflow and way of doing business.
+				</h4>
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+					 Employers want to know:
+				</h4>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Can they do the work?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they reliable?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they consistent?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">4</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they good communicators?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">5</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they well organized?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100 mw6 tl">
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+
+				</h4>
+
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Current marketplaces are not perfect, but are valued for simplyfing the process of finding, assessing and hiring the right freelancer for their project, and the protection they extend in the event of a negative or unsatisfactory outcome.
+				</h4>
+				</div>
 			</div>
 		</div>
 
@@ -571,17 +587,14 @@
 			</div>
 			<div class="dib w-100 mw6 tl mt3">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					<span class="bb bw2 pb1 mr2">Reputation</span> The skewed supply & demand also corrupts a platforms reputation system. With so many freelancers chasing so few jobs, employers can easily filter out freelancers without a perfect reputation and still find plenty of candidates for their project. If an employer has a poor reputation, on the other hand, it may be ignored as an acceptable "cost of doing business".
+					<span class="bb bw2 pb1 mr2">Reputation</span> The skewed supply & demand also corrupts a platforms reputation system. With so many freelancers chasing so few jobs, employers can easily filter out freelancers without a perfect reputation and still find plenty of candidates for their project. Conversely, an employer's negative rating will be overlooked by a freelancer desperate for work.
 				</h4>
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					This creates a negative power dynamic, where the employer can hold the threat of a poor rating against a freelancer during a job.
+					A negative power dynamic can emerge, with an employer holding the threat of a poor rating against a freelancer to extract more work or unfair conditions during a project.
 				</h4>
 				<h4 class="dib relative f4 tl font-book lh-copy copy-blue z-99">
 					<img class="dib absolute tc z--9" src="images/cs/vp.jpg" style="width: 80px; top: 24px; left: -64px;">
-					<span class="bb bw2 pb1 mr2">Power Laws & The <a href="https://en.wikipedia.org/wiki/Pareto_principle" class="bg-cs-purple br1 ph2 pb1">Pareto Principle</a></span> Many marketplaces publicly promote the number of projects a freelancer has completed - an artificial, only semi-accurate metric that attempts to convey experience, quality and reliability, but ultimately just tells you how much time a freelancer has put into the platform in question. With so much competition, a rational employer will rely on the few data points they have on hand when assessing the best person for a job.
-				</h4>
-				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					 This leads to a <a href="https://en.wikipedia.org/wiki/Power_law" class="bg-cs-purple br1 ph2 pb1">power law</a> that disproportionately favors freelancers with high reputations that have completed a lot of projects, leading to a <a href="https://en.wikipedia.org/wiki/Long_tail" class="bg-cs-purple br1 ph2 pb1">long tail</a> of disappointment for many others.
+					<span class="bb bw2 pb1 mr2">Power Laws & The <a href="https://en.wikipedia.org/wiki/Pareto_principle" class="bg-cs-purple br1 ph2 pb1">Pareto Principle</a></span> The current <a href="https://en.wikipedia.org/wiki/Pareto_principle" class="bg-cs-blue br1 ph2 pb1">flawed reputation model</a> for online marketplaces leads to <a href="https://en.wikipedia.org/wiki/Power_law" class="bg-cs-purple br1 ph2 pb1">power laws</a> that entrench the top 20% while discouraging the <a href="https://en.wikipedia.org/wiki/Long_tail" class="bg-cs-purple br1 ph2 pb1">long tail</a> of new and casual freelancers from establishing themselves.
 				</h4>
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
 					<span class="bb bw2 pb1 mr2">Incentivization</span> Finally, because the employers are the ones with the money, the platform is incentivized to favor them in any dispute. While anecdotal, numerous freelancers we spoke to felt they experienced this (alongside <a href="" class="bg-cs-blue br1 ph2 pb1">others who have published their experiences</a> ).
@@ -619,10 +632,13 @@ transform: translateY(-50%)">
 					Form through subtraction.
 				</h2>
 			</div>
-			<div class="dib w-100 mw6 tl">
+			<div class="dib relative w-100 mw6 tl z-99">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
 				We began mapping out what Domino would be, by deciding on what it wouldn't:
 				</h4>
+			<img src="images/cs/atlasslavebymichelangelo.jpg" class="dn mw4 absolute o-50 z-9"
+			style="top: -64px; right: -48px;"
+			/>
 			</div>
 				<div class="dib w-100 tc mw9-l mw8-m">
 					<div class="dib w-100 mw6 tl">
@@ -678,31 +694,6 @@ transform: translateY(-50%)">
 		</div>
 
 
-
-		<div class="dib tc w-100 bg-white tc pa4-ns pa2 fr v-top mt5">
-			<div class="dib w-100 mt3 tc">
-				<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
-					<a href="" class="bg-cs-orange br1 ph4 pv2">
-					Incomplete Maps & Broken Territories
-					</a>
-				</h5>
-				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
-				Starting from zero.
-				</h2>
-			</div>
-			<div class="dib w-100 mw6 tl">
-				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				There are many freelance marketplaces and they've all followed the same map, only with minor variations ( invite-only or targeting niches or "machine learning!!" ).
-				</h4>
-				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				Not only is copying from the same map bad business, but it's so boring.
-				</h4>
-				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				[Insert marketplace map]
-				</h4>
-			</div>
-		</div>
-
 		<div class="dib tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
 			<div class="dib w-100 mt3 tc">
 				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
@@ -726,7 +717,7 @@ transform: translateY(-50%)">
 					<div class="dib w-100 mw6 tl">
 						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
 						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
-							<span class="bb bw2 pb2">Improve matching between freelancers & jobs</span>
+							<span class="bb bw2 pb2">Improve matching for freelancers & employers</span>
 						</h4>
 					</div>
 				</div>
@@ -734,7 +725,7 @@ transform: translateY(-50%)">
 					<div class="dib w-100 mw6 tl">
 						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
 						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
-							<span class="bb bw2 pb2">Give employers better metrics to guide hiring</span>
+							<span class="bb bw2 pb2">Give employers new metrics to guide hiring</span>
 						</h4>
 					</div>
 				</div>
@@ -743,6 +734,30 @@ transform: translateY(-50%)">
 				</h4>
 			</div>
 		</div>
+
+		<div class="dib tc w-100 bg-white tc pa4-ns pa2 fr v-top mt5">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
+					<a href="http://us1.campaign-archive.com/?u=78cbbb7f2882629a5157fa593&id=c75804d214" class="bg-cs-orange br1 ph4 pv2">
+					Incomplete Maps & Broken Territories
+					</a>
+				</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Starting from zero.
+				</h2>
+			</div>
+			<div class="dib w-100 mw6 tl">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				There are many freelance marketplaces and they've all followed a similar map.
+				</h4>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				Copying them is both boring and bad business, and so we looked to map out a new business model and superior user experience that they couldn't co-opt without completing scrapping their current approach.
+				</h4>
+			</div>
+			<div class="dib w-100 mt3">
+						<img src="images/cs/newmapsoutput.svg" class="mw6-ns mw5">
+			</div>
+			</div>
 
 		<div class="dib tc w-100 bg-white tc pa4-ns pa2">
 			<div class="dib w-100 mt3 tc">
@@ -785,10 +800,10 @@ transform: translateY(-50%)">
 				</div>
 				<div class="flex flex-row flex-wrap">
 					<div class="flex  pa4 ma2 copy-blue bg-cs-purple">
-						<h4 class="dib f4 tc font-book lh-copy copy-blue">Consistency</h4>
+						<h4 class="dib f4 tc font-book lh-copy copy-blue strike">Power Laws</h4>
 					</div>
 					<div class="flex  pa4 ma2 copy-blue bg-cs-orange">
-						<h4 class="dib f4 tc font-book lh-copy copy-blue">Real Reputation System</h4>
+						<h4 class="dib f4 tc font-book lh-copy copy-blue">Real World Reputation System</h4>
 					</div>
 					<div class="flex  pa4 ma2 copy-blue bg-cs-orange">
 						<h4 class="dib f4 tc font-book lh-copy copy-blue">Social Networks</h4>
@@ -796,7 +811,7 @@ transform: translateY(-50%)">
 				</div>
 				<div class="flex flex-row flex-wrap">
 					<div class="flex  pa4 ma2 copy-blue bg-cs-blue">
-						<h4 class="dib f4 tc font-book lh-copy copy-blue">Distributed Marketplace?</h4>
+						<h4 class="dib f4 tc font-book lh-copy copy-blue">Distributed Marketplace</h4>
 					</div>
 					<div class="flex  pa4 ma2 copy-blue bg-cs-orange">
 						<h4 class="dib f4 tc font-book lh-copy copy-blue">Community-First</h4>
@@ -838,23 +853,89 @@ transform: translateY(-50%)">
 		</div>
 
 		<div class="dib tc w-100 bg-white tc pa4-ns pa2 fr v-top mt3 ">
-			<div class="dib w-100 mt3 tc">
+			<div class="dib relative w-100 mt3 tc">
 				<!--<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
 					<a href="" class="bg-cs-orange br1 ph4 pv2">
 					Incomplete Maps & Broken Territories
 					</a>
 				</h5>-->
+				<div class="dib w-100">
 				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
-				A social marketplace
+				"Find work through your friends"
 				</h2>
+				<div class="dib absolute ph2 w-auto f3 pt1 tc bg-cs-green copy-blue br-100 shadow-5" style="top: 0px; right: ">
+					+
+				</div>
 			</div>
 			<div class="dib w-100 mw6 tl">
-				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				Where jobs are shared with and through peer groups, connecting otherwise disparate freelance communities.
+				<h4 class="dib f4 tl font-book lh-copy copy-blue mb0 mt3">
+				A social marketplace that leverages existing social relationships to share jobs between friends and peers, to help match employers with freelancers they can trust.
 				</h4>
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
 				</h4>
 			</div>
+			<div class="dib w-100 mv3-ns mv2">
+
+				<svg class="dib mw6-ns mw5 rotate" viewBox="0 0 1280 1300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<title>img-jobshare-yinyang</title>
+
+				<g id="Canvas" transform="matrix(2 0 0 2 -7286 -8278)">
+				<g id="img-jobshare-yinyang">
+				<g id="Group">
+				<g id="Ellipse 2.2">
+
+				<use xlink:href="#path0_fill" transform="translate(3643 4139)" fill="#FAFAFA"/>
+				<mask id="mask0_outline_ins">
+				<use xlink:href="#path0_fill" fill="white" transform="translate(3643 4139)"/>
+				</mask>
+				<g mask="url(#mask0_outline_ins)">
+				<use xlink:href="#path1_stroke_2x" transform="translate(3643 4139)"/>
+				</g>
+				</g>
+				<g id="Ellipse 2.3">
+				<use xlink:href="#path2_fill" transform="translate(3963 4139)"/>
+				<mask id="mask1_outline_ins">
+				<use xlink:href="#path2_fill" fill="white" transform="translate(3963 4139)"/>
+				</mask>
+				<g mask="url(#mask1_outline_ins)">
+				<use xlink:href="#path3_stroke_2x" transform="translate(3963 4139)"/>
+				</g>
+				</g>
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(0.968269 -0.249909 0.249909 0.968269 3698.34 4463.67)"/>
+				</g>
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(-0.984355 0.176195 -0.176195 -0.984355 4206.69 4458.61)" fill="#FAFAFA"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path5_fill" transform="translate(3810.74 4253)"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path6_fill" transform="translate(4038.73 4536.35)" fill="#FAFAFA"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(0.76919 0.63902 -0.63902 0.76919 3752.63 4496.64)"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(-0.707107 -0.707107 0.707107 -0.707107 4156.8 4421.16)" fill="#FAFAFA"/>
+				</g>
+				</g>
+				</g>
+				</g>
+				<defs>
+				<path id="path0_fill" d="M 640 324.885C 640 504.315 496.731 649.771 320 649.771C 143.269 649.771 0 504.315 0 324.885C 0 145.456 143.269 0 320 0C 496.731 0 640 145.456 640 324.885Z"/>
+				<path id="path1_stroke_2x" d="M 639 324.885C 639 503.777 496.165 648.771 320 648.771L 320 650.771C 497.298 650.771 641 504.853 641 324.885L 639 324.885ZM 320 648.771C 143.835 648.771 1 503.777 1 324.885L -1 324.885C -1 504.853 142.702 650.771 320 650.771L 320 648.771ZM 1 324.885C 1 145.994 143.835 1 320 1L 320 -1C 142.702 -1 -1 144.918 -1 324.885L 1 324.885ZM 320 1C 496.165 1 639 145.994 639 324.885L 641 324.885C 641 144.918 497.298 -1 320 -1L 320 1Z"/>
+				<path id="path2_fill" d="M 0 649.771C 176.731 649.771 320 504.315 320 324.885C 320 145.456 176.731 0 0 0L 0 649.771Z"/>
+				<path id="path3_stroke_2x" d="M 0 649.771L -1 649.771L -1 650.771L 0 650.771L 0 649.771ZM 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 319 324.885C 319 503.777 176.165 648.771 0 648.771L 0 650.771C 177.298 650.771 321 504.853 321 324.885L 319 324.885ZM 0 1C 176.165 1 319 145.994 319 324.885L 321 324.885C 321 144.918 177.298 -1 0 -1L 0 1ZM -1 0L -1 649.771L 1 649.771L 1 0L -1 0Z"/>
+				<path id="path4_fill" d="M 43.9695 0L 82.0481 47.6336L 5.89079 47.6336L 43.9695 0Z"/>
+				<path id="path5_fill" d="M 79.7964 64.3257C 79.7964 99.8518 61.9334 128.651 39.8982 128.651C 17.863 128.651 0 99.8518 0 64.3257C 0 28.7996 17.863 0 39.8982 0C 61.9334 0 79.7964 28.7996 79.7964 64.3257Z"/>
+				<path id="path6_fill" d="M 80 64.3257C 80 99.8518 62.0914 128.651 40 128.651C 17.9086 128.651 0 99.8518 0 64.3257C 0 28.7996 17.9086 0 40 0C 62.0914 0 80 28.7996 80 64.3257Z"/>
+				<path id="path7_stroke" d="M 0 0C -4.27039 4.2147 -4.26829 4.21683 -4.26601 4.21915C -4.26499 4.22017 -4.26251 4.22268 -4.26048 4.22473C -4.25769 4.22754 -4.25159 4.2337 -4.24601 4.23931C -4.23742 4.24795 -4.22064 4.26478 -4.20343 4.28197C -4.17418 4.31117 -4.12234 4.36266 -4.06377 4.4203C -3.9571 4.52521 -3.78051 4.6971 -3.56711 4.90083C -3.16185 5.28737 -2.51845 5.8881 -1.7097 6.61184C -0.137745 8.01711 2.29912 10.0964 5.41972 12.5095C 11.5597 17.25 20.9485 23.7143 33.0062 29.9976C 56.8713 42.3895 92.9405 54.7382 138.627 53.7281L 138.337 41.7316C 94.7796 42.8799 61.6075 31.3637 38.5426 19.3511C 27.1353 13.4321 18.637 7.55921 12.7559 3.01316C 9.86607 0.782915 7.75902 -1.01844 6.28967 -2.333C 5.57777 -2.96917 5.07618 -3.43816 4.71661 -3.78134C 4.5476 -3.94249 4.43681 -4.05047 4.35171 -4.13421C 4.3144 -4.17089 4.29425 -4.19092 4.27549 -4.20967C 4.26868 -4.21645 4.26746 -4.21769 4.26403 -4.22114C 4.2636 -4.22157 4.26477 -4.2204 4.26499 -4.22018C 4.26551 -4.21964 4.26687 -4.21827 4.26713 -4.21801C 4.26867 -4.21645 4.27039 -4.2147 0 0ZM 138.627 53.7281C 184.179 52.5538 219.641 40.2393 243.034 28.4084C 254.853 22.4125 263.999 16.3809 269.971 11.9858C 273.008 9.74786 275.374 7.82982 276.898 6.53697C 277.682 5.87049 278.307 5.31761 278.7 4.96274C 278.907 4.77533 279.079 4.61681 279.182 4.52043C 279.239 4.46727 279.29 4.41953 279.318 4.39262C 279.335 4.37669 279.352 4.36096 279.36 4.35295C 279.366 4.34771 279.372 4.34191 279.374 4.33929C 279.376 4.33736 279.379 4.33498 279.38 4.33401C 279.382 4.33181 279.384 4.32978 275.231 0C 271.077 -4.32978 271.079 -4.33146 271.08 -4.33297C 271.081 -4.33324 271.082 -4.33458 271.083 -4.33513C 271.083 -4.33527 271.084 -4.33663 271.084 -4.33635C 271.081 -4.33332 271.08 -4.33253 271.074 -4.32655C 271.056 -4.30963 271.037 -4.29197 271.001 -4.25884C 270.92 -4.18264 270.814 -4.085 270.651 -3.9381C 270.304 -3.62437 269.821 -3.19606 269.133 -2.61223C 267.71 -1.40447 265.668 0.254628 262.856 2.32278C 257.133 6.5397 248.825 12.0359 237.613 17.7027C 214.943 29.1972 182.031 40.7476 138.337 41.7316L 138.627 53.7281Z"/>
+				</defs>
+				</svg>
+
+
+		</div>
 		</div>
 
 
