@@ -54,13 +54,25 @@
 	</div>
 	<div class="db mb2">
 		<div class="dib fl fn-ns w6">
-		<h4 id="timer--living-in-nyc" class="f3 fw3 ma0 w-auto dark-blue mr4-ns">
+		<h4  class="f3 fw3 ma0 w-auto dark-blue mr4-ns strike">
+		03410 : 00 : 00
+		</h4>
+		</div>
+		<div class="dib-ns dn ml3">
+		<h3 class="f3 fw3 ma0 dark-blue strike">
+		and working in New York
+		</h3>
+		</div>
+	</div>
+	<div class="db mb2">
+		<div class="dib fl fn-ns w6">
+		<h4 id="timer--living-in-sp" class="f3 fw3 ma0 w-auto dark-blue mr4-ns">
 
 		</h4>
 		</div>
 		<div class="dib-ns dn ml3">
 		<h3 class="f3 fw3 ma0 dark-blue">
-		and working in New York
+		and working in São Paulo
 		</h3>
 		</div>
 	</div>
@@ -479,7 +491,12 @@ $('#timer--living').tinyTimer({ to: d, format: '%d : %0m : %0s' });
 
  var d = new Date('August 8, 2008');
 d.setMinutes(d.getMinutes() + 30);
-$('#timer--living-in-nyc').tinyTimer({ from: d, format: '0%d : %0m : %0s' });
+$('#timer--living-in-nyc').tinyTimer({ from: d, format: '0%d : %0m : %0s', });
+
+var d = new Date('December 10, 2017');
+d.setMinutes(d.getMinutes() + 30);
+$('#timer--living-in-sp').tinyTimer({ from: d, format: '0000%d : %0m : %0s' });
+
 
 var d = new Date('January 1, 2015');
 d.setMinutes(d.getMinutes() + 30);
