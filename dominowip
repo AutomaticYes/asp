@@ -1,0 +1,3172 @@
+<html dir="ltr" lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>Case Studies</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+	<link rel="stylesheet" href="http://unpkg.com/tachyons-flexbox@2.1.0/css/tachyons-flexbox.min.css" />
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="…">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<style>
+
+	@font-face {
+	font-family: 'Circular-Book';
+	src: url('/tf/lineto-circular-book.woff') format('woff'), /* Pretty Modern Browsers */
+			 url('/tf/lineto-circular-book.ttf')  format('truetype'), /* Safari, Android, iOS */
+	}
+
+	@font-face {
+	font-family: 'Circular-Bold';
+	src: url('/tf/lineto-circular-bold.woff') format('woff'), /* Pretty Modern Browsers */
+			 url('/tf/lineto-circular-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	html, body {
+		height: 100%;
+		width: 100%;
+	}
+
+	h4 {
+		font-family: 'Circular-Book', 'Helvetica Neue', sans-serif;
+		font-weight: 400;
+	}
+
+	.font-circular {
+		font-family: 'Circular', 'Helvetica Neue', sans-serif;
+		font-weight: 400;
+	}
+
+	.font-book {
+		font-family: 'Circular-Book', 'Helvetica Neue', sans-serif;
+		font-weight: 400;
+	}
+
+	.font-bold {
+		font-family: 'Circular-Bold', 'Helvetica Neue', sans-serif;
+		font-weight: 700;
+	}
+
+	.font-mono {
+		font-family: 'Space Mono', monospace;
+		font-weight: 400;
+	}
+
+	.domino-blue {
+		color: #2659ff;
+	}
+
+	.bg-domino-blue {
+		background-color: #2659ff;
+	}
+
+	.cs-green {
+		color: rgba(173, 247, 176, 1);
+	}
+
+	.bg-cs-green {
+		background-color: rgba(173, 247, 176, 1);
+	}
+
+	.cs-blue {
+		color: rgba(178, 232, 255, 1);
+	}
+
+	.bg-cs-blue {
+		background-color: hsla(198, 100%, 93%, 1);
+	}
+
+	.bg-cs-blue:hover {
+		background-color: hsla(198, 100%, 82%, 1);
+	}
+
+	.cs-red {
+		color: rgba(255, 178, 178, 1);
+	}
+
+	.bg-cs-red {
+		background-color: rgba(255, 178, 178, 1);
+	}
+
+	.cs-purple {
+		color: rgba(215, 178, 255, 1);
+	}
+
+	.bg-cs-purple {
+		background-color: hsla(268, 100%, 93%, 1);
+	}
+
+	.bg-cs-purple:hover {
+		background-color: hsla(268, 100%, 82%, 1);
+	}
+
+	.cs-orange {
+		color: rgba(255, 222, 178, 1);
+	}
+
+	.bg-cs-orange {
+		background-color: hsla(34, 100%, 93%, 1)
+	}
+
+	.bg-cs-orange:hover {
+		background-color: hsla(34, 110%, 82%, 1);
+	}
+
+	.bg-dots-red {
+	 background: white;
+	 background-image:
+		 radial-gradient(#e7040f 10%, transparent 0),
+		 radial-gradient(#ff725c 10%, transparent 0);
+	 background-size: 20px 20px;
+	 background-position: 0 0, 15px 15px;
+	}
+
+	.bg-dots-dominoblue {
+	 background: white;
+	 background-image:
+		 radial-gradient(#2659ff 10%, transparent 0),
+		 radial-gradient(#96ccff 10%, transparent 0);
+	 background-size: 20px 20px;
+	 background-position: 0 0, 15px 15px;
+	}
+
+	.headline-blue {
+		color: rgb(0, 14, 204);
+	}
+
+	.copy-blue {
+		color: rgb(31, 40, 173);
+	}
+
+	.copy-orange {
+		color: hsla(34, 100%, 55%, 1)
+	}
+
+	.copy-dark-pink {
+		color: hsl(288, 99%, 35%);
+	}
+
+	.copy-turquoise {
+		color: hsla(175, 80%, 35%, 1);
+	}
+
+	/* Custom Heights */
+
+	.min-vh-50 {
+		min-height: 50vh;
+	}
+
+	.mheight1  {  max-height: 1rem; }
+	.mheight2  {  max-height: 2rem; }
+	.mheight3  {  max-height: 4rem; }
+	.mheight4  {  max-height: 8rem; }
+	.mheight5  {  max-height: 16rem; }
+	.mheight6  {  max-height: 32rem; }
+	.mheight7  {  max-height: 48rem; }
+	.mheight8  {  max-height: 64rem; }
+	.mheight9  {  max-height: 96rem; }
+
+	@media (--breakpoint-not-small) {
+	.mheight1-ns  {  max-height: 1rem; }
+	.mheight2-ns  {  max-height: 2rem; }
+	.mheight3-ns  {  max-height: 4rem; }
+	.mheight4-ns  {  max-height: 8rem; }
+	.mheight5-ns  {  max-height: 16rem; }
+	.mheight6-ns  {  max-height: 32rem; }
+	.mheight7-ns  {  max-height: 48rem; }
+	.mheight8-ns  {  max-height: 64rem; }
+	.mheight9-ns  {  max-height: 96rem; }
+	}
+
+
+
+	.lh-copy {
+		line-height: 180%;
+	}
+
+	.lh-list {
+		line-height: 220%;
+	}
+
+
+	.f10rem {
+			font-size: 10rem;
+		}
+
+	.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid #f00;
+	}
+
+	.arrow-up-toolstonetwork {
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 24px solid hsla(175, 80%, 35%, 1);
+	}
+
+	.w300px {
+		width: 300px;
+	}
+
+	.mw5p5 {
+		max-width: 20rem;
+	}
+
+	.z--9 {
+		z-index: -9;
+	}
+
+	.z-9 {
+		z-index: 9;
+	}
+
+	.z-99 {
+		z-index: 99;
+	}
+
+	.z-999 {
+		z-index: 999;
+	}
+
+	.line-through-red {
+		text-decoration: line-through;
+		text-decoration-color: rgb(255, 65, 54);
+	}
+
+	/* Negative Rotations */
+
+	.rotate--4 {
+		transform: rotate(-4deg);
+	}
+
+	.rotate--6 {
+		transform: rotate(-6deg);
+	}
+
+	.rotate--8 {
+		transform: rotate(-8deg);
+	}
+
+	.rotate--10 {
+		transform: rotate(-10deg);
+	}
+
+	.rotate--12 {
+		transform: rotate(-12deg);
+	}
+
+	.rotate--16 {
+		transform: rotate(-16deg);
+	}
+
+	.rotate--18 {
+		transform: rotate(-18deg);
+	}
+
+	.rotate--20 {
+		transform: rotate(-20deg);
+	}
+
+	.rotate--45 {
+		transform: rotate(-45deg);
+	}
+
+	.rotate--90 {
+		transform: rotate(-90deg);
+	}
+
+	.rotate--180 {
+		transform: rotate(-180deg);
+	}
+
+	.rotate--240 {
+		transform: rotate(-240deg);
+	}
+
+	/* Positive Rotations */
+
+	.rotate-4 {
+		transform: rotate(4deg);
+	}
+
+	.rotate-6 {
+		transform: rotate(6deg);
+	}
+
+	.rotate-8 {
+		transform: rotate(8deg);
+	}
+
+	.rotate-10 {
+		transform: rotate(10deg);
+	}
+
+	.rotate-20 {
+		transform: rotate(20deg);
+	}
+
+	.rotate-45 {
+		transform: rotate(45deg);
+	}
+
+	.rotate-50 {
+		transform: rotate(50deg);
+	}
+
+	.rotate-90 {
+		transform: rotate(90deg);
+	}
+
+	.rotate-180 {
+		transform: rotate(180deg);
+	}
+
+	.rotate-240 {
+		transform: rotate(240deg);
+	}
+
+	.hover-reveal {
+		transition: 0.25s linear;
+	}
+
+	.hover-reveal:hover {
+		z-index: 999999;
+	}
+
+	.action-close:hover .close-reveal {
+		display: inline-block !important;
+		z-index: 9999999;
+	}
+
+	.active {
+		display: inline-block;
+		opacity: 100;
+	}
+
+	.fadeIn {
+		animation: fadeInLeft 0.25s linear forwards;
+	}
+
+	.fadeInLeft {
+		animation: fadeInLeft 0.25s linear forwards;
+	}
+
+	.fadeInRight {
+		animation: fadeInRight 0.25s linear forwards;
+	}
+
+	.fadeOut {
+		animation: fadeOut 0.25s linear forwards;
+	}
+
+
+	@media screen and (min-width: 30em) {
+
+	.headline-ns {
+	left: 0%; top: 50%;
+	-webkit-transform: translateX(-10%);
+	transform: translateX(-10%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%)
+		}
+	}
+
+
+	.headline {
+		left: 0%; top: -20%;
+		-webkit-transform: translateX(-10%);
+		transform: translateX(-10%);
+		-webkit-transform: translateY(60%);
+		transform: translateY(-80%)
+	}
+
+	.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+	-ms-overflow-style: none;  // IE 10+
+	overflow: -moz-scrollbars-none;  // Firefox
+	-webkit-scrollbar: none;
+	}
+
+	.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+	.card {
+    display: inline-block;
+  }
+
+
+	.triangle-down-left {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100vh;
+    overflow: hidden;
+}
+	.triangle-down-left:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 800px solid transparent;
+    border-bottom: 100vh solid rgba(255, 178, 178, 1);
+		z-index: -99;
+}
+
+
+
+	.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+		}
+		.marquee h4 {
+		    display: inline-block;
+		    padding-left: 100%;
+		    animation: marquee 60s linear infinite;
+		}
+		@keyframes marquee {
+		    0%   { transform: translate(0, 0); }
+		    100% { transform: translate(-100%, 0); }
+		}
+
+		@keyframes fadeInLeft {
+		    0%   { transform: translate(0, 0); opacity: 0; }
+				50%  { transform: translate(1%, 0%); opacity: 0.5; }
+		    100% { transform: translate(3%, 0%); opacity: 1; }
+		}
+
+		@keyframes fadeInRight {
+		    0%   { transform: translate(0, 0); opacity: 0; }
+				50%  { transform: translate(-1%, 0%); opacity: 0.5; }
+		    100% { transform: translate(-3%, 0%); opacity: 1; }
+		}
+
+		@keyframes fadeOut {
+				0%   { transform: translate(3%, 0); opacity: 1; }
+				50%  { transform: translate(1%, 0%); opacity: 0.5; }
+				100% { transform: translate(0%, 0%); opacity: 0; display: none; }
+		}
+
+		.rotate {
+		-webkit-animation: rotation 10s infinite linear;
+		}
+
+		@-webkit-keyframes rotation {
+				from {
+						-webkit-transform: rotate(0deg);
+				}
+				to {
+						-webkit-transform: rotate(359deg);
+				}
+		}
+
+	</style>
+
+
+	</head>
+
+<body class="bg-white relative">
+<main>
+	<nav>
+		<ul class="fixed dib w-100 font-book z-9999 mv0 pv2 pb0-ns">
+			<li class="dib tr-ns tc">
+				<li class="dib fr-ns fl f6 bg-white headline-blue  br1 mh2-ns mh1 mv1 ba bw1 headline-blue">
+					<span class="dib-ns dn fl  bw1 b--black bg-cs-orange pa3"></span>
+    			<h4 class="dib mv0 pa2 ph3">Strategies</h4>
+				</li>
+				<li class="dib fr-ns fl f6 bg-white headline-blue  br1 mh2 mv1 ba bw1 headline-blue">
+					<span class="dib-ns dn fl  bw1 b--black bg-cs-purple pa3"></span>
+    			<h4 class="dib mv0 pa2 ph3">Concepts</h4>
+				</li>
+				<!--<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 pointer ba bw1 headline-blue">
+					<span class="dib fl br bw1 b--black bg-cs-blue pa3"></span>
+    			<h4 class="dib mv0 pa2 ph3">More Info</h4>
+				</li>
+				<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 pointer ba bw1 headline-blue">
+					<span class="dib fl br bw1 b--black bg-cs-red pa3"></span>
+    			<h4 class="dib mv0 pa2 ph3">Mistakes</h4>
+				</li>-->
+				<li class="dib fr-ns fl f6 bg-white headline-blue  br1 mh2 mv1 ba bw1 headline-blue">
+					<span class="dib-ns dn fl  bw1 b--black bg-cs-blue pa3"></span>
+    			<h4 class="dib mv0 pa2 ph3">Lessons</h4>
+				</li>
+				<li class="dib-ns dn fr f6 bg-white headline-blue  br1 mh2 mv1 ba bw1 b--white headline-blue">
+    			<h4 class="dib mv0 pa2 ph3">KEY</h4>
+				</li>
+			</li>
+		</ul>
+		<!--
+		<ul class="fixed dib-ns dn w-100 font-book z-9999">
+			<li class="dib tl-ns tc">
+				<li class="dib fl f6 bg-domino-blue ba b--near-white near-white br1 ph4 pv2 mh2 mv1 pointer">
+					Expand All
+				</li>
+			</li>
+			<li class="dib tr-ns tc">
+				<li class="dib fr f6 bg-cs-orange headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
+					Strategies
+				</li>
+				<li class="dib fr f6 bg-cs-purple headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
+					Concepts
+				</li>
+				<li class="dib fr f6 bg-cs-red headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
+					Mistakes
+				</li>
+				<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 pointer ba bw1 headline-blue">
+					<span class="dib fl br bw1 b--black bg-cs-blue pa3"></span>
+					<h4 class="dib mv0 pa2 ph3">More Info</h4>
+				</li>
+				<li class="dib fr f6 bg-cs-green headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
+					Hindsight
+				</li>
+			</li>
+		</ul>
+	-->
+	</nav>
+	<div class="relative dib w-100 h-100">
+	<div class="dib relative items-center justify-center w-100 min-vh-100 pt5 pa4 bg-washed-red">
+		<div class="flex w-100 items-stretch justify-center absolute" style="right: 0px;">
+			<div class="dn <!--flex-->">
+			<h1 class="flex f-headline silver w5 font-book">
+				A SPECULATIVE FUTURE FOR WORK
+			</h1>
+			</div>
+		</div>
+
+		<!--
+		<div class="dib fl tc mt4-ns mt2 ">
+			<div class="dib fl">
+			<div class="dib fl pv2 ph3 relative mt3 bl bt bb bw2 z-9">
+					<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
+						D
+					</h3>
+			</div>
+			<div class="dib fl pv2 ph3 relative mt3 ba bw2 z-9">
+					<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
+						O
+					</h3>
+			</div>
+			<div class="dib fl pv2 ph3 relative mt3 bt br bb bw2 z-9">
+					<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
+						M
+					</h3>
+			</div>
+			</div>
+			<div class="dib w-100">
+			<div class="dib fl pv2 ph3 relative bl bb br bw2 z-9">
+					<h3 class="dil f2-ns f3 ph2 font-book headline-blue mv0 tl ttu">
+						I
+					</h3>
+			</div>
+			<div class="dib fl pv2 ph3 relative  bb br bw2 z-9">
+				<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
+						N
+				</h3>
+			</div>
+			<div class="dib fl pv2 ph3 relative  bb br bw2 z-9">
+				<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
+						O
+				</h3>
+			</div>
+		</div>
+	</div>-->
+
+		<!--<div class="dib w-100 bg-white tc">
+			<div class="dib w-100 mw6 fl relative z-9 bb bw2 ">
+					<h3 class="dib f2-ns f3 w-100 mw6-ns lh-copy fl font-book near-black mv0 tl z--9 mv2">
+					 finds freelance jobs through your friends.
+				 </h3>
+			</div>
+		</div>-->
+			<!--<div class="flex relative tl items-start	 justify-start w-100 mt4">
+				<div class="flex self-start">
+				<div class="dib w-100 mw6 tl z-99">
+					<div class="dib w-100 tl">
+						<h3 class="dib f2-ns f3 tc font-book lh-copy headline-blue bb bw2 w2 mv2 pb2 rotate--10">A</h3>
+						<h4 class="dib fn-ns fr  f2-ns f3 tl font-book lh-list headline-blue mv0 ml4-ns  w-60-ns bb bw2">
+							Case Study
+						</h4>
+					</div>
+					<div class="dib w-100 mw6 tl-ns tr">
+						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">1</h3>
+						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
+						Research
+						</h4>
+					</div>
+					<div class="dib w-100 mw6 tl-ns tr">
+						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">2</h3>
+						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
+						Synthesis
+						</h4>
+					</div>
+					<div class="dib w-100 mw6 tl-ns tr">
+						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">3</h3>
+						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
+						Product
+						</h4>
+					</div>
+					<div class="dib w-100 mw6 tl-ns tr">
+						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">4</h3>
+						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2 ">
+						<span class="strike">Execution</span> <span class="o-70 blue">Soon</span>
+						</h4>
+					</div>
+					<div class="dib w-100 mw6 tl-ns tr">
+						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">5</h3>
+						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
+						<span class="strike">End</span> <span class="o-70 blue">Soon</span>
+						</h4>
+					</div>
+
+				</div>
+				</div>
+			</div>-->
+			<div class="dib w-100 relative tc">
+				<div class="dib relative w-100 tc mb3-ns">
+					<div class="dib tl">
+						<div class="dib fl">
+						<div class="dib fl pv2 ph3 relative   bw2 z-9">
+								<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu" style="text-shadow: 1px -1px 0px rgba(255, 183, 99, 1);">
+									Domino
+								</h3>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="dib absolute w-100 z-99" style="left: 0px;">
+				<h2 class="dib w-100 f1-ns f2 font-book lh-copy headline-blue mv0 rotate--10">
+				"Find work through your friends"
+				</h2>
+				</div>
+				<svg class="dib mw6-ns mw5 rotate mt3-ns mt5" viewBox="0 0 1280 1300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+				<title>img-jobshare-yinyang</title>
+
+				<g id="Canvas" transform="matrix(2 0 0 2 -7286 -8278)">
+				<g id="img-jobshare-yinyang">
+				<g id="Group">
+				<g id="Ellipse 2.2">
+
+				<use xlink:href="#path0_fill" transform="translate(3643 4139)" fill="#FAFAFA"/>
+				<mask id="mask0_outline_ins">
+				<use xlink:href="#path0_fill" fill="white" transform="translate(3643 4139)"/>
+				</mask>
+				<g mask="url(#mask0_outline_ins)">
+				<use xlink:href="#path1_stroke_2x" transform="translate(3643 4139)"/>
+				</g>
+				</g>
+				<g id="ellipsis">
+
+				<use xlink:href="#curve" transform="translate(3963 4139)"/>
+				</g>
+
+
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(0.968269 -0.249909 0.249909 0.968269 3698.34 4463.67)"/>
+				</g>
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(-0.984355 0.176195 -0.176195 -0.984355 4206.69 4458.61)" fill="#FAFAFA"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path5_fill" transform="translate(3810.74 4253)"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path6_fill" transform="translate(4038.73 4536.35)" fill="#FAFAFA"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(0.76919 0.63902 -0.63902 0.76919 3752.63 4496.64)"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(-0.707107 -0.707107 0.707107 -0.707107 4156.8 4421.16)" fill="#FAFAFA"/>
+				</g>
+				</g>
+				</g>
+				</g>
+				<defs>
+				<path id="path0_fill" d="M 640 324.885C 640 504.315 496.731 649.771 320 649.771C 143.269 649.771 0 504.315 0 324.885C 0 145.456 143.269 0 320 0C 496.731 0 640 145.456 640 324.885Z"/>
+				<path id="path1_stroke_2x" d="M 639 324.885C 639 503.777 496.165 648.771 320 648.771L 320 650.771C 497.298 650.771 641 504.853 641 324.885L 639 324.885ZM 320 648.771C 143.835 648.771 1 503.777 1 324.885L -1 324.885C -1 504.853 142.702 650.771 320 650.771L 320 648.771ZM 1 324.885C 1 145.994 143.835 1 320 1L 320 -1C 142.702 -1 -1 144.918 -1 324.885L 1 324.885ZM 320 1C 496.165 1 639 145.994 639 324.885L 641 324.885C 641 144.918 497.298 -1 320 -1L 320 1Z"/>
+				<path id="curve" d="M 0 649.771C 176.731 649.771 320 504.315 320 324.885C 320 145.456 176.731 0 0 0L 0 649.771Z"/>
+
+				<path id="path3_stroke_2x" d="M 0 649.771L -1 649.771L -1 650.771L 0 650.771L 0 649.771ZM 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 319 324.885C 319 503.777 176.165 648.771 0 648.771L 0 650.771C 177.298 650.771 321 504.853 321 324.885L 319 324.885ZM 0 1C 176.165 1 319 145.994 319 324.885L 321 324.885C 321 144.918 177.298 -1 0 -1L 0 1ZM -1 0L -1 649.771L 1 649.771L 1 0L -1 0Z"/>
+				<path id="path4_fill" d="M 43.9695 0L 82.0481 47.6336L 5.89079 47.6336L 43.9695 0Z"/>
+				<path id="path5_fill" d="M 79.7964 64.3257C 79.7964 99.8518 61.9334 128.651 39.8982 128.651C 17.863 128.651 0 99.8518 0 64.3257C 0 28.7996 17.863 0 39.8982 0C 61.9334 0 79.7964 28.7996 79.7964 64.3257Z"/>
+				<path id="path6_fill" d="M 80 64.3257C 80 99.8518 62.0914 128.651 40 128.651C 17.9086 128.651 0 99.8518 0 64.3257C 0 28.7996 17.9086 0 40 0C 62.0914 0 80 28.7996 80 64.3257Z"/>
+				<path id="path7_stroke" d="M 0 0C -4.27039 4.2147 -4.26829 4.21683 -4.26601 4.21915C -4.26499 4.22017 -4.26251 4.22268 -4.26048 4.22473C -4.25769 4.22754 -4.25159 4.2337 -4.24601 4.23931C -4.23742 4.24795 -4.22064 4.26478 -4.20343 4.28197C -4.17418 4.31117 -4.12234 4.36266 -4.06377 4.4203C -3.9571 4.52521 -3.78051 4.6971 -3.56711 4.90083C -3.16185 5.28737 -2.51845 5.8881 -1.7097 6.61184C -0.137745 8.01711 2.29912 10.0964 5.41972 12.5095C 11.5597 17.25 20.9485 23.7143 33.0062 29.9976C 56.8713 42.3895 92.9405 54.7382 138.627 53.7281L 138.337 41.7316C 94.7796 42.8799 61.6075 31.3637 38.5426 19.3511C 27.1353 13.4321 18.637 7.55921 12.7559 3.01316C 9.86607 0.782915 7.75902 -1.01844 6.28967 -2.333C 5.57777 -2.96917 5.07618 -3.43816 4.71661 -3.78134C 4.5476 -3.94249 4.43681 -4.05047 4.35171 -4.13421C 4.3144 -4.17089 4.29425 -4.19092 4.27549 -4.20967C 4.26868 -4.21645 4.26746 -4.21769 4.26403 -4.22114C 4.2636 -4.22157 4.26477 -4.2204 4.26499 -4.22018C 4.26551 -4.21964 4.26687 -4.21827 4.26713 -4.21801C 4.26867 -4.21645 4.27039 -4.2147 0 0ZM 138.627 53.7281C 184.179 52.5538 219.641 40.2393 243.034 28.4084C 254.853 22.4125 263.999 16.3809 269.971 11.9858C 273.008 9.74786 275.374 7.82982 276.898 6.53697C 277.682 5.87049 278.307 5.31761 278.7 4.96274C 278.907 4.77533 279.079 4.61681 279.182 4.52043C 279.239 4.46727 279.29 4.41953 279.318 4.39262C 279.335 4.37669 279.352 4.36096 279.36 4.35295C 279.366 4.34771 279.372 4.34191 279.374 4.33929C 279.376 4.33736 279.379 4.33498 279.38 4.33401C 279.382 4.33181 279.384 4.32978 275.231 0C 271.077 -4.32978 271.079 -4.33146 271.08 -4.33297C 271.081 -4.33324 271.082 -4.33458 271.083 -4.33513C 271.083 -4.33527 271.084 -4.33663 271.084 -4.33635C 271.081 -4.33332 271.08 -4.33253 271.074 -4.32655C 271.056 -4.30963 271.037 -4.29197 271.001 -4.25884C 270.92 -4.18264 270.814 -4.085 270.651 -3.9381C 270.304 -3.62437 269.821 -3.19606 269.133 -2.61223C 267.71 -1.40447 265.668 0.254628 262.856 2.32278C 257.133 6.5397 248.825 12.0359 237.613 17.7027C 214.943 29.1972 182.031 40.7476 138.337 41.7316L 138.627 53.7281Z"/>
+				</defs>
+				</svg>
+
+				<div class="dib relative w-100 mw8 tr">
+					<!--<div class="dib w-100 mw6 ">
+						<h4 class="f3 near-white pa2 br1 mw5 mv1-l mv1-m mt4 font-circular fn-ns fr" style="transform: rotate(-10deg);">
+						<span class="dib bg-black pa1 ma1 ba bw2 b--black">FREELANCERS</span> <span class="dib bg-black pa1 ma1 ba bw2 b--black">SHARING</span> <span class="dib bg-black pa1 ma1 ba bw2 b--black">JOBS</span> <span class="dib bg-black pa1 ma1 ba bw2 b--black">WITH</span>
+					</h4>
+				</div>-->
+				</div>
+				<div class="dib w-100 mw6 tc">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+
+					</h4>
+				</div>
+		</div>
+		</div>
+	</div>
+
+
+
+	<div class="dib tc w-100 min-vh-50 bg-white tc pa4-ns pa2">
+
+			<div class="dib w-100">
+			<div class="dib w-100 mw6 tl mt2">
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					<span class="dib f2 pl0 pa2 rotate--4">Domino</span> was an audacious attempt to improve how freelancers found great work, predicated on a totally new marketplace model.
+				</h4>
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					The idea was simple: combine a marketplace with a social network, and let jobs move through networks of trusted friends & colleagues. It began to emerge after a number we uncovered in our research:
+				</h4>
+				<h4 class="dib tc f3 font-book lh-copy copy-blue mv5 pa2 br2">
+					<span class="dib f-headline w-100 lh-title" style="font-size: 10rem;">77%</span>of established freelancers get work from referrals.
+				</h4>
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					Chris and I knew this first hand. We had each received freelance work through referrals, as had our friends, but we were still surprised by its ubiquity.
+				</h4>
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					This led us on a wild 3 year journey, deep into the mechanics of freelancing, online marketplace mechanics & sociology.
+				</h4>
+			</div>
+			</div>
+
+			<div class="dib w-100">
+			<div class="dib w-100 mw6 tl mt4">
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
+
+				</h4>
+
+			</div>
+			</div>
+
+			<!-- Do I need this?
+			<div class="dib w-100">
+			<div class="dib w-100 mw6 tl mt4	">
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
+					<span class="bb bw2 pb1 mr2">A Note:</span>
+					As you navigate this case study, keep in mind: I started with limited practical knowledge, no experience, nor any network. I had to teach myself  HTML, CSS, JavaScript, User Experience Design & Research, Community Building, Wireframing & Prototyping, Agile, Email & Content Marketing, etc. I also had to go out and meet people and make friends within the industry.
+				</h4>
+			</div>
+		</div>-->
+
+
+	</div>
+
+<div class="dib w-100 ph6-l ph4-m ph2">
+	<div class="flex relative tc items-center justify-center w-100 min-vh-100 tc pa4 mt4">
+		<div class="flex relative mt3 z-9">
+			<h1 class="dib relative f1 font-book lh-copy domino-blue mv0 z-9 bb bw3 b--white">
+				Research
+				<h1 class="dib absolute font-book lh-copy headline-blue mv0 z--9"
+				style="
+				font-size: 30rem;
+				left: -5%; top: 50%;
+				-webkit-transform: translateX(-10%);
+				transform: translateX(-10%); -webkit-transform: translateY(-50%);
+				transform: translateY(-50%)">
+					1
+				</h1>
+			</h1>
+		</div>
+
+	</div>
+</div>
+
+	<div class="dib relative tc w-100 min-vh-50 bg-white tc pa4-ns pa2 mt3">
+		<div class="dib relative w-100 mt3">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.0</h5>
+			<h2 class="dib f2 font-book lh-copy headline-blue mv0">
+				Starting with the problem
+			</h2>
+		</div>
+
+		<div class="dib relative w-100 mw6 tl">
+			<h4 class="dib tl f4 font-book lh-copy copy-blue">
+				As former freelancers, we had first-hand experience with the common problems that new freelancers face. The barriers to entry for freelancing are just too high. Most new freelancers, seeking economic agency, end up worse off than before.
+			</h4>
+
+			<h4 class="dib tl f4 font-book lh-copy copy-blue">
+Wanting to move beyond our own personal anecdotes, we began towards the end of 2014 by <a class="parent-co--pricefloor bg-cs-orange ph2 br1 pb1 pointer ">interviewing over 100 freelancers</a> to learn their challenges & work habits.</h4>
+		</div>
+
+		<div class="scrolling-wrapper invisible-scrollbar flex  w-auto mv4 copy-blue ">
+
+
+						<div class="card relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 64%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib f1 f10rem f1 w-100  tc font-mono lh-copy  red mv0 z-999">64%</h1>
+							<h4 class="dib fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Struggle to find work.</h4>
+						</div>
+
+						<div class="card relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 57%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">54%</h1>
+							<h4 class="dib w-100 fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Don't know how to price their work</h4>
+						</div>
+
+
+						<div class="card tc relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 53%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">1 in 2</h1>
+							<h4 class="dib w-100 fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Suffer from imposter syndrome.</h4>
+						</div>
+
+
+						<div class="card relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 45%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">43%</h1>
+							<h4 class="dib fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Don't know basic accounting</h4>
+						</div>
+
+						<div class="card relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 40%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">41%</h1>
+							<h4 class="dib fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Struggle with self-promotion.</h4>
+						</div>
+
+		</div>
+</div>
+
+
+	</div>
+
+
+	<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+		<div class="dib relative w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.1</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				The Root Cause
+			</h2>
+		</div>
+
+		<div class="dib w-100  relative">
+			<div class="dib w-100 mw8 tc">
+			<h4 class="dib mw6 f4 tl font-book lh-copy copy-blue">
+				The responses were diverse, with freelancers citing <a class="parent-le--commonproblems no-underline bg-cs-blue ph2 br1 pb1  pointer">many <span class="pr1">different</span> <span class="pl1">problems</span></a>. After mapping them out we noticed that the majority are <a class="parent-co--secondorder no-underline bg-cs-purple ph2 br1 pb1  pointer ">second and third order effects</a> from a single source:
+			</h4>
+			</div>
+			<h4 class="dib f2 tc font-book lh-copy copy-blue mv3">
+					Never learning <span class="bb bw2">how</span> to freelance.
+			</h4>
+
+		</div>
+		<div class="dn absolute child-container child-le--commonproblems shadow-5 z-999" style="left: 24px; top: 48px;">
+			<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+				<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+					<div class="flex w-100 h-100  align-center justify-center">
+						<h4 class="flex self-center f2 near-white rotate--45">
+							CLOSE
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100  pv4 ph3 bg-cs-blue  bb bw2 b--dark-gray tc">
+					<a class="dib pointer">
+						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+					</a>
+					<h3 class="f2 near-black font-book headline-blue tl mv0">
+					Common Problems
+					</h3>
+				</div>
+				<div class="dib pa3">
+					<ul class=" fl f4 fw4 font-book dark-gray pa0 mt2 mb0 headline-blue">
+						<li class="mv2 tl"><span class="dark-gray">Finding work</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Getting paid</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Time Management</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Socializing</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Self-Promotion</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Sales & Negotiation</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Confidence</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Cashflow Management</a></li>
+						<li class="mv2 tl"><span class="dark-gray">Communication Skills</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="flex justify-center w-100 h-100 mt5-l mt0">
+
+			<div class="flex justify-start align-top mw7 mheight7 h-100 w-100 bg-washed-red mt2">
+
+				<div class="flex justify-start self-start align-center mw6 mheight6  h-100 w-100  bg-light-red shadow-5">
+
+					<div class="flex justify-start self-start items-end  align-center mw5 mheight5 h-100 w-100 bg-red shadow-5">
+
+						<div class="flex justify-start items-top self-start align-center mw4 mheight4 h-100 w-100  bg-dark-red shadow-5">
+							<div class="flex pa3 self-center self-end  b--washed-red">
+							<h4 class="dib font-book tl f4 washed-red mv0 pv1">
+								No knowledge
+							</h4>
+							</div>
+						</div>
+						<div class="flex justify-start items-top self-end align-center mw4 mheight4 h-100 w-100 ">
+							<div class="flex pa3 self-center self-end  b--washed-red">
+							<h4 class="dib font-book tl f4 washed-red mv0 pv1">
+								No confidence
+							</h4>
+							</div>
+						</div>
+
+					</div>
+					<div class="flex justify-start self-end align-end mw4 mheight4 h-100 w-100 ">
+						<div class="flex pa3 self-end  b--washed-red">
+						<h4 class="dib font-book tl f4 washed-red mv0 pv1">
+							No Sales
+						</h4>
+						</div>
+					</div>
+					<div class="flex justify-start self-end align-center mw4 mheight4 h-100 w-100 ">
+						<div class="flex pa3 self-end  b--washed-red">
+						<h4 class="dib font-book tl f4 washed-red mv0 pv1">
+							No Promotion
+						</h4>
+						</div>
+					</div>
+					<div class="flex justify-end items-end self-end align-start mw4 mheight4 h-100 w-100 ">
+						<div class="flex pa3 self-end  b--washed-red">
+						<h4 class="dib font-book tl f4 washed-red mv0 pv1">
+							No nada
+						</h4>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		<div class="dib w-100 mw6 tc">
+		<h4 class="f4 tl font-book lh-copy copy-blue">
+			They never learnt to freelance? Sure. Most people conflate their principle skills (design, writing, etc.) with their skill at freelancing (i.e. running a small business). It's a costly and time consuming mistake. In fact, <a class="parent-co--learnbydoing bg-cs-blue ph2 pb1 br1 pointer">61% told us they learnt how to freelance through "trial and error".</a>
+		</h4>
+
+		</div>
+
+
+
+		<div class="dn absolute child-container child-co--secondorder shadow-5 z-999" style="right: 24px; top: 0px;">
+			<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+				<div class="dn w-100 h-100 absolute pointer action-close testing bg-black">
+					<div class="flex w-100 h-100  align-center justify-center">
+						<h4 class="flex self-center f2 near-white rotate--45">
+							CLOSE
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+					<a class="dib pointer">
+						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+					</a>
+					<h3 class="f2 near-black font-book headline-blue tl mv0">
+					Second & Third Order Effects
+					</h3>
+				</div>
+				<div class="dib pa3 pb5">
+					<h4 class="f4 mv0 font-book dark-gray lh-copy tl">The deeper, often unexpected effects that manifest in response to the original interaction.</h4>
+				</div>
+				<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Second-order">
+				<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+				<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="dib relative tc w-100 bg-white tc pa4-ns pa2">
+		<div class="dib relative w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.2</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				A Problem, Wrapped In A Solution
+			</h2>
+		</div>
+		<div class="dib w-100  relative">
+			<div class="dib w-100 mw6 tc">
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+					The biggest problem with not knowing how to freelance? Not knowing how to consistenty find & win great work. We uncovered a silver lining:
+				</h4>
+			</div>
+			<div class="dib w-100 mw8">
+				<div class="dib pa4 ba bw2 ma2">
+					<h1 class="dib f-headline mv0 tl font-book">64%</h1>
+				<h4 class="f4 mw5 tl font-book lh-copy copy-blue mv0">
+					 said finding consistent work was a challenge
+				</h4>
+				</div>
+				<div class="dib pa4 ba bw2 ma2">
+					<h1 class="dib f-headline mv0 tl font-book">77%</h1>
+				<h4 class="f4 mw5 tl font-book lh-copy copy-blue mv0">
+					 said their best work came from referrals.
+				</h4>
+				</div>
+			</div>
+
+
+	</div>
+</div>
+
+	<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+		<div class="dib relative w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.2</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Learning by Doing
+			</h2>
+		</div>
+
+		<div class="dib w-100  relative">
+			<div class="dib w-100 mw6 tc">
+
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+					The biggest problem with not knowing how to freelance? Not knowing how to consistenty find & win great work. the solution wasn’t to write a book. We <a class="parent-co--learnbydoing bg-cs-purple ph2 pb1 br1 pointer">learn most <span class="pr1">effectively</span><span class="pl1"> through</span> personal experiences</a>,
+					and well designed systems can also protect us from our</span> own worst behaviors through <a class="parent-co--incentives bg-cs-purple ph2 pb1 br1  pointer ">incentives</a>.
+				</h4>
+			<h4 class=" f4 tl font-book lh-copy copy-blue">
+				 <a class="parent-st--inversion bg-cs-orange ph2 pb1 br1  pointer">Inverting</a> our perspective, we asked:
+			</h4>
+		</div>
+			<div class="dib w-100">
+			<div class="dib w-100 mw7 mv4">
+			<h3 class="f3 tc font-book lh-copy copy-orange">
+				"Rather than educating freelancer's to help improve their work prospects, why don't we design a system that improves their work prospects and educates them in the process?"
+			</h3>
+			</div>
+		</div>
+			<div class="dib w-100 mw6 tl">
+			<h4 class="f4 tl font-book lh-copy copy-blue">
+				Most freelancers find jobs online through job boards, social media, or marketplaces, but only the marketplace model gave us the scope to design a better way for freelancers to find work & educate them in the process.
+			</h4>
+			</div>
+
+	</div>
+</div>
+
+<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+	<div class="dib relative w-100 mt3 tc">
+		<h5 class="dib w-100 f5 headline-blue font-book mv3">1.2</h5>
+		<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+			The Lay of the Land
+		</h2>
+	</div>
+
+	<div class="dib w-100 mw7  relative">
+		<div class="dib w-100 mw6 tc">
+		<h4 class="f4 tl font-book lh-copy copy-blue">
+			We mapped out the existing freelance marketplaces and saw two trends:
+		</h4>
+		</div>
+<div class="dib w-100 mw7-ns mw6 tc">
+		<div class="flex justify-center self-center mt3-l mt0 ">
+
+
+			<div class="flex justify-start self-start align-center w-100 mw6 flex-wrap">
+
+				<div class="flex relative  justify-start self-start items-center  align-center mw6 mheight5 h-100 w-100 bg-light-gray ">
+					<div class="flex relative justify-top self-start  align-center pa3 bg-green shadow-5">
+					</div>
+
+					<div class="flex justify-center items-center font-book fw4 f4 white absolute ph2 pv1 br-pill bg-blue shadow-3" style="left: 40px; top: 48px;">Gigster</div>
+					<div class="flex justify-center items-center font-book f4 white absolute ph2 pv1 br-pill bg-blue shadow-3" style="left: 64px; top: 92px;">Crew</div>
+					<div class="flex justify-center items-center font-book f4 white absolute ph2 pv1 br-pill bg-blue shadow-3" style="left: 132px; top: 80px;">Gun</div>
+					<div class="flex justify-center items-center font-book f4 white absolute h2 w2 br-100 bg-blue shadow-3" style="left: 96px; top: 160px;">T</div>
+					<div class="flex justify-center items-center font-book f4 white absolute h2 w2 br-100 bg-blue shadow-3" style="left: 160px; top: 120px;">D</div>
+
+				</div>
+				<div class="flex relative self-end  align-end w-100 bg-white pa1">
+					<h4 class="f3 mv0 font-book copy-blue">Exclusive</h4>
+				</div>
+				<div class="flex  justify-start self-start items-center  align-center w-100 mw6 mheight5 h-100 w-100 bg-light-gray">
+					<div class="flex justify-top self-end  align-center pa3 bg-orange shadow-5">
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="flex relative self-start  align-end h-25 bg-white pa2">
+					<h4 class="f3 absolute mv0 font-book copy-blue rotate-90" style="top: 40px; left: -32px; z-9999">Expensive</h4>
+			</div>
+			<div class="flex relative self-end  align-end h-25 w-auto bg-white pa2">
+					<h4 class="f3 absolute mv0 font-book copy-blue rotate--90" style="bottom: 24px; right: -16px; z-9999">Cheap</h4>
+			</div>
+
+
+				<div class="flex relative justify-start self-start align-center w-100 mw6 flex-wrap">
+					<div class="flex  justify-end self-start items-end content-end  align-center mw6 mheight5 h-100 w-100 bg-light-gray">
+
+						<div class="flex justify-top self-start  align-center  pa3 bg-red shadow-5">
+						</div>
+					</div>
+					<div class="flex relative self-end justify-end align-end w-100 bg-white pa1">
+						<h4 class="f3 mv0 font-book copy-blue">Inclusive</h4>
+					</div>
+					<div class="flex relative justify-end self-start items-center  align-end w-100 mw6 mheight5 h-100 w-100 bg-light-gray">
+
+						<div class="flex justify-center items-center font-book f4 white absolute ph2 pv1 br-pill bg-blue shadow-3" style="right: 40px; bottom: 48px;">Fiverr</div>
+						<div class="flex justify-center items-center font-book f4 white absolute h2 w2 br-100 bg-blue shadow-3" style="right: 64px; bottom: 80px;">C</div>
+						<div class="flex justify-center items-center font-book f4 white absolute h2 w2 br-100 bg-blue shadow-3" style="right: 120px; bottom: 80px;">Gn</div>
+						<div class="flex justify-center items-center font-book f4 white absolute h2 w2 br-100 bg-blue shadow-3" style="right: 96px; bottom: 160px;">T</div>
+						<div class="flex justify-center items-center font-book f4 white absolute h2 w2 br-100 bg-blue shadow-3" style="right: 160px; bottom: 120px;">D</div>
+
+						<div class="flex justify-top self-end  align-center  pa3 bg-blue shadow-5">
+						</div>
+					</div>
+				</div>
+
+</div>
+
+		</div>
+
+		<h4 class="dib mw6 f4 tl font-book lh-copy copy-blue">
+			 Only the marketplace model could facilitate the entire flow from finding to completing a project.
+		</h4>
+		</div>
+</div>
+</div>
+
+
+
+
+		<div class="dn absolute child-container child-co--secondorder shadow-5 z-999" style="right: 24px; top: 0px;">
+			<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+				<div class="dn w-100 h-100 absolute pointer action-close testing bg-black">
+					<div class="flex w-100 h-100  align-center justify-center">
+						<h4 class="flex self-center f2 near-white rotate--45">
+							CLOSE
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+					<a class="dib pointer">
+						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+					</a>
+					<h3 class="f2 near-black font-book headline-blue tl mv0">
+					Second & Third Order Effects
+					</h3>
+				</div>
+				<div class="dib pa3 pb5">
+					<h4 class="f4 mv0 font-book dark-gray lh-copy tl">The deeper, often unexpected effects that manifest in response to the original interaction.</h4>
+				</div>
+				<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Second-order">
+				<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+				<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!--<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2 mt5">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.2</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				A Precarious Position
+			</h2>
+		</div>
+
+		<div class="dn absolute child-container child-mi--negativefeedbackloop shadow-5 z-999" style="left: 0px; top: 0px;">
+			<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+				<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+					<div class="flex w-100 h-100  align-center justify-center">
+						<h4 class="flex self-center f2 near-white rotate--45">
+							CLOSE
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100  ph3 pv4 bg-cs-blue bb  bw2 b--dark-gray tc">
+					<a class="dib pointer">
+						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+					</a>
+					<h3 class="f2 near-black font-book headline-blue tl mv0">
+					Negative Feedback Loop
+					</h3>
+				</div>
+				<div class="dib pa3 pb5">
+					<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						One bad thing leads to and compounds another, and another, and another, in a virtuous cycle of continued and worsening crappiness.
+					</h4>
+				</div>
+				<a class="db pointer" target="_blank" href="https://en.wikipedia.org/wiki/Negative_feedback">
+				<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-blue" style="bottom: -4px; right: -4px;">
+				<h4 class="f4 font-book near-black mv0 headline-blue"> Learn More</h4>
+				</div>
+				</a>
+				</a>
+			</div>
+		</div>
+
+		<div class="dib relative w-100 mw6 tl">
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				Freelancers who struggle to find good work, are compelled to take on low-paying projects leading to a <a class="parent-le--negativefeedbackloop bg-cs-blue ph2 pb1 br1  pointer">negative feedback loop</a>, further compounding their struggles. Inconsistent or low-paying work is the single biggest reason for freelancer's to return to full-time employment.
+			</h4>
+		</div>
+
+
+		<div class="dib w-100 h-100 mt5-l mt0" style=
+		"background-image: url('images/cs/negfeedbackcycle.png');
+		 background-repeat: no-repeat;
+		 background-position: center; center;
+		 background-size: contain;
+		">
+	</div>
+
+	<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2 ">
+		<div class="dib w-100 mt3 tc">
+			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.3</h5>
+			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+			 Another Approach
+			</h2>
+		</div>
+
+		<div class="dn absolute child-container child-co--learnbydoing shadow-5 z-999" style="left: 0px; top: 0px;">
+			<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+				<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+					<div class="flex w-100 h-100  align-center justify-center">
+						<h4 class="flex self-center f2 near-white rotate--45">
+							CLOSE
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100  ph4 pv4 bg-cs-purple bb  bw2 b--dark-gray tc">
+					<a class="dib pointer">
+						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+					</a>
+					<h3 class="f2 near-black font-book headline-blue tl mv0">
+					Experiential Learning
+					</h3>
+				</div>
+				<div class="dib pa3 pb5">
+					<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						You learnt best by doing. I can teach you how to freelance, but you're not going to really get it until you try it yourself.
+					</h4>
+				</div>
+				<a class="db pointer" target="_blank" href="https://en.wikipedia.org/wiki/Experiential_learning">
+				<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+				<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+				</div>
+				</a>
+				</a>
+			</div>
+		</div>
+
+
+
+		<div class="dib relative w-100 center">
+
+			<div class="dn absolute child-container child-co--incentives shadow-5 z-999" style="right: 0px; top: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  ph4 pv4 bg-cs-purple bb  bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Incentives
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+							If you finish reading this case study I'll give you an ice cream. Any flavor!
+						</h4>
+					</div>
+					<a class="db pointer" target="_blank" href="https://en.wikipedia.org/wiki/Incentive">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-st--inversion shadow-5 z-999" style="left: 0px; top: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Inversion
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">Seeking a new perspective by turning the problem inside out. </h4>
+					</div>
+					<a class="db pointer" target="_blank" href="https://www.allencheng.com/poor-charlies-almanack-charlie-munger-book-summary-pdf/#Invert_Always_Invert">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dib w-100 mw6 tl">
+			<h4 class="f4 tl font-book lh-copy copy-blue">
+				While the root cause had been identified, the solution wasn’t to write a book. We <a class="parent-co--learnbydoing bg-cs-purple ph2 pb1 br1  pointer">learn most <span class="pr1">effectively</span><span class="pl1"> through</span> personal experiences</a>, in fact 61% told us they learnt through "trial and error".
+			</h4>
+			<h4 class=" f4 tl font-book lh-copy copy-blue">
+				Well designed systems can also protect us from our</span> own worst behaviors through <a class="parent-co--incentives bg-cs-purple ph2 pb1 br1  pointer ">incentives</a>.
+			</h4>
+			<h4 class=" f4 tl font-book lh-copy copy-blue">
+				 <a class="parent-st--inversion bg-cs-orange ph2 pb1 br1  pointer">Inverting</a> our perspective, we asked:
+			</h4>
+			</div>
+
+
+
+			<div class="dib w-100">
+			<div class="dib w-100 mw7 mv4">
+			<h3 class="f3 tc font-book lh-copy copy-orange">
+				"Rather than educating freelancer's to help improve their work prospects, why don't we design a system that improves their work prospects and educates them in the process?"
+			</h3>
+			</div>
+		</div>
+			<div class="dib w-100 mw6 tl">
+			<h4 class="f4 tl font-book lh-copy copy-blue">
+				The two primary ways freelancer's find work online is through job boards (formally, or informally like <a href="https://www.reddit.com/r/forhire" class="pb1 bw2 bb">subreddits</a>, Facebook groups, and Twitter) or via marketplaces like <a class="pb1 bw2 bb" href="https://www.upwork.com">Upwork</a>, <a class="pb1 bw2 bb" href="https://www.fiverr.com">Fiverr</a> & <a class="pb1 bw2 bb" href="https://www.freelancer.com">Freelancer.com</a>.
+			</h4>
+
+			<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				 Only the marketplace model can facilitate the entire flow - from job discovery, to acquisition, delivery & payment while incorporating important mechanisms sought by employers to establish trust, reliability & resolve disputes.
+			</h4>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.4</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue">
+					The map is not the territory
+				</h2>
+			</div>
+			<div class="dib relative w-100 mw7 mb4">
+			<img class="dib absolute tc z-9" src="images/cs/hst.jpg" style="width: 80px; z-index: 9; top: 24px; left: 64px;">
+			<h3 class="f3 relative tc font-book lh-copy copy-orange z-999" style="z-index: 999;">
+				"..He used a typewriter to copy Fitzgerald's The Great Gatsby & Hemingway's A Farewell to Arms, to learn the writing styles of the two authors.."
+			</h3><a href="https://en.wikipedia.org/wiki/Hunter_S._Thompson#Early_journalism_career" class="dib br2 ph3 pv2 f7 bg-cs-blue font-book copy-blue ">Source</a>
+			</div>
+			<div class="dib relative w-100 tc">
+				<div class="dib w-100 mw6">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+						To better understand these marketplaces, we began creating maps of their user flows.
+					</h4>
+				</div>
+
+				<div class="dib relative tc w-100 h-25 mt5-ns mb4-ns mt6 mb6">
+
+					<div class="dib relative w-100 mw6-ns mw5 mr4-ns pr0">
+						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: -64px;left: -64px;">
+							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
+								<h4 class="dib mv0 pa1 f4">7</h4>
+							</div>
+							<i class="em em-weary"></i><i class="em em-skull"></i>
+						</div>
+						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: -32px;left: -32px;">
+							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
+								<h4 class="dib mv0 pa1 f4">6</h4>
+							</div>
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">My experience, my English.. </h4>
+						</div>
+						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: 0px;left: 0px;">
+							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
+								<h4 class="dib mv0 pa1 f4">5</h4>
+							</div>
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Here is my photo, my bio, my skills..</h4>
+						</div>
+						<div class="dib w-100  absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal" style="top: 32px;left: 32px;">
+							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
+								<h4 class="dib mv0 pa1 f4">4</h4>
+							</div>
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Now I get to create my profile!!</h4>
+						</div>
+						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: 64px;left: 64px;">
+							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
+								<h4 class="dib mv0 pa1 f4">3</h4>
+							</div>
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">What kind of jobs do I want to do?</h4>
+						</div>
+						<div class="dib w-100  absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal" style="top: 96px;left: 96px;">
+							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
+								<h4 class="dib mv0 pa1 f4">2</h4>
+							</div>
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">What's the "main type" of work I do?</h4>
+						</div>
+						<div class="dib w-100  absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal" style="top: 128px;left: 128px;">
+							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
+								<h4 class="dib mv0 pa1 f4">1</h4>
+							</div>
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Signing up to another website..</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="dib relative w-100 mw6">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				How did their account sign-up process work? <a class="parent-le--timetostart no-underline bg-cs-blue ph2 br1 pb1  pointer">How quickly did it take to get started? </a> <a class="parent-le--platformfriction no-underline bg-cs-blue ph2 br1 pb1 ml1  pointer">Where were <span class="pr1">the</span> <span class="pl1">points</span> of friction?</a> And how easy was it to find and hire trustworthy freelancers?
+				</h4>
+			</div>
+
+			<div class="dn absolute child-container child-le--timetostart shadow-5 z-999" style="left: 0px; bottom: 0px;">
+				<div class="dib relative w300px h-50 bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100 h-100  pv4 ph3 bg-cs-blue   bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Time to start
+						</h3>
+					</div>
+					<div class="dib bg-cs-blue">
+					<img src="images/cs/timetostart.png" />
+				</div>
+
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-mi--platformfriction shadow-5 z-999" style="right: 0px; bottom: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-blue  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Platform Friction
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<ul class=" fl f4 fw4 font-book dark-gray pa0 mv2 mb0 headline-blue">
+							<li class="mv2 tl"><span class="dark-gray">Sign Up</a></li>
+							<li class="mv2 tl"><span class="dark-gray">Profile Creation</a></li>
+							<li class="mv2 tl"><span class="dark-gray">Job Applications</a></li>
+							<li class="mv2 tl"><span class="dark-gray">Job / Client Management</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="dib relative w-100 tc">
+				<div class="dib w-100 mw6">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Simultaneously, we began researching freelancer's and employers experiences on these platforms.
+				</h4>
+				</div>
+			</div>
+
+			</div>
+		</div>
+
+		<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2 ">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.5</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Rational Employers, Irrational Freelancers
+				</h2>
+			</div>
+			<div class="dib w-100 center">
+				<div class="dib w-100 mw6 tl">
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+					42% of employers told us they had issues with freelancers disappearing mid-project. Reliability was one of several issues cited by employers who like the cost-effectiveness and flexibility of hiring freelancers, but are wary of the "unknown element" inherent in each freelancer's idiosyncratic workflow and way of doing business.
+				</h4>
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+					 Employers want to know:
+				</h4>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Can they do the work?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they reliable?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they consistent?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">4</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they good communicators?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">5</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Are they well organized?</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100 mw6 tl">
+				<h4 class="f4 tl font-book lh-copy copy-blue">
+
+				</h4>
+
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Current marketplaces aren't perfect, but are valued by employers for simplyfing the process of finding, assessing and hiring the right freelancer for their project, alongside the protection they receive in the event of a negative or unsatisfactory outcome.
+				</h4>
+				</div>
+			</div>
+		</div>
+	-->
+
+
+		<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa3">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.6</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					A great way to find bad jobs
+				</h2>
+			</div>
+
+
+
+			<div class="dib w-100 mw6 tl">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					While employers' experiences on these platforms were mixed, freelancers were almost universally bad: economics subverts the user experience.
+				</h4>
+			</div>
+			<div class="dib w-100">
+				<div class="dib w-100 mw6 tl">
+					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+						<span class="bb bw2 pb2">A global labor pool skews supply.</span>
+					</h4>
+				</div>
+			</div>
+			<div class="dib w-100">
+				<div class="dib w-100 mw6 tl">
+					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+						<span class="bb bw2 pb2">Favoring freelancers with lower costs of living.</span>
+					</h4>
+				</div>
+			</div>
+			<div class="dib w-100">
+				<div class="dib w-100 mw6 tl">
+					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+						<span class="bb bw2 pb2">And depresses wages.</span>
+					</h4>
+				</div>
+			</div>
+			<div class="dib relative w-100">
+				<div class="dib w-100 mw6 tl">
+					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">4</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100 w-auto-ns">
+						<span class="bb bw2 pb2">Without an <a class="parent-co--pricefloor bg-cs-purple ph2 br1 pb1 pointer ">artificial price floor</a>.
+					</h4>
+				</div>
+
+				<div class="dn absolute child-container child-co--pricefloor shadow-5 z-999" style="right: 0px; top: 0px;">
+					<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+						<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+							<div class="flex w-100 h-100  align-center justify-center">
+								<h4 class="flex self-center f2 near-white rotate--45">
+									CLOSE
+								</h4>
+							</div>
+						</div>
+						<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+							<a class="dib pointer">
+								<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+							</a>
+							<h3 class="f2 near-black font-book headline-blue tl mv0">
+							Artificial Price Floor
+							</h3>
+						</div>
+						<div class="dib pa3 pb5">
+							<h4 class="f4 mv0 font-book dark-gray lh-copy tl">It's intended to stop prices from falling below a certain amount. The most famous example is the minimum wage. </h4>
+						</div>
+						<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Price_floor">
+						<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+						<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+						</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="dib w-100">
+				<div class="dib w-100 mw6 tl">
+					<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">5</h3>
+					<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+						<span class="bb bw2 pb2">Forcing high competition for low paying projects.</span>
+					</h4>
+				</div>
+			</div>
+		</div>
+			<div class="dib relative w-100 tc">
+				<div class="dib w-100 mw6">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					<span class="bb bw2 pb1 mr2">Reputation</span> The skewed supply & demand also corrupts a platforms reputation system. With so many freelancers chasing so few jobs, employers can easily filter out freelancers without a perfect reputation and still find plenty of candidates for their project. Conversely, an employer's negative rating will be overlooked by a freelancer desperate for work.
+				</h4>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					A negative power dynamic can emerge, with an employer holding the threat of a poor rating against a freelancer to extract more work or unfair conditions during a project.
+				</h4>
+			<div class="dib relative w-100">
+				<h4 class="relative f4 tl font-book lh-copy copy-blue z-99">
+					<img class="dib absolute tc z--9" src="images/cs/vp.jpg" style="width: 80px; top: 24px; left: -64px;" />
+					<span class="bb bw2 pb1 mr2">Power Laws & The <a class="parent-co--paretoprinciple bg-cs-purple br1 ph2 pb1  pointer">Pareto Principle</a></span> The flawed reputation model</a> used by online marketplaces leads to power laws that entrench the top 20% while discouraging the <a class="parent-co--longtail bg-cs-purple br1 ph2 pb1  pointer" class="bg-cs-purple br1 ph2 pb1">long tail</a> of new and casual freelancers from establishing themselves.
+				</h4>
+
+				</div>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					<span class="bb bw2 pb1 mr2">Incentivization</span> Finally, because the employers are the ones with the money, the platform is incentivized to favor them in any dispute. While anecdotal, numerous freelancers we spoke to felt they experienced this (alongside <a href="https://www.google.com/search?q=terrible+experience+upwork&oq=terrible+experience+upwork&aqs=chrome..69i57j69i60j0l2j69i60j0.4166j0j4&sourceid=chrome&ie=UTF-8" class="pb1 bb bw2">plenty of stories elsewhere</a> ).
+				</h4>
+
+			</div>
+
+			<div class="dn absolute child-container child-co--longtail shadow-5 z-999" style="left: 32px; bottom: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Long Tail
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						The mass of niche ice cream flavors that aren't in high demand individually. Collectively, though, they add up to a large market.
+					</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Long_tail">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--paretoprinciple shadow-5 z-999" style="right: 0px; bottom: 48px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Pareto Principle
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">Also known as the "80/20 Rule", and an example of a power law in action.</h4>
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						20% of the flavors at my ice cream store make up 80% of all the sales.</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Pareto_principle">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="dib w-100 ph6-l ph4-m ph2">
+		<div class="flex relative tc items-center justify-center w-100 min-vh-100 bg-domino-blue tc pa4">
+			<div class="flex relative mt3 z-9">
+				<h1 class="dib relative f1 font-book lh-copy near-white mv0 z-9 bb bw3 b--white">
+					Synthesis
+					<h1 class="dib absolute f-headline font-book lh-copy headline-blue mv0 z--9" style="font-size: 30rem; left: -10%; top: 50%;
+-webkit-transform: translateX(-10%);
+transform: translateX(-10%); -webkit-transform: translateY(-50%);
+transform: translateY(-50%)">
+						2
+					</h1>
+				</h1>
+			</div>
+
+		</div>
+	</div>
+
+
+		<div class="dib relative tc w-100 bg-white tc pa4-ns pa2 fl mt3">
+			<div class="dib relative w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.0</h5>
+
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Form through subtraction.
+				</h2>
+
+			</div>
+			<div class="dib relative w-100 mw6 tl">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				We began defining what Domino would be, by <a class="parent-co--subtraction bg-cs-orange br1 ph2 pb1  pointer">subtracting</a> what it wouldn't:
+				</h4>
+			</div>
+
+			<div class="dn absolute child-container child-co--subtraction shadow-5 z-999" style="left: 24px; top: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center close-reveal">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv6 ph3 bg-cs-orange  bb bw2 b--dark-gray tc" style="
+					background-image: url('images/cs/marble02.jpg');
+					background-position: center center;
+					background-size: cover;
+					background-repeat: no-repeat;">
+					<a class="dib pointer">
+						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+					</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Via Negativa
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						Defining something not by what it is, but by what it isn't.</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Apophatic_theology">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+				<div class="dib relative w-100 tc mw9-l mw8-m z-99">
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">Hypercompetitive.</span>
+						</h4>
+						<div class="absolute ma2-ns child-mi--subtraction dn  br1 z--9" style="right: -320px;">
+							<img src="images/cs/marble03.jpg" class="dib w5"/>
+						</div>
+
+						<div class="absolute ma2-ns child-mi--subtraction dn  cs-blue br1  z--9" style="left: -180px; top: -80px;">
+								<img src="images/cs/marble02.jpg" class="dib w-100 mw6 h-auto"/>
+						</div>
+						<div class="absolute ma2-ns child-mi--subtraction dn  cs-blue br1 z--9" style="right: 320px; top: 180px;">
+							<img src="images/cs/marble01.jpg" class="dib w-100 h-auto"/>
+						</div>
+
+					</div>
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">Using an artificial reputation system.</span>
+						</h4>
+					</div>
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">Requiring a large time investment to win jobs.</span>
+						</h4>
+					</div>
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">No mechanism to stop unsustainable pricing.</span>
+						</h4>
+					</div>
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">A place for cheapskates.</span>
+						</h4>
+					</div>
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">Predatory</span>
+						</h4>
+					</div>
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">Excess Choice</span>
+						</h4>
+					</div>
+					<div class="dib relative w-100 mw6 tl">
+							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2 line-through-red">Unvetted</span>
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.1</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Favoring Friction
+				</h2>
+			</div>
+			<div class="dib w-100 mw6 tl">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					These marketplaces were <a class="parent-co--perfectcompetition bg-cs-purple br1 ph2 pb1  pointer">close to perfect</a>, which made them lousy places to find <!--<a href="" class="bg-cs-blue br1 ph2 pb1">-->good work<!--</a>-->. Ironically, adding <a class="parent-co--friction bg-cs-orange pointer ph2 br1 pb1">friction</a> could improve things by intelligently restricting the distribution of jobs to:
+				</h4>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Reduce competition per job
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100 mt3">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Improve matching for freelancers & employers</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100 mt3">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Give employers new metrics to guide hiring</span>
+						</h4>
+					</div>
+				</div>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					In the end, <a class="parent-co--boundedrationality bg-cs-purple pointer ph2 br1 pb1">employers don't want to be inundated with choice</a>. They just want to be given the right one.
+				</h4>
+			</div>
+
+			<div class="dn absolute child-container child-co--friction shadow-5 z-999" style="left: 32px; top: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Friction
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						What happens when two objects come into contact, reducing motion. Like frozen ice cream coming into contact with an ice cream scoop.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://www.wikihow.com/Increase-Friction">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--perfectcompetition shadow-5 z-999" style="right: 32px; top: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Perfect Competition
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						When all competitors are equal, and have no means of differentiation. Like a sea of ice cream shops that sell an identical brand of chocolate ice cream.</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Perfect_competition">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--boundedrationality shadow-5 z-999" style="right: 32px; bottom: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Bounded Rationality
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						The quality of a decision is limited by things like time and available knowledge. This means that we are forced to make satisfactory decisions, rather than optimal ones.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Bounded_rationality">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="dib relative tc w-100 bg-white tc pa4-ns pa2">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.3</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Putting the pieces together.
+				</h2>
+			</div>
+			<div class="dib w-100 tc mw6">
+				<h4 class="dib f4 tl font-book lh-copy  copy-blue">
+				We started <a class="parent-co--combicreativity bg-cs-orange pointer ph2 br1 pb1">mixing and matching different elements together</a>, forming them into equations based on what we'd learnt:
+				</h4>
+			</div>
+			<div class="dib w-100 mw8 tc">
+				<div class="scrolling-wrapper flex  w-auto mv4 ba bw2 copy-blue ">
+					<div class="card flex pa4 copy-blue bg-cs-blue br bw2 br0">
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">77% find work through friends</h4>
+					</div>
+
+					<div class="relative card flex flex-grow-1 pa4 copy-blue bg-cs-purple br bw2">
+	    			<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+	    				<h4 class="dib mv0 pa1 f3">+</h4>
+						</div>
+	    				<h4 class="f4 tc font-book lh-copy copy-blue">Reciprocity</h4>
+					</div>
+
+
+					<div class="relative card flex flex-grow-1 pa4 copy-blue bg-cs-purple br bw2">
+	    			<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+	    				<h4 class="dib mv0 pa1 f3">+</h4>
+						</div>
+	    				<h4 class="f4 tc font-book lh-copy copy-blue">Strength of Weak Ties</h4>
+					</div>
+
+					<div class="card relative flex flex-grow-1  pa4 copy-blue br1 bg-cs-orange w-auto tc">
+						<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+							<h4 class="dib mv0 pa1 f3">=</h4>
+						</div>
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Social Job Distribution</h4>
+					</div>
+				</div>
+
+				<div class="scrolling-wrapper flex justify-between relative w-100 mv4 ba bw2 copy-blue">
+					<div class="card flex flex-grow-1 pa4 copy-blue bg-cs-purple fl br bw2 br0">
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Reciprocity</h4>
+					</div>
+
+					<div class="relative card flex flex-grow-1 pa4 copy-blue fl bg-cs-purple br bw2">
+	    			<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+	    				<h4 class="dib mv0 pa1 f3">+</h4>
+						</div>
+	    				<h4 class="f4 tc font-book lh-copy copy-blue">Incentives</h4>
+					</div>
+
+					<div class="card relative flex flex-grow-1  pa4 fl copy-blue br bw2 bg-cs-orange w-auto">
+						<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+							<h4 class="dib mv0 pa1 f3 rotate-45">+</h4>
+						</div>
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Real World Reputation System</h4>
+					</div>
+
+					<div class="card relative flex flex-grow-1  pa4 fl copy-blue  bg-cs-blue w-auto">
+						<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+							<h4 class="dib mv0 pa1 f3">=</h4>
+						</div>
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue"><span class="mr2">&#8593;</span> reliability for employers</h4>
+					</div>
+				</div>
+
+				<div class="scrolling-wrapper flex justify-between relative w-100 mv4 ba bw2 copy-blue">
+					<div class="card flex flex-grow-1 pa4 copy-blue bg-cs-purple tc br bw2 br0">
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Social Networks</h4>
+					</div>
+
+
+					<div class="card relative flex flex-grow-1  pa4  copy-blue br bw2 bg-light-gray tc w-auto">
+						<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+							<h4 class="dib mv0 pa1 f3 ">+</h4>
+						</div>
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Freelance Jobs</h4>
+					</div>
+
+					<div class="card relative flex flex-grow-1  pa4  copy-blue tc  bg-cs-orange w-auto">
+						<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+							<h4 class="dib mv0 pa1 f3">=</h4>
+						</div>
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Distributed Marketplace
+					</div>
+				</div>
+
+				<div class="scrolling-wrapper flex justify-between relative w-100 mv4 ba bw2 copy-blue">
+					<div class="card flex flex-grow-1 pa4 copy-blue bg-cs-purple tc br bw2 br0">
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Friction</h4>
+					</div>
+
+
+					<div class="card relative flex flex-grow-1  pa4  copy-blue br bw2 bg-cs-orange tc w-auto">
+						<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+							<h4 class="dib mv0 pa1 f3 ">+</h4>
+						</div>
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Social Job Distribution</h4>
+					</div>
+
+					<div class="card relative flex flex-grow-1  pa4  copy-blue tc  bg-cs-purple w-auto">
+						<div class="dib absolute ba bw2 bg-white ph2 tc" style="top: -3px; left: -4px;">
+							<h4 class="dib mv0 pa1 f3">=</h4>
+						</div>
+						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Natural Price Floor
+					</div>
+				</div>
+				<div class="dib w-100 mw7 tc">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue mb0 mt3">
+					An outline of a product began to emerge, and we continued to play with these ideas
+					</h4>
+				</div>
+
+				<div class="dn absolute child-container child-co--combicreativity shadow-5 z-999" style="left: 32px; top: 0px;">
+					<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+						<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+							<div class="flex w-100 h-100  align-center justify-center">
+								<h4 class="flex self-center f2 near-white rotate--45">
+									CLOSE
+								</h4>
+							</div>
+						</div>
+						<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+							<a class="dib pointer">
+								<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+							</a>
+							<h3 class="f2 near-black font-book headline-blue tl mv0">
+							Combinatorial Creativity
+							</h3>
+						</div>
+						<div class="dib pa3 pb5">
+							<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+							Creativity comes from taking different ideas from different places and combining them together into new combinations. Like an ice cream hotdog.
+							</h4>
+						</div>
+						<a class="db pointer " target="_blank" href="https://www.brainpickings.org/2013/08/14/how-einstein-thought-combinatorial-creativity/">
+						<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+						<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+						</div>
+						</a>
+					</div>
+				</div>
+		</div>
+	</div>
+
+		<div class="dib relative tc w-100 bg-white tc pa4-ns pa2 fr v-top mt5">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.2</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+				Mapmaking
+				</h2>
+			</div>
+			<div class="dib w-100 tc mw7">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue mw6">
+				Maps permeate our daily lives as a cognitive shorthand. While incredibly effective, an outdated or <a class="parent-co--incompletemaps bg-cs-orange pointer ph2 br1 pb1">incomplete map</a> can trap us inside a false projection of the world. Current marketplaces all follow a similar map:
+				</h4>
+			<div class="dib tc w-100 mv3 mw6 fl">
+				<div class="dib relative ph4 pv4 tr copy-blue bg-white ba bw2 br0 tl">
+					<h4 class="dib f4 tr font-book lh-copy copy-blue mv0 ttu">Eve posts job</h4>
+					<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="bottom	: -4px; left: -4px;">
+						<h4 class="dib mv0 pa1 f4">1</h4>
+					</div>
+				</div>
+			</div>
+			<div class="dib tc w-100 mv3 mw5">
+				<div class="dib w5 relative tr copy-blue bg-white  bw2 br0 tl">
+					<div class="dib relative tr ph4 pt6 pb1 h5 w5 tr copy-blue bg-white ba bw2 br0 rotate-90" style="top	: -3px; left: -4px;">
+					<h4 class="absolute f3 tr font-book lh-copy copy-blue mv0 ttu" style="bottom: 15px;left: 48px;">
+						apply for job
+					</h4>
+					<div class="dib absolute ba bw2 bg-cs-orange ph2 tc rotate--90" style="bottom	: -2px; left: -5px;">
+						<h4 class="dib mv0 pa1 f4">2</h4>
+					</div>
+
+					<div class="dib absolute ph3 pv2 tc copy-blue bg-white ba bw2 br0 rotate--90" style="bottom: 140px;left: -50px; width: 200px;">
+						<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Freelancer 1</h4>
+					</div>
+					<div class="dib absolute ph3 pv2 tc copy-blue bg-white ba bw2 br0 rotate--90" style="bottom: 140px;left: 20px; width: 200px;">
+						<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Freelancer 2</h4>
+					</div>
+					<div class="dib absolute ph3 pv2 tc copy-blue bg-white ba bw2 br0 rotate--90" style="bottom: 140px;left: 90px; width: 200px;">
+						<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Freelancer 3</h4>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="dib tc w-100 mv3">
+				<div class="dib relative ph4 pv4 tl copy-blue bg-white ba bw2 br0">
+					<h4 class="dib f4 font-book lh-copy copy-blue mv0 ttu">Eve awards job</h4>
+					<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top	: -4px; right: -4px;">
+						<h4 class="dib mv0 pa1 f4">3</h4>
+					</div>
+				</div>
+			</div>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue mw6">
+				Copying them is both boring and bad business. We began creating new maps of business models, user experiences, revenue models, and product strategy - anything that would obsolete the maps they were operating from.
+				</h4>
+			</div>
+			<div class="dib w-100 tc mw7">
+
+				<div class="dib tc w-100 mv3 mw6">
+					<div class="dib relative ph4 pv4 tr copy-blue bg-white ba bw2 br0 tl">
+						<h4 class="dib f4 tr font-book lh-copy copy-blue mv0 ttu">Eve posts job</h4>
+						<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top	: -4px; left: -4px;">
+							<h4 class="dib mv0 pa1 f4">1</h4>
+						</div>
+					</div>
+				</div>
+				<div class="dib tc w-100 mv3 mw6">
+					<div class="dib relative w-100 mw6 ph relative tr copy-blue bg-white  bw2 br0 tl">
+						<div class="dib w-100 relative tr pa2 pv4 copy-blue bg-white ba bw2 br0" style="top	: -3px; left: -4px;">
+						<h4 class="f4 tc font-book lh-copy copy-blue mv0 ttu">
+							The job is only shared with Eve's friends & recommended freelancers
+						</h4>
+
+						<div class="dib absolute ba bw2 bg-cs-orange ph2 tc z-99" style="top: -4px; left: -4px;">
+							<h4 class="dib mv0 pa1 f4">2</h4>
+						</div>
+
+						<div class="dib absolute ph3 pv2 tc copy-blue bg-white ba bw2 br0 z-99" style="bottom: -48px;left: -8px;">
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Brian Eno</h4>
+						</div>
+						<div class="dib absolute ph3 pv2 tc copy-blue bg-white ba bw2 br0 z-99" style="bottom: -92px;left: 64px;">
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Peter Schmidt</h4>
+						</div>
+						<div class="dib absolute ph3 pv2 tc copy-blue bg-white ba bw2 br0 z-99" style="bottom: -138px;left: 142px;">
+							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Barry White</h4>
+						</div>
+						</div>
+					</div>
+					<div class="dib relative w-100 ph relative tr copy-blue bg-white bw2 br0 tl mt6 z-9">
+						<div class="dib w-100 relative tr pa2 pv4 copy-blue bg-white ba bw2 br0" style="top	: -3px; left: -4px;">
+						<h4 class="f4 mw6-ns  tc font-book lh-copy copy-blue mv0 ttu">
+							Only freelancers connected to Eve can apply.
+						</h4>
+
+						<div class="dib absolute ba bw2 bg-cs-orange ph2 tc z-99" style="bottom: -4px; left: -4px;">
+							<h4 class="dib mv0 pa1 f4">3</h4>
+						</div>
+
+
+						</div>
+				</div>
+				<div class="dib relative w-100 ph relative tr copy-blue bg-white bw2 br0 tl mt2 z-9">
+					<div class="dib w-100 relative tr pa2 pv4 copy-blue bg-white ba bw2 br0" style="top	: -3px; left: -4px;">
+					<h4 class="f4 mw6-ns  tc font-book lh-copy copy-blue mv0 ttu">
+						And she can see how she's connected to all applicants.
+					</h4>
+
+					<div class="dib absolute ba bw2 bg-cs-orange ph2 tc z-99" style="top: -4px; right: -4px;">
+						<h4 class="dib mv0 pa1 f4">4</h4>
+					</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="dn absolute child-container child-co--incompletemaps shadow-5 z-999" style="left: 32px; top: 0px;">
+			<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+				<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+					<div class="flex w-100 h-100  align-center justify-center">
+						<h4 class="flex self-center f2 near-white rotate--45">
+							CLOSE
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+					<a class="dib pointer">
+						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+					</a>
+					<h3 class="f2 near-black font-book headline-blue tl mv0">
+					Incomplete Maps
+					</h3>
+				</div>
+				<div class="dib pa3 pb5">
+					<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+					Manipulating the real environment in order to obsolete everyone's maps of that environment, except your own.
+					</h4>
+				</div>
+				<a class="db pointer " target="_blank" href="http://us1.campaign-archive.com/?u=78cbbb7f2882629a5157fa593&id=c75804d214">
+				<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+				<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+		<div class="dib w-100 pb0 ph6-l ph4-m ph2">
+			<div class="flex relative tc justify-center w-100 min-vh-100 bg-domino-blue tc pa4 mt4">
+				<div class="flex items-center relative mt3 z-9">
+					<h1 class="dib relative f1 font-book lh-copy near-white mv0 z-9 bb bw3 b--white">
+						Product
+						<h1 class="dib absolute font-book lh-copy headline-blue mv0 z--9"
+						style="
+						font-size: 30rem;
+						left: -5%; top: 50%;
+						-webkit-transform: translateX(-10%);
+						transform: translateX(-10%); -webkit-transform: translateY(-50%);
+						transform: translateY(-50%)">
+							3
+						</h1>
+					</h1>
+				</div>
+				<div class="absolute items-end justify-start relative pa3 ph5 ph3-ns z-9" style="left: 0px; bottom: 0px;">
+					<h3 class="f4 font-book lh-copy near-white tl mw5">
+						A series of vignettes exploring the challenges we encountered in building Domino, and our attempts to overcome them.
+					</h3>
+			</div>
+		</div>
+
+		<div class="dib relative tc w-100 bg-white tc pa4-ns pa2 fr">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
+					3.3
+				</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Strategies, Forms, Prototypes
+				</h2>
+				<div class="dib relative w-100 mw6  tc">
+					<h4 class="dib mw6 f4 tl font-book lh-copy copy-blue">
+					Product strategy does not <a class="parent-co--systemsthinking bg-cs-purple br1 ph2 pb1 pointer">exist in a vacuum</a>. There are many complexities, concepts and concessions to consider when formulating & executing your approach. Some of the questions on our mind were:
+					</h4>
+					<div class="dib w-100 mw8 tc">
+					<h4 class="dib f2 tl fl font-book lh-copy copy-blue rotate--4">
+						"How simple is the revenue model?"
+					</h4>
+
+					<h4 class="dib f2 tl fr font-book lh-copy copy-blue rotate-4">
+						"Does it support & build upon our <a class="parent-co--coreinteraction bg-cs-purple br1 ph2 pb1  pointer">core interaction</a>?"
+					</h4>
+
+					<h4 class="dib f2 tl fl font-book lh-copy copy-blue rotate--4">
+						"What is its technical & <a class="parent-co--socialcomplexity bg-cs-purple br1 ph2 pb1  pointer">social complexity</a>?"
+					</h4>
+
+					<h4 class="dib f2 tl fr font-book lh-copy copy-blue rotate-4">
+						"How does this grow into the marketplace?"
+					</h4>
+
+					<h4 class="dib f2 tl fr font-book lh-copy copy-blue rotate--4">
+						"How do people currently solve this problem?"
+					</h4>
+					<h4 class="dib f2 tl fr font-book lh-copy copy-blue rotate-4">
+						"Is there clear utility & <a class="parent-co--immediatevalue bg-cs-blue br1 ph2 pb1  pointer">immediate value</a>?"
+					</h4>
+					</div>
+					<h4 class="dib mw6 f4 tl font-book lh-copy copy-blue">
+					We landed on two paths:
+					</h4>
+
+				</div>
+			</div>
+			<div class="dib tc w-50-l w-100-m bg-white pa4-ns pa2 fl">
+				<div class="dib h2 w2 br-100 ba bw2 copy-dark-pink">
+
+				</div>
+				<div class="dib w-100 mt3 tc">
+
+					<h2 class="dib f3 font-book lh-copy copy-dark-pink mt0 bb bw2">
+						Search & Discovery
+					</h2>
+				</div>
+				<div class="dib w-100 mw6 tl">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Every marketplace is predicated on a core interaction: the fundamental actions necessary for it to function.
+					</h4>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Focusing on the marketplace's "Discovery" phase - helping employers find freelancers - would help validate this core interaction and build out our <a class="parent-st--moat bg-cs-orange br1 ph2 pb1 pointer">moat</a>: the web of trusted connections that determine job distribution.
+					</h4>
+				</div>
+			</div>
+			<div class="dib tc w-50-l tc w-100-m bg-white pa4-ns pa2 fl">
+				<div class="dib h2 w2 arrow-up-toolstonetwork">
+
+				</div>
+				<div class="dib w-100 mt3 tc">
+					<h2 class="dib f3 font-book lh-copy copy-turquoise mt0 bb bw2">
+						From Tools To Network
+					</h2>
+				</div>
+				<div class="dib w-100 mw6 tl">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					A well established strategy for building marketplaces is known as <a class="parent-st--comeforthetools bg-cs-orange br1 ph2 pb1 pointer">"come for the tools and stay for the network"</a>.
+					</h4>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				 Could we build a simple, barebones and ultrafast project management tool for freelancers? Could we build out the other marketplace components around it?
+					</h4>
+				</div>
+			</div>
+			<div class="dib w-100 tc">
+				<div class="dib w-100 mw6">
+					<h2 class="dib f3 tl font-book lh-copy headline-blue mt0 bb bw2 rotate--4">
+						Next Up
+					</h2>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+						We <!--<a class="parent-co--systems bg-cs-orange br1 ph2 pb1 pointer">-->prototyped<!--</a>--> both products and <!--<a class="parent-co--systems bg-cs-orange br1 ph2 pb1 pointer">-->sought validation<!--</a>--> from our freelance community. Both received positive feedback, some of which we suspected were <a class="parent-co--falsepositive bg-cs-purple br1 ph2 pb1 pointer">false positives</a>.
+					</h4>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+						It took just two weeks to build out each MVP, owing to their simplicity and a partially shared codebase. We released them to our freelance community and gauged the response.
+					</h4>
+				</div>
+			</div>
+			<div class="dib tc w-50-l w-100-m bg-white pa4-ns pa2 fl">
+				<div class="dib h2 w2 br-100 ba bw2 copy-dark-pink">
+
+				</div>
+				<div class="dib w-100 mt3 tc">
+					<!--<h2 class="dib f3 font-book lh-copy headline-blue mt0 bb bw2">
+						Search & Discovery
+					</h2>-->
+				</div>
+				<div class="dib w-100 mw tl">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Our search and discovery MVP was modeled after a social feed. Anyone could post jobs which would be seen by their "friends".
+					</h4>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Engagement was abysmal. Very few jobs were posted. While people did recommend their trusted friends, it was limited. It simply wasn't working.
+					</h4>
+				</div>
+			</div>
+			<div class="dib tc w-50-l w-100-m bg-white pa4-ns pa2 fl">
+				<div class="dib h2 w2 arrow-up-toolstonetwork">
+
+				</div>
+				<div class="dib w-100 mt3 tc">
+				<!--	<h2 class="dib f3 font-book lh-copy headline-blue mt0 bb bw2">
+						From Tools To Network
+					</h2>-->
+				</div>
+				<div class="dib w-100 mw6 tl">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					In contrast, our project management tool ( <a class="bb bw2 dim pb1" href="http://www.wearedomino.com/fasttrack">Fast Track</a> ) was doing much better. We had consistent monthly active users and the feedback was positive.
+					</h4>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+				  It was a lightweight time tracker that created invoices automatically with the click of a button. It was dead simple to understand, setup & use.
+					</h4>
+				</div>
+			</div>
+			<div class="dn absolute child-container child-co--systemsthinking shadow-5 z-999" style="right: 32px; top: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Systems Thinking
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						Conceptualizing your work within the scope of a system of interdependent elements. Your ice cream store isn't just about the ice cream, but the ambience, interior design, branding, music, customer service, etc.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Systems_theory">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--coreinteraction shadow-5 z-999" style="left: 32px; top: 480px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Core Interaction
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						The set of actions undertaken by producers & consumers on an online platform that are fundamental to its functioning. On Airbnb that's listing and renting out space, on eBay it's listing and bidding on items. Domino's core interaction is recommending people & sharing jobs.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="http://platformed.info/the-core-interaction-platform/">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--socialcomplexity shadow-5 z-999" style="left: 32px; top: 640px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Social Complexity
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						Understanding how society, social relationships & systems function. Domino's product theory relies on the creation of networks of recommendations to work. How hard is it to convince people to formalize those networks on an online platform?
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Social_complexity">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--immediatevalue shadow-5 z-999" style="left: 32px; bottom: 1400px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-blue  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Immediate Value
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+							How quickly can we provide value to someone after they sign-up? Their interest in a product is constrained by their perceived value, minus the energy they need to spend to get it.
+						</h4>
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+							I'm more likely to go to the ice cream store if it's a 5 minute walk than a 5 hour one.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Social_complexity">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-blue" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-st--moat shadow-5 z-999" style="left: 32px; bottom: 800px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Moat
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						A competitive moat is the highly defensible, hard to replicate & unique advantage you hold over your competitors.
+					</h4><br>
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						Like an ice cream shop that sells a never ending ice cream.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Systems_theory">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-st--comeforthetools shadow-5 z-999" style="right: 32px; bottom: 800px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Come for the Tools
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						A strategy to bootstrap networks by attracting initial users with a "single player tool" which provides immediate value. With a critical mass of users, you can then encourage them to participate in the network, which is where long term value & defensibility lie.
+					</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="http://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network/">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--falsepositive shadow-5 z-999" style="right: 36px; bottom: 320px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						False Positives
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						Like a false alarm. In this case, we know that freelancers are always looking for jobs. During research, they may be overly supportive of a product designed to get them more, but that enthusiasm may not translate into usage when the product is in their hands.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/False_positives_and_false_negatives">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="dib tc w-100 bg-white tc pa4-ns pa2 fr v-top mt3 ">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
+					3.0
+				</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Starting with the Destination
+				</h2>
+			</div>
+			<div class="dib w-100 mw6 tl">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					After our experiments & brainstorming, we landed on the idea for a marketplace where freelancers & employers find & share jobs through their friends, via interconnected networks of trust.
+				</h4>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Or, more simply:
+				</h4>
+			</div>
+			<div class="dib relative w-100 mt3 tc">
+				<!--<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
+					<a href="" class="bg-cs-orange br1 ph4 pv2">
+					Incomplete Maps & Broken Territories
+					</a>
+				</h5>-->
+				<div class="dib relative w-100">
+				<h2 class="dib w-100 f1 font-book lh-copy headline-blue mv0 rotate--10">
+				"Find work through your friends"
+				</h2>
+				</div>
+				<div class="dib w-100 mw6 tr-ns tl">
+					<h4 class="dib f4 font-book lh-copy copy-blue">
+						Here's an initial sketch:
+					</h4>
+				</div>
+			</div>
+		</div>
+
+			<div class="dib w-100 relative tc mv3-ns mv2">
+				<div class="dib relative w-100 tc">
+					<div class="dib w-100 mw6 tl">
+						<h4 class="f3 black mw5 mv0-l mv1-m mb3 mt0 font-circular" style="transform: rotate(-15deg);">
+						<span class="dib bg-white ba bw2 b--blak br1 pa1 ma1">EMPLOYERS</span> <span class="dib bg-white ba bw2 b--blak br1 pa1 ma1">SHARING</span> <span class="dib bg-white ba bw2 b--blak br1 pa1 ma1">JOBS</span> <span class="dib bg-white ba bw2 b--blak br1 pa1 ma1">WITH</span>
+					</h4>
+					</div>
+				</div>
+
+				<svg class="dib mw6-ns mw5 rotate" viewBox="0 0 1280 1300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+				<title>img-jobshare-yinyang</title>
+
+				<g id="Canvas" transform="matrix(2 0 0 2 -7286 -8278)">
+				<g id="img-jobshare-yinyang">
+				<g id="Group">
+				<g id="Ellipse 2.2">
+
+				<use xlink:href="#path0_fill" transform="translate(3643 4139)" fill="#FAFAFA"/>
+				<mask id="mask0_outline_ins">
+				<use xlink:href="#path0_fill" fill="white" transform="translate(3643 4139)"/>
+				</mask>
+				<g mask="url(#mask0_outline_ins)">
+				<use xlink:href="#path1_stroke_2x" transform="translate(3643 4139)"/>
+				</g>
+				</g>
+				<g id="ellipsis">
+
+				<use xlink:href="#curve" transform="translate(3963 4139)"/>
+				</g>
+
+
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(0.968269 -0.249909 0.249909 0.968269 3698.34 4463.67)"/>
+				</g>
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(-0.984355 0.176195 -0.176195 -0.984355 4206.69 4458.61)" fill="#FAFAFA"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path5_fill" transform="translate(3810.74 4253)"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path6_fill" transform="translate(4038.73 4536.35)" fill="#FAFAFA"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(0.76919 0.63902 -0.63902 0.76919 3752.63 4496.64)"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(-0.707107 -0.707107 0.707107 -0.707107 4156.8 4421.16)" fill="#FAFAFA"/>
+				</g>
+				</g>
+				</g>
+				</g>
+				<defs>
+				<path id="path0_fill" d="M 640 324.885C 640 504.315 496.731 649.771 320 649.771C 143.269 649.771 0 504.315 0 324.885C 0 145.456 143.269 0 320 0C 496.731 0 640 145.456 640 324.885Z"/>
+				<path id="path1_stroke_2x" d="M 639 324.885C 639 503.777 496.165 648.771 320 648.771L 320 650.771C 497.298 650.771 641 504.853 641 324.885L 639 324.885ZM 320 648.771C 143.835 648.771 1 503.777 1 324.885L -1 324.885C -1 504.853 142.702 650.771 320 650.771L 320 648.771ZM 1 324.885C 1 145.994 143.835 1 320 1L 320 -1C 142.702 -1 -1 144.918 -1 324.885L 1 324.885ZM 320 1C 496.165 1 639 145.994 639 324.885L 641 324.885C 641 144.918 497.298 -1 320 -1L 320 1Z"/>
+				<path id="curve" d="M 0 649.771C 176.731 649.771 320 504.315 320 324.885C 320 145.456 176.731 0 0 0L 0 649.771Z"/>
+
+				<path id="path3_stroke_2x" d="M 0 649.771L -1 649.771L -1 650.771L 0 650.771L 0 649.771ZM 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 319 324.885C 319 503.777 176.165 648.771 0 648.771L 0 650.771C 177.298 650.771 321 504.853 321 324.885L 319 324.885ZM 0 1C 176.165 1 319 145.994 319 324.885L 321 324.885C 321 144.918 177.298 -1 0 -1L 0 1ZM -1 0L -1 649.771L 1 649.771L 1 0L -1 0Z"/>
+				<path id="path4_fill" d="M 43.9695 0L 82.0481 47.6336L 5.89079 47.6336L 43.9695 0Z"/>
+				<path id="path5_fill" d="M 79.7964 64.3257C 79.7964 99.8518 61.9334 128.651 39.8982 128.651C 17.863 128.651 0 99.8518 0 64.3257C 0 28.7996 17.863 0 39.8982 0C 61.9334 0 79.7964 28.7996 79.7964 64.3257Z"/>
+				<path id="path6_fill" d="M 80 64.3257C 80 99.8518 62.0914 128.651 40 128.651C 17.9086 128.651 0 99.8518 0 64.3257C 0 28.7996 17.9086 0 40 0C 62.0914 0 80 28.7996 80 64.3257Z"/>
+				<path id="path7_stroke" d="M 0 0C -4.27039 4.2147 -4.26829 4.21683 -4.26601 4.21915C -4.26499 4.22017 -4.26251 4.22268 -4.26048 4.22473C -4.25769 4.22754 -4.25159 4.2337 -4.24601 4.23931C -4.23742 4.24795 -4.22064 4.26478 -4.20343 4.28197C -4.17418 4.31117 -4.12234 4.36266 -4.06377 4.4203C -3.9571 4.52521 -3.78051 4.6971 -3.56711 4.90083C -3.16185 5.28737 -2.51845 5.8881 -1.7097 6.61184C -0.137745 8.01711 2.29912 10.0964 5.41972 12.5095C 11.5597 17.25 20.9485 23.7143 33.0062 29.9976C 56.8713 42.3895 92.9405 54.7382 138.627 53.7281L 138.337 41.7316C 94.7796 42.8799 61.6075 31.3637 38.5426 19.3511C 27.1353 13.4321 18.637 7.55921 12.7559 3.01316C 9.86607 0.782915 7.75902 -1.01844 6.28967 -2.333C 5.57777 -2.96917 5.07618 -3.43816 4.71661 -3.78134C 4.5476 -3.94249 4.43681 -4.05047 4.35171 -4.13421C 4.3144 -4.17089 4.29425 -4.19092 4.27549 -4.20967C 4.26868 -4.21645 4.26746 -4.21769 4.26403 -4.22114C 4.2636 -4.22157 4.26477 -4.2204 4.26499 -4.22018C 4.26551 -4.21964 4.26687 -4.21827 4.26713 -4.21801C 4.26867 -4.21645 4.27039 -4.2147 0 0ZM 138.627 53.7281C 184.179 52.5538 219.641 40.2393 243.034 28.4084C 254.853 22.4125 263.999 16.3809 269.971 11.9858C 273.008 9.74786 275.374 7.82982 276.898 6.53697C 277.682 5.87049 278.307 5.31761 278.7 4.96274C 278.907 4.77533 279.079 4.61681 279.182 4.52043C 279.239 4.46727 279.29 4.41953 279.318 4.39262C 279.335 4.37669 279.352 4.36096 279.36 4.35295C 279.366 4.34771 279.372 4.34191 279.374 4.33929C 279.376 4.33736 279.379 4.33498 279.38 4.33401C 279.382 4.33181 279.384 4.32978 275.231 0C 271.077 -4.32978 271.079 -4.33146 271.08 -4.33297C 271.081 -4.33324 271.082 -4.33458 271.083 -4.33513C 271.083 -4.33527 271.084 -4.33663 271.084 -4.33635C 271.081 -4.33332 271.08 -4.33253 271.074 -4.32655C 271.056 -4.30963 271.037 -4.29197 271.001 -4.25884C 270.92 -4.18264 270.814 -4.085 270.651 -3.9381C 270.304 -3.62437 269.821 -3.19606 269.133 -2.61223C 267.71 -1.40447 265.668 0.254628 262.856 2.32278C 257.133 6.5397 248.825 12.0359 237.613 17.7027C 214.943 29.1972 182.031 40.7476 138.337 41.7316L 138.627 53.7281Z"/>
+				</defs>
+				</svg>
+
+				<div class="dib relative w-100 mw8 tr">
+					<div class="dib w-100 mw6 ">
+						<h4 class="f3 near-white pa2 br1 mw5 mv1-l mv1-m mt4 font-circular fn-ns fr" style="transform: rotate(-10deg);">
+						<span class="dib bg-black pa1 ma1 ba bw2 b--black">FREELANCERS</span> <span class="dib bg-black pa1 ma1 ba bw2 b--black">SHARING</span> <span class="dib bg-black pa1 ma1 ba bw2 b--black">JOBS</span> <span class="dib bg-black pa1 ma1 ba bw2 b--black">WITH</span>
+					</h4>
+					</div>
+				</div>
+				<div class="dib w-100 mw6 tc">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+						While many projects can evolve to take you far from your intended destination, they often make for great starting points. We began mapping out the steps necessary to get our destination, without being wedded to it.
+					</h4>
+				</div>
+		</div>
+		</div>
+
+		<div class="dib relative tc w-100 bg-white tc pa4-ns pa2 fr">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
+					3.2
+				</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					Product Decisions
+				</h2>
+				<div class="dib w-100 mw6 tl">
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					A marketplace has a lot of moving parts. Broadly, they can be categorized into two distinct phases:
+					</h4>
+					<div class="dib relative w-100 h5 mt3 mb5 mw6 tc">
+						<div class="dib absolute pa5  ba bw2 copy-blue bg-cs-purple f4 font-book mr2 fl ttu z-99 hover-reveal" style="left: 24px; top: 0px;">
+							Discovery
+
+							<div class="dib absolute ba bw2 copy-blue f4 font-book ttu pv2 ph2 bg-white z-99 rotate--90" style="width: 202px; bottom: 31px; left: -124px;">
+								Reputation Sys.
+							</div>
+							<div class="dib absolute ba bw2 copy-blue f4 font-book ttu pv2 ph3 bg-white" style="bottom: -47px; right: -4px;">
+								Profiles
+							</div>
+							<div class="dib absolute ba bw2 copy-blue f4 font-book ttu pv2 ph3 bg-white" style="bottom: -47px; left: -3px;">
+								Search
+							</div>
+						</div>
+						<div class="dib absolute pa5  ba bw2 copy-blue bg-cs-purple f4 font-book mr2 fl ttu hover-reveal" style="right: 24px; bottom: 0px;">
+							Delivery
+
+							<div class="dib absolute ba bw2 copy-blue f4 font-book ttu pv2 ph2 bg-white z-9 rotate-90" style="width: 203px; bottom: 31px; right: -124px;">
+							Project Mgmt
+							</div>
+							<div class="dib absolute ba bw2 copy-blue f4 font-book ttu pv2 ph3 bg-white" style="width: 232px; bottom: -47px; left: -4px;">
+								Communication
+							</div>
+							<div class="dib absolute ba bw2 copy-blue f4 font-book ttu pv2 ph2 bg-white z-9 rotate-90" style="top: 23px; right: -29px;">
+								Billing
+							</div>
+							<div class="dib absolute ba bw2 copy-blue f4 tc font-book ttu pv2 ph1 bg-white z-9" style="width: 270px; top: -47px; left: -4px;">
+								Dispute Resolution
+							</div>
+						</div>
+					</div>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					We had initially set out to build the marketplace in its entirety, before backtracking after a couple of months to refocus our efforts. <a class="parent-co--perfectcompetition bg-cs-blue br1 ph2 pb1  pointer">We were a bootstrapped team of two and needed to pick our battles.</a>
+					</h4>
+					<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					We sought to prototype a few smaller pieces of the marketplace, and run through the <a class="parent-co--productdevelopment bg-cs-orange br1 ph2 pb1  pointer">agile development cycle</a> to determine the most viable. From there, we'd work to gain traction before building out the remaining marketplace components.
+					</h4>
+				</div>
+			</div>
+			<div class="dn absolute child-container child-co--productdevelopment shadow-5 z-999" style="right: 32px; bottom: 0px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Agile Development Cycle
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						The ongoing, iterative set of actions to prototype, test and build products and product features. Like working on a new bubblegum flavored ice cream through testing and tweaking the recipe and getting your customer's feedback.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Agile_software_development">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="dib relative tc w-100 bg-white tc pa4-ns pa2 fr">
+			<div class="dib w-100 mt3 tc">
+				<h5 class="dib w-100 f5 copy-blue font-book mv3 lh-copy">
+					3.4
+				</h5>
+				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
+					And the winner is..
+				</h2>
+			</div>
+
+			<div class="dib w-100 mw6 tl">
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					User engagement metrics showed the clear winner: <a class="bb bw2 dim pb1" href="http://www.wearedomino.com/fasttrack">Fast Track</a>. But if we only listened to the data, we'd be no more than <!--<a class="parent-co--systems bg-cs-purple br1 ph2 pb1 pointer">-->mindless automatons<!--</a>-->!
+				</h4>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					There was more to the story. Fast Track was easy to understand and provided immediate value. On the other hand, the social job feed had a lot holding it back:
+				</h4>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">1</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">Our landing page was not informative</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">2</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">There was no onboarding</span>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">3</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100 w-auto-ns">
+<a class="parent-co--activity bg-cs-purple br1 ph2 pb1 pointer">
+							<span class="bb bw2 pb2">
+								No activity begets no activity</span></a>
+						</h4>
+					</div>
+				</div>
+				<div class="dib w-100">
+					<div class="dib w-100 mw6 tl">
+						<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2">4</h3>
+						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-l ml0-m ml0 w-100 w-auto-ns">
+							<span class="bb bw2 pb2">There was no immediate value
+						</h4>
+					</div>
+				</div>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Our ongoing user interviews with the community affirmed these failings. The feed was also a questionable <a class="parent-co--productform bg-cs-purple br1 ph2 pb1 pointer">product form</a> to follow.
+				</h4>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					Fast Track had challenges of its own. How it would evolve into the marketplace was largely unclear. User feedback centered heavily on niche functionality requests. Gaining traction would also require us to compete in a crowded market. Our concerns led to a lack of conviction.
+				</h4>
+				<h4 class="dib f4 tl font-book lh-copy copy-blue">
+					We chose to focus on the freelancer/job discovery strategy. Except, we'd replace the feed with a better product form: the search engine.
+				</h4>
+			</div>
+
+			<div class="dn absolute child-container child-co--productform shadow-5 z-999" style="right: 36px; bottom: 320px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Product Forms
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						Digital products are all manifestations of a handful of the same forms: feeds, search engines, calendars, clocks etc. which have their own UX quirks and qualities. These forms are themselves mostly just manifestations of the humble list.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="http://www.spiegel.de/international/zeitgeist/spiegel-interview-with-umberto-eco-we-like-lists-because-we-don-t-want-to-die-a-659577-2.html">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dn absolute child-container child-co--activity shadow-5 z-999" style="right: 36px; bottom: 320px;">
+				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
+					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
+						<div class="flex w-100 h-100  align-center justify-center">
+							<h4 class="flex self-center f2 near-white rotate--45">
+								CLOSE
+							</h4>
+						</div>
+					</div>
+					<div class="dib w-100  pv4 ph3 bg-cs-purple  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
+						</a>
+						<h3 class="f2 near-black font-book headline-blue tl mv0">
+						Activity Begets Activity
+						</h3>
+					</div>
+					<div class="dib pa3 pb5">
+						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
+						Sites that are social feeds, or rely on user generated content, require a minimum amount of daily activity to encourage others to contribute. If you went on Reddit and the most recent post was over a year old, you wouldn't feel encouraged to post to the site. What's the point? It looks dead.
+						</h4>
+					</div>
+					<a class="db pointer " target="_blank" href="https://motherboard.vice.com/en_us/article/z4444w/how-reddit-got-huge-tons-of-fake-accounts--2">
+					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-purple" style="bottom: -4px; right: -4px;">
+					<h4 class="f4 font-book near-black mv0 headline-blue">Learn More</h4>
+					</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+<div class="dib tc w-100 bg-domino-blue pa0-ns pa4">
+<div class="dib mw7 w-100 near-white">
+<h1 class="f-subheadline-ns f1 tl fw4 font-book">
+To
+</h1>
+</div>
+<div class="dib mw8 w-100 near-white">
+
+<h1 class="f-subheadline-ns f1 fw4 font-book rotate--10">
+Be
+</h1>
+<h1 class="f-subheadline-ns f1 fr  fw4 font-book">
+Continued
+</h1>
+</div>
+</div>
+
+</main>
+
+<script>
+
+	$('.action-close').click(function() {
+	$(this).parents('.child-container').toggleClass('active')
+	});
+
+	$('.parent-le--commonproblems').click(function() {
+		$('.child-le--commonproblems').toggleClass('active fadeInLeft ')
+	});
+
+		/* Section -- The Root Cause */
+
+	$('.parent-le--manydifferentproblems').click(function() {
+		$('.child-mi--manydifferentproblems').toggleClass('active fadeInLeft')
+	});
+
+	$('.parent-co--secondorder').click(function() {
+		$('.child-co--secondorder').toggleClass('active fadeInRight')
+	});
+
+		/* Section -- A Precarious Position */
+
+	$('.parent-le--negativefeedbackloop').click(function() {
+		$('.child-mi--negativefeedbackloop').toggleClass('active fadeInLeft')
+	});
+
+	/* Section -- Another Approach */
+
+	$('.parent-co--learnbydoing').click(function() {
+		$('.child-co--learnbydoing').toggleClass('active fadeInLeft')
+	});
+
+	$('.parent-le--worstbehaviors').click(function() {
+		$('.child-mi--worstbehaviors').toggleClass('active fadeInLeft')
+	});
+
+	$('.parent-co--incentives').click(function() {
+		$('.child-co--incentives').toggleClass('active fadeInRight')
+	});
+
+	$('.parent-st--inversion').click(function() {
+		$('.child-st--inversion').toggleClass('active fadeInLeft')
+	});
+
+	/* Section -- The Map is Not The Territory */
+
+	$('.parent-le--platformfriction').click(function() {
+		$('.child-mi--platformfriction').toggleClass('active fadeInRight')
+	});
+
+	$('.parent-le--timetostart').click(function() {
+		$('.child-le--timetostart').toggleClass('active fadeInLeft')
+	});
+
+	/* Section -- A Great Way To Find Bad Jobs */
+
+	$('.parent-co--pricefloor').click(function() {
+		$('.child-co--pricefloor').toggleClass('active fadeInRight')
+	});
+
+	$('.parent-co--paretoprinciple').click(function() {
+		$('.child-co--paretoprinciple').toggleClass('active fadeInRight')
+	});
+
+	$('.parent-co--longtail').click(function() {
+		$('.child-co--longtail').toggleClass('active fadeInLeft')
+	});
+
+	/* Section -- Incomplete Maps */
+
+	$('.parent-co--subtraction').click(function() {
+		$('.child-co--subtraction').toggleClass('active fadeInLeft')
+	});
+
+	/* Section -- Favoring Friction */
+
+	$('.parent-co--perfectcompetition').click(function() {
+		$('.child-co--perfectcompetition').toggleClass('active fadeInRight')
+	});
+
+		$('.parent-co--friction').click(function() {
+			$('.child-co--friction').toggleClass('active fadeInLeft')
+		});
+
+		$('.parent-co--boundedrationality').click(function() {
+			$('.child-co--boundedrationality').toggleClass('active fadeInRight')
+		});
+
+		/* Section -- Putting the pieces together */
+
+
+		$('.parent-co--combicreativity').click(function() {
+			$('.child-co--combicreativity').toggleClass('active fadeInLeft')
+		});
+
+		/* Section -- Mapmaking together */
+
+		$('.parent-co--incompletemaps').click(function() {
+			$('.child-co--incompletemaps').toggleClass('active fadeInLeft')
+		});
+
+		/* Section -- Product Decisions together */
+
+		$('.parent-co--productdevelopment').click(function() {
+			$('.child-co--productdevelopment').toggleClass('active fadeinRight')
+		});
+
+
+		/* Section -- Strategies, Forms, Prototypes */
+
+		$('.parent-co--systemsthinking').click(function() {
+			$('.child-co--systemsthinking').toggleClass('active fadeinRight')
+		});
+
+		$('.parent-co--coreinteraction').click(function() {
+			$('.child-co--coreinteraction').toggleClass('active fadeinRight')
+		});
+
+		$('.parent-co--socialcomplexity').click(function() {
+			$('.child-co--socialcomplexity').toggleClass('active fadeinRight')
+		});
+
+		$('.parent-co--immediatevalue').click(function() {
+			$('.child-co--immediatevalue').toggleClass('active fadeinRight')
+		});
+
+		$('.parent-st--moat').click(function() {
+			$('.child-st--moat').toggleClass('active fadeinLeft')
+		});
+
+		$('.parent-st--comeforthetools').click(function() {
+			$('.child-st--comeforthetools').toggleClass('active fadeinRight')
+		});
+
+		$('.parent-co--falsepositive').click(function() {
+			$('.child-co--falsepositive').toggleClass('active fadeinRight')
+		});
+
+		$('.parent-co--productform').click(function() {
+			$('.child-co--productform').toggleClass('active fadeinRight')
+		});
+
+		$('.parent-co--activity').click(function() {
+			$('.child-co--activity').toggleClass('active fadeinRight')
+		});
+
+</script>
+
+</body>
+</html>
