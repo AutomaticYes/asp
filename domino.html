@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
 	<link rel="stylesheet" href="http://unpkg.com/tachyons-flexbox@2.1.0/css/tachyons-flexbox.min.css" />
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="description" content="…">
@@ -54,6 +55,11 @@
 	.font-bold {
 		font-family: 'Circular-Bold', 'Helvetica Neue', sans-serif;
 		font-weight: 700;
+	}
+
+	.font-mono {
+		font-family: 'Space Mono', monospace;
+		font-weight: 400;
 	}
 
 	.domino-blue {
@@ -116,6 +122,40 @@
 		background-color: hsla(34, 110%, 82%, 1);
 	}
 
+	.bg-dots-red {
+	 background: white;
+	 background-image:
+		 radial-gradient(#e7040f 10%, transparent 0),
+		 radial-gradient(#ff725c 10%, transparent 0);
+	 background-size: 20px 20px;
+	 background-position: 0 0, 15px 15px;
+	}
+
+	.bg-dots-dominoblue {
+	 background: white;
+	 background-image:
+		 radial-gradient(#2659ff 10%, transparent 0),
+		 radial-gradient(#96ccff 10%, transparent 0);
+	 background-size: 20px 20px;
+	 background-position: 0 0, 15px 15px;
+	}
+
+	.bg-dots-header {
+		background: white;
+     background-image: radial-gradient(#2659ff 10%, transparent 0),
+		 radial-gradient(hsla(25, 94%, 74%, 1) 10%, transparent 0);
+     background-size: 20px 20px;
+     background-position: 0 0, 10px 10px;
+	}
+	.bg-dots-header-inverse {
+		background: white;
+		    background-image: radial-gradient(hsla(25, 100%, 60%, 1) 10%, transparent 0),
+				radial-gradient(hsla(226, 80%, 70%, 1) 10%, transparent 0);
+		    background-size: 20px 20px;
+		    background-position: 0 0, 10px 10px;
+		}
+
+
 	.headline-blue {
 		color: rgb(0, 14, 204);
 	}
@@ -136,9 +176,35 @@
 		color: hsla(175, 80%, 35%, 1);
 	}
 
+	/* Custom Heights */
+
 	.min-vh-50 {
 		min-height: 50vh;
 	}
+
+	.mheight1  {  max-height: 1rem; }
+	.mheight2  {  max-height: 2rem; }
+	.mheight3  {  max-height: 4rem; }
+	.mheight4  {  max-height: 8rem; }
+	.mheight5  {  max-height: 16rem; }
+	.mheight6  {  max-height: 32rem; }
+	.mheight7  {  max-height: 48rem; }
+	.mheight8  {  max-height: 64rem; }
+	.mheight9  {  max-height: 96rem; }
+
+	@media (--breakpoint-not-small) {
+	.mheight1-ns  {  max-height: 1rem; }
+	.mheight2-ns  {  max-height: 2rem; }
+	.mheight3-ns  {  max-height: 4rem; }
+	.mheight4-ns  {  max-height: 8rem; }
+	.mheight5-ns  {  max-height: 16rem; }
+	.mheight6-ns  {  max-height: 32rem; }
+	.mheight7-ns  {  max-height: 48rem; }
+	.mheight8-ns  {  max-height: 64rem; }
+	.mheight9-ns  {  max-height: 96rem; }
+	}
+
+
 
 	.lh-copy {
 		line-height: 180%;
@@ -147,6 +213,11 @@
 	.lh-list {
 		line-height: 220%;
 	}
+
+
+	.f10rem {
+			font-size: 10rem;
+		}
 
 	.arrow-down {
   width: 0;
@@ -166,6 +237,10 @@
 
 	.w300px {
 		width: 300px;
+	}
+
+	.mw5p5 {
+		max-width: 20rem;
 	}
 
 	.z--9 {
@@ -345,6 +420,10 @@
 	-webkit-scrollbar: none;
 	}
 
+	.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 	.card {
     display: inline-block;
   }
@@ -479,45 +558,11 @@
 	-->
 	</nav>
 	<div class="relative dib w-100 h-100">
-	<div class="triangle-down-left absolute" style="top: 0px; left: 0px;">
-	</div>
-	<div class="dib items-center justify-center w-100 min-vh-100 bg-white pa4">
-		<div class="dib fl tc mt4-ns mt2 ">
-			<div class="dib fl">
-			<div class="dib fl pv2 ph3 relative mt3 bl bt bb bw2 z-9">
-					<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
-						D
-					</h3>
-			</div>
-			<div class="dib fl pv2 ph3 relative mt3 ba bw2 z-9">
-					<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
-						O
-					</h3>
-			</div>
-			<div class="dib fl pv2 ph3 relative mt3 bt br bb bw2 z-9">
-					<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
-						M
-					</h3>
-			</div>
-			</div>
-			<div class="dib w-100">
-			<div class="dib fl pv2 ph3 relative bl bb br bw2 z-9">
-					<h3 class="dil f2-ns f3 ph2 font-book headline-blue mv0 tl ttu">
-						I
-					</h3>
-			</div>
-			<div class="dib fl pv2 ph3 relative  bb br bw2 z-9">
-				<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
-						N
-				</h3>
-			</div>
-			<div class="dib fl pv2 ph3 relative  bb br bw2 z-9">
-				<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu">
-						O
-				</h3>
-			</div>
-			</div>
-		</div>
+	<div class="dib relative items-center justify-center w-100 h-50 pt5 pa4 bg-dots-header">
+
+
+
+
 		<!--<div class="dib w-100 bg-white tc">
 			<div class="dib w-100 mw6 fl relative z-9 bb bw2 ">
 					<h3 class="dib f2-ns f3 w-100 mw6-ns lh-copy fl font-book near-black mv0 tl z--9 mv2">
@@ -525,15 +570,13 @@
 				 </h3>
 			</div>
 		</div>-->
-			<div class="flex relative tc items-start	 justify-center w-100 tc mt4">
-				<div class="absolute flex items-center justify-center w4 h4  br-100 bg-domino-blue near-white font-book f4 shadow-5 z-9 rotate" style="top: -10%; right: 15%;">
-					<h4 class="f2 font-book mv0 rotate-20">Draft</h4>
-				</div>
+			<!--<div class="flex relative tl items-start	 justify-start w-100 mt4">
+				<div class="flex self-start">
 				<div class="dib w-100 mw6 tl z-99">
 					<div class="dib w-100 tl">
 						<h3 class="dib f2-ns f3 tc font-book lh-copy headline-blue bb bw2 w2 mv2 pb2 rotate--10">A</h3>
-						<h4 class="dib fn-ns fr  f2-ns f3 tl font-book lh-list headline-blue mv0 ml4-ns  w-70-ns bb bw2">
-							Tragedy in Five Parts
+						<h4 class="dib fn-ns fr  f2-ns f3 tl font-book lh-list headline-blue mv0 ml4-ns  w-60-ns bb bw2">
+							Case Study
 						</h4>
 					</div>
 					<div class="dib w-100 mw6 tl-ns tr">
@@ -568,26 +611,110 @@
 					</div>
 
 				</div>
-			</div>
+				</div>
+			</div>-->
+			<div class="dib w-100 relative tc">
+				<div class="dib relative w-100 tc mb3-ns">
+					<div class="dib tl">
+						<div class="dib fl">
+						<div class="dib fl pv2 ph3 relative   bw2 z-9">
+								<h3 class="dil f2-ns f3 font-book headline-blue mv0 tl ttu" style="text-shadow: 1px -1px 0px rgba(255, 183, 99, 1);">
+									Domino
+								</h3>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="dib absolute w-100 z-99" style="left: 0px;">
+				<h2 class="dib w-100 f1-ns f2 font-book lh-copy headline-blue mv0 rotate--10">
+				"Find work through your friends"
+				</h2>
+				</div>
+				<svg class="dib mw6-ns mw5 rotate mt3-ns mt5" viewBox="0 0 1280 1300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+				<title>img-jobshare-yinyang</title>
+
+				<g id="Canvas" transform="matrix(2 0 0 2 -7286 -8278)">
+				<g id="img-jobshare-yinyang">
+				<g id="Group">
+				<g id="Ellipse 2.2">
+
+				<use xlink:href="#path0_fill" transform="translate(3643 4139)" fill="#FAFAFA"/>
+				<mask id="mask0_outline_ins">
+				<use xlink:href="#path0_fill" fill="white" transform="translate(3643 4139)"/>
+				</mask>
+				<g mask="url(#mask0_outline_ins)">
+				<use xlink:href="#path1_stroke_2x" transform="translate(3643 4139)"/>
+				</g>
+				</g>
+				<g id="ellipsis">
+
+				<use xlink:href="#curve" transform="translate(3963 4139)"/>
+				</g>
+
+
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(0.968269 -0.249909 0.249909 0.968269 3698.34 4463.67)"/>
+				</g>
+				<g id="Polygon">
+				<use xlink:href="#path4_fill" transform="matrix(-0.984355 0.176195 -0.176195 -0.984355 4206.69 4458.61)" fill="#FAFAFA"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path5_fill" transform="translate(3810.74 4253)"/>
+				</g>
+				<g id="Ellipse">
+				<use xlink:href="#path6_fill" transform="translate(4038.73 4536.35)" fill="#FAFAFA"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(0.76919 0.63902 -0.63902 0.76919 3752.63 4496.64)"/>
+				</g>
+				<g id="Line">
+				<use xlink:href="#path7_stroke" transform="matrix(-0.707107 -0.707107 0.707107 -0.707107 4156.8 4421.16)" fill="#FAFAFA"/>
+				</g>
+				</g>
+				</g>
+				</g>
+				<defs>
+				<path id="path0_fill" d="M 640 324.885C 640 504.315 496.731 649.771 320 649.771C 143.269 649.771 0 504.315 0 324.885C 0 145.456 143.269 0 320 0C 496.731 0 640 145.456 640 324.885Z"/>
+				<path id="path1_stroke_2x" d="M 639 324.885C 639 503.777 496.165 648.771 320 648.771L 320 650.771C 497.298 650.771 641 504.853 641 324.885L 639 324.885ZM 320 648.771C 143.835 648.771 1 503.777 1 324.885L -1 324.885C -1 504.853 142.702 650.771 320 650.771L 320 648.771ZM 1 324.885C 1 145.994 143.835 1 320 1L 320 -1C 142.702 -1 -1 144.918 -1 324.885L 1 324.885ZM 320 1C 496.165 1 639 145.994 639 324.885L 641 324.885C 641 144.918 497.298 -1 320 -1L 320 1Z"/>
+				<path id="curve" d="M 0 649.771C 176.731 649.771 320 504.315 320 324.885C 320 145.456 176.731 0 0 0L 0 649.771Z"/>
+
+				<path id="path3_stroke_2x" d="M 0 649.771L -1 649.771L -1 650.771L 0 650.771L 0 649.771ZM 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 319 324.885C 319 503.777 176.165 648.771 0 648.771L 0 650.771C 177.298 650.771 321 504.853 321 324.885L 319 324.885ZM 0 1C 176.165 1 319 145.994 319 324.885L 321 324.885C 321 144.918 177.298 -1 0 -1L 0 1ZM -1 0L -1 649.771L 1 649.771L 1 0L -1 0Z"/>
+				<path id="path4_fill" d="M 43.9695 0L 82.0481 47.6336L 5.89079 47.6336L 43.9695 0Z"/>
+				<path id="path5_fill" d="M 79.7964 64.3257C 79.7964 99.8518 61.9334 128.651 39.8982 128.651C 17.863 128.651 0 99.8518 0 64.3257C 0 28.7996 17.863 0 39.8982 0C 61.9334 0 79.7964 28.7996 79.7964 64.3257Z"/>
+				<path id="path6_fill" d="M 80 64.3257C 80 99.8518 62.0914 128.651 40 128.651C 17.9086 128.651 0 99.8518 0 64.3257C 0 28.7996 17.9086 0 40 0C 62.0914 0 80 28.7996 80 64.3257Z"/>
+				<path id="path7_stroke" d="M 0 0C -4.27039 4.2147 -4.26829 4.21683 -4.26601 4.21915C -4.26499 4.22017 -4.26251 4.22268 -4.26048 4.22473C -4.25769 4.22754 -4.25159 4.2337 -4.24601 4.23931C -4.23742 4.24795 -4.22064 4.26478 -4.20343 4.28197C -4.17418 4.31117 -4.12234 4.36266 -4.06377 4.4203C -3.9571 4.52521 -3.78051 4.6971 -3.56711 4.90083C -3.16185 5.28737 -2.51845 5.8881 -1.7097 6.61184C -0.137745 8.01711 2.29912 10.0964 5.41972 12.5095C 11.5597 17.25 20.9485 23.7143 33.0062 29.9976C 56.8713 42.3895 92.9405 54.7382 138.627 53.7281L 138.337 41.7316C 94.7796 42.8799 61.6075 31.3637 38.5426 19.3511C 27.1353 13.4321 18.637 7.55921 12.7559 3.01316C 9.86607 0.782915 7.75902 -1.01844 6.28967 -2.333C 5.57777 -2.96917 5.07618 -3.43816 4.71661 -3.78134C 4.5476 -3.94249 4.43681 -4.05047 4.35171 -4.13421C 4.3144 -4.17089 4.29425 -4.19092 4.27549 -4.20967C 4.26868 -4.21645 4.26746 -4.21769 4.26403 -4.22114C 4.2636 -4.22157 4.26477 -4.2204 4.26499 -4.22018C 4.26551 -4.21964 4.26687 -4.21827 4.26713 -4.21801C 4.26867 -4.21645 4.27039 -4.2147 0 0ZM 138.627 53.7281C 184.179 52.5538 219.641 40.2393 243.034 28.4084C 254.853 22.4125 263.999 16.3809 269.971 11.9858C 273.008 9.74786 275.374 7.82982 276.898 6.53697C 277.682 5.87049 278.307 5.31761 278.7 4.96274C 278.907 4.77533 279.079 4.61681 279.182 4.52043C 279.239 4.46727 279.29 4.41953 279.318 4.39262C 279.335 4.37669 279.352 4.36096 279.36 4.35295C 279.366 4.34771 279.372 4.34191 279.374 4.33929C 279.376 4.33736 279.379 4.33498 279.38 4.33401C 279.382 4.33181 279.384 4.32978 275.231 0C 271.077 -4.32978 271.079 -4.33146 271.08 -4.33297C 271.081 -4.33324 271.082 -4.33458 271.083 -4.33513C 271.083 -4.33527 271.084 -4.33663 271.084 -4.33635C 271.081 -4.33332 271.08 -4.33253 271.074 -4.32655C 271.056 -4.30963 271.037 -4.29197 271.001 -4.25884C 270.92 -4.18264 270.814 -4.085 270.651 -3.9381C 270.304 -3.62437 269.821 -3.19606 269.133 -2.61223C 267.71 -1.40447 265.668 0.254628 262.856 2.32278C 257.133 6.5397 248.825 12.0359 237.613 17.7027C 214.943 29.1972 182.031 40.7476 138.337 41.7316L 138.627 53.7281Z"/>
+				</defs>
+				</svg>
+
+				<div class="dib ba bw2 tc ph3 copy-blue br-pill ma3 ma0-ns bg-white">
+					<h4 class="dib f3 tl font-book lh-copy copy-blue mv0">
+					Draft
+					</h4>
+				</div>
+		</div>
+		</div>
+		<div class="dib w-100 h-50 bg-dots-header-inverse">
 		</div>
 	</div>
 
 
-
 	<div class="dib tc w-100 min-vh-50 bg-white tc pa4-ns pa2">
-
-		<div class="dib w-100 mt3">
-			<h5 class="dib w-100 f5 headline-blue font-book mv3">0.0</h5>
-			<h2 class="dib f2 font-book lh-copy headline-blue mv0">
-				Intro
-			</h2>
-		</div>
 
 			<div class="dib w-100">
 			<div class="dib w-100 mw6 tl mt2">
-				<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
-					Domino was my first technology start-up. I had the good fortune to co-found it with
-					<a href="https://twitter.com/clbecker" class="bb bw2 pointer dim">Chris</a>, in the winter of 2014/2015. We shut down the product in March 2017.
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					<span class="dib f2 pl0 pa2 rotate--4">Domino</span> was an audacious attempt to improve how freelancers found great work, predicated on a totally new marketplace model:
+				</h4>
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					<span class="bb bw2 pb1">Combine</span> <span class="bb bw2 pb1">a</span> <span class="bb bw2 pb1">marketplace</span> <span class="bb bw2 pb1">with</span> <span class="bb bw2 pb1">a</span> <span class="bb bw2 pb1">social</span> <span class="bb bw2 pb1">network</span>, and let jobs move through networks of trusted friends & colleagues.
+				</h4>
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					The idea was simple. Finding it, then building it was anything but.
+				</h4>
+				<h4 class="dib tl f4 font-book lh-copy copy-blue mv3">
+					This led us on a wild 3 year journey, deep into the systemic problems of freelancing, online marketplace mechanics & sociology.
 				</h4>
 			</div>
 			</div>
@@ -595,24 +722,11 @@
 			<div class="dib w-100">
 			<div class="dib w-100 mw6 tl mt4">
 				<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
-					<span class="bb bw2 pb1 mr2">How To:</span> This case study has a central narrative that is punctuated with annotations: a casual jaunt into the depths of my mind. It also serves to credit the breadth of references that have helped shape my thinking, and the brilliant people behind them.
-				</h4>
-				<h4 class="dib tl f4 font-book lh-copy copy-blue">
-					<span class="bb bw2 pb1 mr2">A Note:</span> It would be impossible to explore every single twist and turn we experienced. This case study seeks to accurately explore our process, but is forced to ommit a lot of our journey for the sake of brevity.
-				</h4>
-			</div>
-			</div>
 
-			<!-- Do I need this?
-			<div class="dib w-100">
-			<div class="dib w-100 mw6 tl mt4	">
-				<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
-					<span class="bb bw2 pb1 mr2">A Note:</span>
-					As you navigate this case study, keep in mind: I started with limited practical knowledge, no experience, nor any network. I had to teach myself  HTML, CSS, JavaScript, User Experience Design & Research, Community Building, Wireframing & Prototyping, Agile, Email & Content Marketing, etc. I also had to go out and meet people and make friends within the industry.
 				</h4>
-			</div>
-		</div>-->
 
+			</div>
+			</div>
 
 	</div>
 
@@ -640,7 +754,7 @@
 	</div>
 </div>
 
-	<div class="dib relative tc w-100 min-vh-50 bg-white tc pa4-ns pa2 mt3">
+<div class="dib relative tc w-100 min-vh-50 bg-white tc pa4-ns pa2 mt3">
 		<div class="dib relative w-100 mt3">
 			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.0</h5>
 			<h2 class="dib f2 font-book lh-copy headline-blue mv0">
@@ -650,21 +764,50 @@
 
 		<div class="dib relative w-100 mw6 tl">
 			<h4 class="dib tl f4 font-book lh-copy copy-blue">
-				As former freelancers, we had first-hand experience with the <a class="parent-le--commonproblems no-underline bg-cs-blue ph2 br1 pb1 pointer  z-999">common problems</a> that freelancers face. The barriers to entry for freelancing are just too high. Most new freelancers, seeking economic agency, end up worse off than before.
+				As former freelancers, we had first-hand experience with the common problems that new freelancers face. The barriers to entry for freelancing are just too high. Most new freelancers, seeking economic agency, end up worse off than before.
 			</h4>
+
+			<h4 class="dib tl f4 font-book lh-copy copy-blue">
+Wanting to move beyond our own personal anecdotes, we began towards the end of 2014 by <!--<a class="parent-co--pricefloor bg-cs-orange ph2 br1 pb1 pointer ">-->interviewing over 100 freelancers to learn their challenges & work habits.</h4>
 		</div>
 
-	<div class="dib w-100 mt3">
-		<div class="dib w-100 mw6 tl">
-			<h4 class="dib tl f4 font-book lh-copy copy-blue mv0">
-				We began to research the details within these problems so we could move beyond our personal anecdotes.
-			</h4>
+		<div class="scrolling-wrapper invisible-scrollbar flex  w-auto mv4 copy-blue ">
+
+
+						<div class="card relative flex pa4 ph6 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue ba bw2 copy-blue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 64%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib f1 f10rem f1 w-100  tc font-mono lh-copy  red mv0 z-999">64%</h1>
+							<h4 class="dib fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Struggle to find work.</h4>
+						</div>
+
+						<div class="card relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue ba bw2 copy-blue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 57%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">54%</h1>
+							<h4 class="dib w-100 fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Don't know how to price their work</h4>
+						</div>
+
+
+						<div class="card tc relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue ba bw2 copy-blue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 53%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">1 in 2</h1>
+							<h4 class="dib w-100 fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Suffer from imposter syndrome.</h4>
+						</div>
+
+
+						<div class="card relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue ba bw2 copy-blue">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 45%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">43%</h1>
+							<h4 class="dib fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Don't know basic accounting</h4>
+						</div>
+
+						<div class="card relative flex pa4 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue ba bw2 copy-bluef">
+							<div class="dib absolute bg-dots-red w-100 z--9 o-25" style="height: 40%; left: 0px; bottom: 0px;"></div>
+							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">41%</h1>
+							<h4 class="dib fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Struggle with self-promotion.</h4>
+						</div>
+
 		</div>
-	</div>
-
-
-
-	</div>
+</div>
 
 
 	<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
