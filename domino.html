@@ -1,7 +1,7 @@
 <html dir="ltr" lang="en">
 	<head>
 	<meta charset="utf-8">
-	<title>Case Studies</title>
+	<title>Domino: A Case Study</title>
 
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
 	<link rel="stylesheet" href="http://unpkg.com/tachyons-flexbox@2.1.0/css/tachyons-flexbox.min.css" />
@@ -18,14 +18,11 @@
 	@font-face {
 	font-family: 'Circular-Book';
 	src: url('/tf/lineto-circular-book.woff') format('woff'), /* Pretty Modern Browsers */
+			 url('/tf/lineto-circular-book.woff2') format('woff2'), /* Pretty Modern Browsers */
 			 url('/tf/lineto-circular-book.ttf')  format('truetype'), /* Safari, Android, iOS */
+			 url('/tf/lineto-circular-book.eot')  format('truetype'), /* IE9 */
 	}
 
-	@font-face {
-	font-family: 'Circular-Bold';
-	src: url('/tf/lineto-circular-bold.woff') format('woff'), /* Pretty Modern Browsers */
-			 url('/tf/lineto-circular-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-	}
 
 	a {
 		color: inherit;
@@ -37,13 +34,8 @@
 		width: 100%;
 	}
 
-	h4 {
+	* {
 		font-family: 'Circular-Book', 'Helvetica Neue', sans-serif;
-		font-weight: 400;
-	}
-
-	.font-circular {
-		font-family: 'Circular', 'Helvetica Neue', sans-serif;
 		font-weight: 400;
 	}
 
@@ -52,14 +44,20 @@
 		font-weight: 400;
 	}
 
-	.font-bold {
-		font-family: 'Circular-Bold', 'Helvetica Neue', sans-serif;
-		font-weight: 700;
-	}
 
 	.font-mono {
 		font-family: 'Space Mono', monospace;
 		font-weight: 400;
+	}
+
+	.f-statement {
+		font-size: 40rem;
+	}
+
+	@media screen and (max-width: 500px) {
+		.f-statement {
+			font-size: 28rem;
+		}
 	}
 
 	.domino-blue {
@@ -209,8 +207,6 @@
 	.mheight8-ns  {  max-height: 64rem; }
 	.mheight9-ns  {  max-height: 96rem; }
 	}
-
-
 
 	.lh-copy {
 		line-height: 180%;
@@ -525,117 +521,30 @@ width: 0;
 <body class="bg-white relative">
 <main>
 	<nav>
-		<ul class="fixed dib w-100 font-book z-9999">
-			<li class="dib tr-ns tc">
-				<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 ba bw1 headline-blue">
-					<span class="dib fl br bw1 b--black bg-cs-orange pa3"></span>
-    			<h4 class="dib mv0 pa2 ph3">Strategies</h4>
+		<ul class="fixed dib w-100 font-book z-9999 pl0">
+				<li class="dib fr-ns fn f6 headline-blue  br1 mh2-ns mh1 mv1 ba bw1 headline-blue bg-white">
+					<span class="dib fl br bw1 b--black bg-cs-orange pa3-ns ph1 pv3"></span>
+    			<h4 class="dib mv0 pa2 ph3-ns ph2 bg-white">Strategies</h4>
 				</li>
-				<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 ba bw1 headline-blue">
-					<span class="dib fl br bw1 b--black bg-cs-purple pa3"></span>
-    			<h4 class="dib mv0 pa2 ph3">Concepts</h4>
+				<li class="dib relative fr-ns fn f6 bg-white headline-blue  br1 mh2-ns mh1 mv1 ba bw1 headline-blue">
+					<span class="dib fl br bw1 b--black bg-cs-purple pa3-ns ph1 pv3"></span>
+    			<h4 class="dib mv0 pa2 ph3-ns ph2 bg-white-ns">Concepts</h4>
 				</li>
-				<!--<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 pointer ba bw1 headline-blue">
-					<span class="dib fl br bw1 b--black bg-cs-blue pa3"></span>
-    			<h4 class="dib mv0 pa2 ph3">More Info</h4>
+				<li class="dib relative fr-ns fn f6 bg-white headline-blue  br1 mh2-ns mh1 mv1 ba bw1 headline-blue">
+					<span class="dib fl br bw1 b--black bg-cs-blue pa3-ns ph1 pv3"></span>
+    			<h4 class="dib mv0 pa2 ph3-ns ph2 bg-white">Lessons</h4>
 				</li>
-				<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 pointer ba bw1 headline-blue">
-					<span class="dib fl br bw1 b--black bg-cs-red pa3"></span>
-    			<h4 class="dib mv0 pa2 ph3">Mistakes</h4>
-				</li>-->
-				<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 ba bw1 headline-blue">
-					<span class="dib fl br bw1 b--black bg-cs-blue pa3"></span>
-    			<h4 class="dib mv0 pa2 ph3">Lessons</h4>
+				<li class="dib fr-ns fl f6 bg-white headline-blue  br1 mh2 mv1 ba  b--white headline-blue">
+    			<h4 class="dib mv0 pa2 ph3-ns ph2">KEY</h4>
 				</li>
-				<li class="dib-ns dn fr f6 bg-white headline-blue  br1 mh2 mv1 ba bw1 b--white headline-blue">
-    			<h4 class="dib mv0 pa2 ph3">KEY</h4>
-				</li>
-			</li>
 		</ul>
-		<!--
-		<ul class="fixed dib-ns dn w-100 font-book z-9999">
-			<li class="dib tl-ns tc">
-				<li class="dib fl f6 bg-domino-blue ba b--near-white near-white br1 ph4 pv2 mh2 mv1 pointer">
-					Expand All
-				</li>
-			</li>
-			<li class="dib tr-ns tc">
-				<li class="dib fr f6 bg-cs-orange headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
-					Strategies
-				</li>
-				<li class="dib fr f6 bg-cs-purple headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
-					Concepts
-				</li>
-				<li class="dib fr f6 bg-cs-red headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
-					Mistakes
-				</li>
-				<li class="dib fr f6 bg-white headline-blue  br1 mh2 mv1 pointer ba bw1 headline-blue">
-					<span class="dib fl br bw1 b--black bg-cs-blue pa3"></span>
-					<h4 class="dib mv0 pa2 ph3">More Info</h4>
-				</li>
-				<li class="dib fr f6 bg-cs-green headline-blue  br1 ph4 pv2 mh2 mv1 pointer">
-					Hindsight
-				</li>
-			</li>
-		</ul>
-	-->
+
 	</nav>
 	<div class="relative dib w-100 h-100">
 	<div class="dib relative items-center justify-center w-100 h-50 pt5 pa4 bg-dots-header">
 
 
 
-
-		<!--<div class="dib w-100 bg-white tc">
-			<div class="dib w-100 mw6 fl relative z-9 bb bw2 ">
-					<h3 class="dib f2-ns f3 w-100 mw6-ns lh-copy fl font-book near-black mv0 tl z--9 mv2">
-					 finds freelance jobs through your friends.
-				 </h3>
-			</div>
-		</div>-->
-			<!--<div class="flex relative tl items-start	 justify-start w-100 mt4">
-				<div class="flex self-start">
-				<div class="dib w-100 mw6 tl z-99">
-					<div class="dib w-100 tl">
-						<h3 class="dib f2-ns f3 tc font-book lh-copy headline-blue bb bw2 w2 mv2 pb2 rotate--10">A</h3>
-						<h4 class="dib fn-ns fr  f2-ns f3 tl font-book lh-list headline-blue mv0 ml4-ns  w-60-ns bb bw2">
-							Case Study
-						</h4>
-					</div>
-					<div class="dib w-100 mw6 tl-ns tr">
-						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">1</h3>
-						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
-						Research
-						</h4>
-					</div>
-					<div class="dib w-100 mw6 tl-ns tr">
-						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">2</h3>
-						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
-						Synthesis
-						</h4>
-					</div>
-					<div class="dib w-100 mw6 tl-ns tr">
-						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">3</h3>
-						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
-						Product
-						</h4>
-					</div>
-					<div class="dib w-100 mw6 tl-ns tr">
-						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">4</h3>
-						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2 ">
-						<span class="strike">Execution</span> <span class="o-70 blue">Soon</span>
-						</h4>
-					</div>
-					<div class="dib w-100 mw6 tl-ns tr">
-						<h3 class="dib f3 tc font-book lh-copy near-black bb bw2 w2 mv2 pb1">5</h3>
-						<h4 class="dib  f3 tl font-book lh-list near-black mv0 ml2 ml4-ns w-80 w-60-ns bb bw2">
-						<span class="strike">End</span> <span class="o-70 blue">Soon</span>
-						</h4>
-					</div>
-
-				</div>
-				</div>
-			</div>-->
 			<div class="dib w-100 relative tc">
 				<div class="dib relative w-100 tc mb3-ns">
 					<div class="dib tl">
@@ -758,9 +667,9 @@ width: 0;
 		<div class="flex relative mt3 z-9">
 			<h1 class="dib relative f1 font-book lh-copy near-white mv0 z-9 bb bw3 b--white">
 				Research
-				<h1 class="dib absolute font-book lh-copy headline-blue mv0 z--9"
+				<h1 class="dib f-statement absolute font-book lh-copy headline-blue mv0 z--9"
 				style="
-				font-size: 40rem;
+
 				left: -5%; top: 50%;
 				-webkit-transform: translateX(-10%);
 				transform: translateX(-10%); -webkit-transform: translateY(-50%);
@@ -800,8 +709,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 				<div class="flex triangle-3 ml3 flowRight">
 				</div>
 
-
-
 			</div>
 
 						<div class="card relative flex pa4 ph6 copy-blue  bw2 br0 mh3 z-9 bg-dots-dominoblue ba bw2 copy-blue">
@@ -835,8 +742,7 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 							<h1 class="dib w-100 f-headline tc font-mono lh-copy  red mv0 z-999" style="font-size: 10rem;">41%</h1>
 							<h4 class="dib fl f3-ns f4 tc font-mono lh-copy  copy-blue z-99 pa2 bg-white">Struggle with self-promotion.</h4>
 						</div>
-
-		</div>
+				</div>
 </div>
 
 
@@ -896,7 +802,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 
 
 	<div class="flex justify-center w-100 h-100 mt5-l mt0">
-
 		<div class="dib fl justify-center align-top mw7 mheight7 h-100 w-100 bg-washed-red tl mt2 ba bw2 copy-blue">
 			<div class="dib relative fl justify-center self-center align-center mw6 mheight6 h-100 w-100 tl bg-lighter-red shadow-5 bw2 copy-blue">
 				<div class="dib relative fl justify-center self-center align-center mw5p5 mheight5p5 h-100 w-100 tl  bg-light-red shadow-5 bw2 copy-blue">
@@ -937,9 +842,7 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 	<h4 class="f4 tl font-book lh-copy copy-blue">
 		They never learnt to freelance? Sure. Most people conflate their principle skills (design, writing, etc.) with their skill at freelancing (i.e. running a small business). It's a costly and time consuming mistake.
 	</h4>
-
 	</div>
-
 
 
 	<div class="dn absolute child-container child-co--secondorder shadow-5 z-999" style="right: 24px; top: 0px;">
@@ -971,60 +874,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 	</div>
 </div>
 
-
-	<!--<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2 mt5">
-		<div class="dib w-100 mt3 tc">
-			<h5 class="dib w-100 f5 headline-blue font-book mv3">1.2</h5>
-			<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
-				A Precarious Position
-			</h2>
-		</div>
-
-		<div class="dn absolute child-container child-mi--negativefeedbackloop shadow-5 z-999" style="left: 0px; top: 0px;">
-			<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
-				<div class="dn w-100 h-100  absolute pointer action-close bg-black">
-					<div class="flex w-100 h-100  align-center justify-center">
-						<h4 class="flex self-center f2 near-white rotate--45">
-							CLOSE
-						</h4>
-					</div>
-				</div>
-				<div class="dib w-100  ph3 pv4 bg-cs-blue bb  bw2 b--dark-gray tc">
-					<a class="dib pointer">
-						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
-					</a>
-					<h3 class="f2 near-black font-book headline-blue tl mv0">
-					Negative Feedback Loop
-					</h3>
-				</div>
-				<div class="dib pa3 pb5">
-					<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
-						One bad thing leads to and compounds another, and another, and another, in a virtuous cycle of continued and worsening crappiness.
-					</h4>
-				</div>
-				<a class="db pointer" target="_blank" href="https://en.wikipedia.org/wiki/Negative_feedback">
-				<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-blue" style="bottom: -4px; right: -4px;">
-				<h4 class="f4 font-book near-black mv0 headline-blue"> Learn More</h4>
-				</div>
-				</a>
-				</a>
-			</div>
-		</div>
-
-		<div class="dib relative w-100 mw6 tl">
-			<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				Freelancers who struggle to find good work, are compelled to take on low-paying projects leading to a <a class="parent-le--negativefeedbackloop bg-cs-blue ph2 pb1 br1  pointer">negative feedback loop</a>, further compounding their struggles. Inconsistent or low-paying work is the single biggest reason for freelancer's to return to full-time employment.
-			</h4>
-		</div>
-
-
-		<div class="dib w-100 h-100 mt5-l mt0" style=
-		"background-image: url('images/cs/negfeedbackcycle.png');
-		 background-repeat: no-repeat;
-		 background-position: center; center;
-		 background-size: contain;
-		">
-	</div>-->
 
 
 
@@ -1066,8 +915,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 				</a>
 			</div>
 		</div>
-
-
 
 		<div class="dib relative w-100 center">
 
@@ -1141,8 +988,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 				 <a class="parent-st--inversion bg-cs-orange ph2 pb1 br1  pointer">Inverting</a> our perspective, we asked:
 			</h4>
 			</div>
-
-
 
 			<div class="dib w-100">
 			<div class="dib w-100 mw7 mv4">
@@ -1290,146 +1135,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 
 	</div>
 </div>
-
-	<!--
-	<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
-			<div class="dib w-100 mt3 tc">
-				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.4</h5>
-				<h2 class="dib w-100 f2 font-book lh-copy headline-blue">
-					The map is not the territory
-				</h2>
-			</div>
-			<div class="dib relative w-100 mw7 mb4">
-			<img class="dib absolute tc z-9" src="images/cs/hst.jpg" style="width: 80px; z-index: 9; top: 24px; left: 64px;">
-			<h3 class="f3 relative tc font-book lh-copy copy-orange z-999" style="z-index: 999;">
-				"..He used a typewriter to copy Fitzgerald's The Great Gatsby & Hemingway's A Farewell to Arms, to learn the writing styles of the two authors.."
-			</h3><a href="https://en.wikipedia.org/wiki/Hunter_S._Thompson#Early_journalism_career" class="dib br2 ph3 pv2 f7 bg-cs-blue font-book copy-blue ">Source</a>
-			</div>
-			<div class="dib relative w-100 tc">
-				<div class="dib w-100 mw6">
-					<h4 class="dib f4 tl font-book lh-copy copy-blue">
-						To better understand these marketplaces, we began creating maps of their user flows.
-					</h4>
-				</div>
-
-				<div class="dib relative tc w-100 h-25 mt5-ns mb4-ns mt6 mb6">
-
-					<div class="dib relative w-100 mw6-ns mw5 mr4-ns pr0">
-						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: -64px;left: -64px;">
-							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
-								<h4 class="dib mv0 pa1 f4">7</h4>
-							</div>
-							<i class="em em-weary"></i><i class="em em-skull"></i>
-						</div>
-						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: -32px;left: -32px;">
-							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
-								<h4 class="dib mv0 pa1 f4">6</h4>
-							</div>
-							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">My experience, my English.. </h4>
-						</div>
-						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: 0px;left: 0px;">
-							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
-								<h4 class="dib mv0 pa1 f4">5</h4>
-							</div>
-							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Here is my photo, my bio, my skills..</h4>
-						</div>
-						<div class="dib w-100  absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal" style="top: 32px;left: 32px;">
-							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
-								<h4 class="dib mv0 pa1 f4">4</h4>
-							</div>
-							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Now I get to create my profile!!</h4>
-						</div>
-						<div class="dib w-100 absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal pointer" style="top: 64px;left: 64px;">
-							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
-								<h4 class="dib mv0 pa1 f4">3</h4>
-							</div>
-							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">What kind of jobs do I want to do?</h4>
-						</div>
-						<div class="dib w-100  absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal" style="top: 96px;left: 96px;">
-							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
-								<h4 class="dib mv0 pa1 f4">2</h4>
-							</div>
-							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">What's the "main type" of work I do?</h4>
-						</div>
-						<div class="dib w-100  absolute ph3 pv3 tc copy-blue bg-white ba bw2 br0 hover-reveal" style="top: 128px;left: 128px;">
-							<div class="dib absolute ba bw2 bg-cs-orange ph2 tc" style="top: -4px; left: -4px;">
-								<h4 class="dib mv0 pa1 f4">1</h4>
-							</div>
-							<h4 class="f4 font-book lh-copy copy-blue mv0 ttu">Signing up to another website..</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="dib relative w-100 mw6">
-				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-				How did their account sign-up process work? <a class="parent-le--timetostart no-underline bg-cs-blue ph2 br1 pb1  pointer">How quickly did it take to get started? </a> <a class="parent-le--platformfriction no-underline bg-cs-blue ph2 br1 pb1 ml1  pointer">Where were <span class="pr1">the</span> <span class="pl1">points</span> of friction?</a> And how easy was it to find and hire trustworthy freelancers?
-				</h4>
-			</div>
-
-			<div class="dn absolute child-container child-le--timetostart shadow-5 z-999" style="left: 0px; bottom: 0px;">
-				<div class="dib relative w300px h-50 bg-white ba bw2 b--dark-gray">
-					<div class="dn w-100  absolute pointer action-close bg-black">
-						<div class="flex w-100 h-100  align-center justify-center">
-							<h4 class="flex self-center f2 near-white rotate--45">
-								CLOSE
-							</h4>
-						</div>
-					</div>
-					<div class="dib w-100 h-100  pv4 ph3 bg-cs-blue   bw2 b--dark-gray tc">
-						<a class="dib pointer">
-							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
-						</a>
-						<h3 class="f2 near-black font-book headline-blue tl mv0">
-						Time to start
-						</h3>
-					</div>
-					<div class="dib bg-cs-blue">
-					<img src="images/cs/timetostart.png" />
-				</div>
-
-				</div>
-			</div>
-
-			<div class="dn absolute child-container child-mi--platformfriction shadow-5 z-999" style="right: 0px; bottom: 0px;">
-				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
-					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
-						<div class="flex w-100 h-100  align-center justify-center">
-							<h4 class="flex self-center f2 near-white rotate--45">
-								CLOSE
-							</h4>
-						</div>
-					</div>
-					<div class="dib w-100  pv4 ph3 bg-cs-blue  bb bw2 b--dark-gray tc">
-						<a class="dib pointer">
-							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
-						</a>
-						<h3 class="f2 near-black font-book headline-blue tl mv0">
-						Platform Friction
-						</h3>
-					</div>
-					<div class="dib pa3 pb5">
-						<ul class=" fl f4 fw4 font-book dark-gray pa0 mv2 mb0 headline-blue">
-							<li class="mv2 tl"><span class="dark-gray">Sign Up</a></li>
-							<li class="mv2 tl"><span class="dark-gray">Profile Creation</a></li>
-							<li class="mv2 tl"><span class="dark-gray">Job Applications</a></li>
-							<li class="mv2 tl"><span class="dark-gray">Job / Client Management</a></li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="dib relative w-100 tc">
-				<div class="dib w-100 mw6">
-				<h4 class="dib f4 tl font-book lh-copy copy-blue">
-					Simultaneously, we began researching freelancer's and employers experiences on these platforms.
-				</h4>
-				</div>
-			</div>
-
-	</div>-->
 
 
 		<!--<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2 ">
@@ -1610,7 +1315,7 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 		</div>
 
 
-		<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa3">
+	<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa3">
 			<div class="dib w-100 mt3 tc">
 				<h5 class="dib w-100 f5 headline-blue font-book mv3">1.5</h5>
 				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
@@ -1694,7 +1399,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 					</h4>
 				</div>
 			</div>
-		</div>
 			<div class="dib relative w-100 tc">
 				<div class="dib w-100 mw6">
 				<h4 class="dib f4 tl font-book lh-copy copy-blue">
@@ -1783,9 +1487,9 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 			<div class="flex relative mt3 z-9">
 				<h1 class="dib relative f1 font-book lh-copy near-white mv0 z-9 bb bw3 b--white">
 					Sketching the Product
-					<h1 class="dib absolute font-book lh-copy headline-blue mv0 z--9"
+					<h1 class="dib f-statement absolute font-book lh-copy headline-blue mv0 z--9"
 					style="
-					font-size: 40rem;
+
 					left: 0%; top: 50%;
 					-webkit-transform: translateX(-10%);
 					transform: translateX(-10%); -webkit-transform: translateY(-50%);
@@ -1794,7 +1498,6 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 					</h1>
 				</h1>
 			</div>
-
 		</div>
 	</div>
 
@@ -1814,31 +1517,32 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 				We began defining what Domino would be, by <a class="parent-co--subtraction bg-cs-orange br1 ph2 pb1  pointer">subtracting</a> what it wouldn't:
 				</h4>
 			</div>
-
-			<div class="dn absolute child-container child-co--subtraction shadow-5 z-999" style="left: 24px; top: 0px;">
+			<div class="dn absolute child-container child-co--subtraction shadow-5 z-999" style="left: 32px; top: 0px;">
 				<div class="dib relative w300px bg-white ba bw2 b--dark-gray">
 					<div class="dn w-100 h-100  absolute pointer action-close bg-black">
-						<div class="flex w-100 h-100  align-center justify-center close-reveal">
+						<div class="flex w-100 h-100  align-center justify-center">
 							<h4 class="flex self-center f2 near-white rotate--45">
 								CLOSE
 							</h4>
 						</div>
 					</div>
-					<div class="dib w-100  pv6 ph3 bg-cs-orange  bb bw2 b--dark-gray tc" style="
-					background-image: url('images/cs/marble02.jpg');
-					background-position: center center;
-					background-size: cover;
-					background-repeat: no-repeat;">
-					<a class="dib pointer">
-						<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;"></div>
-					</a>
+					<div class="dib w-100  pv4 ph3 bg-cs-orange  bb bw2 b--dark-gray tc">
+						<a class="dib pointer">
+							<div class="absolute action-close bg-light-red h2 w2 ba bw2 b--dark-gray" style="top: -4px; left: -4px;">
+							
+							</div>
+						</a>
 						<h3 class="f2 near-black font-book headline-blue tl mv0">
 						Via Negativa
 						</h3>
 					</div>
 					<div class="dib pa3 pb5">
 						<h4 class="f4 mv0 font-book dark-gray lh-copy tl">
-						Defining something not by what it is, but by what it isn't.</h4>
+						Defining what something is, by defining what it is not.
+						</h4>
+						<h4 class="f4 mb0 mt3 font-book dark-gray lh-copy tl">
+						An ice cream is not hot. Not square. Not hard. Not bland.
+						</h4>
 					</div>
 					<a class="db pointer " target="_blank" href="https://en.wikipedia.org/wiki/Apophatic_theology">
 					<div class="dib absolute ph3 pv2 bw2 b--near-black bg-cs-orange" style="bottom: -4px; right: -4px;">
@@ -1847,8 +1551,9 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 					</a>
 				</div>
 			</div>
+			</div>
 
-				<div class="dib relative w-100 tc mw9-l mw8-m z-99">
+				<div class="dib relative w-100 tc mw9-l mw8-m z-99 pa4-ns pa">
 					<div class="dib relative w-100 mw6 tl">
 							<h3 class="dib f3 tc font-book lh-copy copy-blue bb bw2 w2 tc"><span class="dib tc red" style="transform: rotate(45deg);">&#43;</span></h3>
 						<h4 class="dib  f4 tl font-book lh-list copy-blue mv0 ml4-ns ml0-m ml0 w-100 w-auto-ns">
@@ -1909,8 +1614,7 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 						</h4>
 					</div>
 				</div>
-			</div>
-		</div>
+
 
 
 		<div class="dib relative tc w-100 min-vh-100 bg-white tc pa4-ns pa2">
@@ -2056,9 +1760,20 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 				We started <a class="parent-co--combicreativity bg-cs-orange pointer ph2 br1 pb1">mixing and matching different elements together</a>, forming them into equations based on what we'd learnt:
 				</h4>
 			</div>
-			<div class="dib w-100 mw8 tc">
-				<div class="scrolling-wrapper flex  w-auto mv4 ba bw2 copy-blue ">
-					<div class="card flex pa4 copy-blue bg-cs-blue br bw2 br0">
+			<div class="dib relative w-100 mw8 tc">
+
+				<div class="dn-ns dib justify-center items-center absolute tc ba bw2 ph3 w4 pv3 bg-domino-blue copy-blue z-99" style="left: 0px;">
+					<h4 class="dib f4 font-book near-white mv0">
+						Scroll
+					</h4>
+
+					<div class="dib triangle-3 ml3 flowRight">
+					</div>
+
+				</div>
+
+				<div class="scrolling-wrapper invisible-scrollbar  flex  w-auto mv4 ba bw2 copy-blue ">
+					<div class="card  flex pa4 copy-blue bg-cs-blue br bw2 br0">
 						<h4 class="dib f4 tc font-book lh-copy  copy-blue">77% find work through friends</h4>
 					</div>
 
@@ -2085,7 +1800,7 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 					</div>
 				</div>
 
-				<div class="scrolling-wrapper flex justify-between relative w-100 mv4 ba bw2 copy-blue">
+				<div class="scrolling-wrapper invisible-scrollbar flex justify-between relative w-100 mv4 ba bw2 copy-blue">
 					<div class="card flex flex-grow-1 pa4 copy-blue bg-cs-purple fl br bw2 br0">
 						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Reciprocity</h4>
 					</div>
@@ -2112,7 +1827,7 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 					</div>
 				</div>
 
-				<div class="scrolling-wrapper flex justify-between relative w-100 mv4 ba bw2 copy-blue">
+				<div class="scrolling-wrapper invisible-scrollbar flex justify-between relative w-100 mv4 ba bw2 copy-blue">
 					<div class="card flex flex-grow-1 pa4 copy-blue bg-cs-purple tc br bw2 br0">
 						<h4 class="dib f4 tc font-book lh-copy  copy-blue">Social Networks</h4>
 					</div>
@@ -2189,7 +1904,7 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 
 		<div class="dib relative tc w-100 bg-white tc pa4-ns pa2 fr v-top mt5">
 			<div class="dib w-100 mt3 tc">
-				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.2</h5>
+				<h5 class="dib w-100 f5 headline-blue font-book mv3">2.4</h5>
 				<h2 class="dib w-100 f2 font-book lh-copy headline-blue mv0">
 				Mapmaking
 				</h2>
@@ -2340,10 +2055,10 @@ Wanting to move beyond our own personal anecdotes, we began towards the end of 2
 					<div class="flex relative mt3 z-9">
 						<h1 class="dib relative f1 font-book lh-copy near-white mv0 z-9 bb bw3 b--white">
 							Execution
-							<h1 class="dib absolute font-book lh-copy headline-blue mv0 z--9"
+							<h1 class="dib f-statement absolute font-book lh-copy headline-blue mv0 z--9"
 							style="
-							font-size: 40rem;
-							left: -40%; top: 50%;
+
+							left: -20%; top: 50%;
 							-webkit-transform: translateX(-10%);
 							transform: translateX(-10%); -webkit-transform: translateY(-50%);
 							transform: translateY(-50%)">
